@@ -1,0 +1,29 @@
+backend:
+  name: gitlab
+  repo: ustwogames/website-refresh
+  branch: master
+
+public_folder: "dist"
+media_folder: "content/assets"
+
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "content/posts"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta:
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+  - name: "settings"
+    label: "Settings"
+    files:
+      - name: "general"
+        label: "General settings"
+        file: "_settings/general.json"
+        fields:
+          - {label: "Main site title", name: "site_title", widget: "string"}
+          - {label: "Number of fronpage posts", name: "post_count", widget: "number"}
+          - {label: "Site cover image", name: "cover", widget: "image"}
