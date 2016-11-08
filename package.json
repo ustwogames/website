@@ -101,6 +101,7 @@
     "babel-preset-stage-1": "^6.13.0",
     "chokidar": "^1.6.1",
     "classnames": "^2.2.5",
+    "copy-webpack-plugin": "^4.0.0",
     "css-loader": "^0.25.0",
     "eslint": "^3.7.1",
     "eslint-loader": "^1.5.0",

@@ -2,6 +2,7 @@ import path from "path"
 
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
+import CopyWebpackPlugin from "copy-webpack-plugin"
 import { phenomicLoader } from "phenomic"
 import PhenomicLoaderFeedWebpackPlugin
   from "phenomic/lib/loader-feed-webpack-plugin"
@@ -281,8 +282,11 @@ export default (config = {}) => {
           { compress: { warnings: false } }
         ),
       ],
-    ],
 
+      new CopyWebpackPlugin([
+        {from: 'admin', to: 'admin'},
+      ]),
+    ],
     output: {
       path: path.join(__dirname, config.destination),
       publicPath: config.baseUrl.pathname,
