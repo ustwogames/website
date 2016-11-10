@@ -2,7 +2,6 @@
   "private": true,
   "name": "website-refresh",
   "homepage": "https://ustwogames.co.uk/",
-  "twitter": "daaain",
   "repository": "https://gitlab.com/ustwogames/website-refresh",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",

@@ -19,7 +19,7 @@ const Page = (
     children,
   },
   {
-    metadata: { pkg },
+    metadata: { settings },
   }
 ) => {
   invariant(
@@ -39,7 +39,7 @@ const Page = (
     { property: "og:description", content: head.description },
     { name: "twitter:card", content: "summary" },
     { name: "twitter:title", content: metaTitle },
-    { name: "twitter:creator", content: `@${ pkg.twitter }` },
+    { name: "twitter:creator", content: `@${ settings.twitter }` },
     { name: "twitter:description", content: head.description },
     { name: "description", content: head.description },
   ]
