@@ -5,7 +5,7 @@ This is currently an experimental setup using [Phenomic](https://github.com/MoOx
 ## Install dependencies
 
 ```sh
-yarn
+npm install
 ```
 
 ## Run development server
