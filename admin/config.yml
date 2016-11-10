@@ -11,10 +11,14 @@ collections:
     label: "Post"
     folder: "content/posts"
     create: true
+    sort: "date:desc"
+    slug: "{{slug}}"
+    card: {type: "alltype", text: "title"}
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Cover", name: "cover", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "string"}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime"}
   - name: "settings"
@@ -25,5 +29,5 @@ collections:
         file: "_settings/general.json"
         fields:
           - {label: "Main site title", name: "site_title", widget: "string"}
-          - {label: "Number of fronpage posts", name: "post_count", widget: "number"}
+          - {label: "Number of frontpage posts", name: "post_count", widget: "number"}
           - {label: "Site cover image", name: "cover", widget: "image"}
