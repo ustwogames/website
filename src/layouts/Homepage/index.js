@@ -2,22 +2,17 @@ import React, { PropTypes } from "react"
 import enhanceCollection from "phenomic/lib/enhance-collection"
 
 import Page from "../Page"
-import PagesList from "../../components/PagesList"
-
-const numberOfLatestPosts = 6
+import GamesList from "../../components/GamesList"
 
 const Homepage = (props, { collection }) => {
-  const latestPosts = enhanceCollection(collection, {
-    filter: { layout: "Post" },
-    sort: "date",
-    reverse: true,
+  const featuredGame = enhanceCollection(collection, {
+    filter: ({ layout, promoted }) => layout === "Game" && promoted,
   })
-  .slice(0, numberOfLatestPosts)
 
   return (
     <Page { ...props }>
-      <h2>{ "Latest Games" }</h2>
-      <PagesList pages={ latestPosts } />
+      <h2>{ "Featured game" }</h2>
+      <GamesList games={ featuredGame } />
     </Page>
   )
 }

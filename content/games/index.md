@@ -1,6 +1,6 @@
 ---
 title: ustwo games - games
-layout: Page
+layout: GamesIndex
 ---
 
 Gotta buy ’em all!

@@ -3,7 +3,7 @@ backend:
   repo: ustwogames/website-refresh
   branch: master
 
-public_folder: "dist"
+public_folder: "/assets"
 media_folder: "content/assets"
 
 collections:

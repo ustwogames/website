@@ -17,6 +17,7 @@ const Page = (
     header,
     footer,
     children,
+    displayChildrenFirst,
   },
   {
     metadata: { settings },
@@ -56,11 +57,18 @@ const Page = (
       }
       { header }
       {
+        displayChildrenFirst &&
+        children
+      }
+      {
         isLoading
         ? <Loading />
         : <BodyContainer>{ body }</BodyContainer>
       }
-      { children }
+      {
+        !displayChildrenFirst &&
+        children
+      }
       { footer }
     </div>
   )
@@ -68,6 +76,7 @@ const Page = (
 
 Page.propTypes = {
   children: PropTypes.node,
+  displayChildrenFirst: PropTypes.bool,
   isLoading: PropTypes.bool,
   __filename: PropTypes.string,
   __url: PropTypes.string,
