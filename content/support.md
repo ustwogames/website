@@ -1,6 +1,6 @@
 ---
 title: ustwo games - support
-layout: Page
+layout: Support
 ---
 
 If you have some trouble, just call!
