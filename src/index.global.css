@@ -31,6 +31,7 @@ html {
 }
 
 body {
+  margin: 5%;
   font-size: 1rem;
   line-height: 1.5;
 
@@ -79,6 +80,12 @@ a {
 /* handy for content */
 img {
   max-width: 100%;
+}
+
+/* making small behave more like a p */
+small {
+  display: block;
+  opacity: 0.6;
 }
 
 /* font face https://medium.com/@dowsoncreative/a-little-bit-of-web-font-best-practice-5db63ef14d41#.nfals04ia */

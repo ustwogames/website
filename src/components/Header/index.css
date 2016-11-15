@@ -1,17 +1,17 @@
 :root {
-  --nav-item-padding: 0.5rem;
+  --nav-item-padding: 1rem;
 }
 
 .header {
-  color: var(--mainColorContrasted);
-  background: var(--mainColor);
+  color: var(--mainColor);
 }
 
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  max-width: calc(60rem + (var(--nav-item-padding) * 2));
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /* max-width: calc(60rem + (var(--nav-item-padding) * 2));*/
   margin: 0 auto;
   padding: 0;
   line-height: 3rem;

@@ -13,7 +13,7 @@ const Footer = (props, { metadata: { settings } }) => (
               href={ `https://twitter.com/${settings.twitter}` }
               className={ styles.link }
             >
-              { "Twitter" }
+              <img src='/assets/twitter.svg' />
           </a>
           }
         </p>
@@ -24,7 +24,7 @@ const Footer = (props, { metadata: { settings } }) => (
               href={ `https://instagram.com/${settings.instagram}` }
               className={ styles.link }
             >
-              { "Instagram" }
+              <img src='/assets/instagram.svg' />
           </a>
           }
         </p>
@@ -35,7 +35,7 @@ const Footer = (props, { metadata: { settings } }) => (
               href={ `mailto:${settings.email}` }
               className={ styles.link }
             >
-              { "Email" }
+              <img src='/assets/email.svg' />
           </a>
           }
         </p>
@@ -46,7 +46,7 @@ const Footer = (props, { metadata: { settings } }) => (
               href={ `https://medium.com/${settings.medium}` }
               className={ styles.link }
             >
-              { "Medium" }
+              <img src='/assets/medium.svg' />
           </a>
           }
         </p>
@@ -57,18 +57,18 @@ const Footer = (props, { metadata: { settings } }) => (
               href={ `https://facebook.com/${settings.facebook}` }
               className={ styles.link }
             >
-              { "Facebook" }
+              <img src='/assets/facebook.svg' />
           </a>
           }
         </p>
       </div>
     </nav>
-    <p>
+    <small>
       { "For company information and other legal bits, see our legal page." }
-    </p>
-    <p>
+    </small>
+    <small>
       { "We’re using cookies, hope that’s cool. Here’s our Privacy Policy." }
-    </p>
+    </small>
   </footer>
 )
 

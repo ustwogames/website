@@ -1,18 +1,18 @@
 :root {
-  --nav-item-padding: 0.5rem;
+  --nav-item-padding: 1rem;
 }
 
 .footer {
-  color: var(--mainColorContrasted);
-  background: var(--mainColor);
-  text-align: center;
+  color: var(--mainColor);
+  text-align: right;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  max-width: calc(60rem + (var(--nav-item-padding) * 2));
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /*max-width: calc(60rem + (var(--nav-item-padding) * 2));*/
   margin: 0 auto;
   padding: 0;
 }
@@ -20,6 +20,7 @@
 .navPartSocial {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .link {
