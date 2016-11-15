@@ -15,7 +15,6 @@ const Support = (props) => {
     <Page
       { ...props }
     >
-      <h2>Get in touch</h2>
       <div className="form-wrapper">
         <div className="form-inner-wrapper">
           <form autoComplete="on" action="https://dan-gray-o03j.squarespace.com" method="POST" onSubmit={ () => { return false; } }>
