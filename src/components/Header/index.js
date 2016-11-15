@@ -24,12 +24,6 @@ const Header = () => (
       >
         { "About us" }
       </Link>
-      <a
-        className={ styles.link }
-        href="https://medium.com/ustwo-games"
-      >
-        { "Blog" }
-      </a>
       <Link
         className={ styles.link }
         to="/jobs"
@@ -48,7 +42,12 @@ const Header = () => (
       >
         { "Contact" }
       </Link>
-
+      <a
+        className={ styles.link }
+        href="https://medium.com/ustwo-games"
+      >
+        { "Blog" }
+      </a>
     </nav>
   </header>
 )

@@ -32,10 +32,10 @@ html {
 
 body {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
 
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: 'PxGrotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 /*
@@ -80,3 +80,84 @@ a {
 img {
   max-width: 100%;
 }
+
+/* font face https://medium.com/@dowsoncreative/a-little-bit-of-web-font-best-practice-5db63ef14d41#.nfals04ia */
+
+@font-face {
+  font-family: 'PxGrotesk';
+  src: url('/assets/fonts/PxGrotesk-Light.eot');
+  src:
+    url('/assets/fonts/PxGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/PxGrotesk-Light.woff2') format('woff2'),
+    url('/assets/fonts/PxGrotesk-Light.woff') format('woff'),
+    url('/assets/fonts/PxGrotesk-Light.ttf') format('truetype'),
+    url('/assets/fonts/PxGrotesk-Light.svg#PxGrotesk') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PxGrotesk';
+  src: url('/assets/fonts/PxGrotesk-Bold.eot');
+  src:
+    url('/assets/fonts/PxGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/PxGrotesk-Bold.woff2') format('woff2'),
+    url('/assets/fonts/PxGrotesk-Bold.woff') format('woff'),
+    url('/assets/fonts/PxGrotesk-Bold.ttf') format('truetype'),
+    url('/assets/fonts/PxGrotesk-Bold.svg#PxGrotesk') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PxGrotesk';
+  src: url('/assets/fonts/PxGrotesk-LightIta.eot');
+  src:
+    url('/assets/fonts/PxGrotesk-LightIta.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/PxGrotesk-LightIta.woff2') format('woff2'),
+    url('/assets/fonts/PxGrotesk-LightIta.woff') format('woff'),
+    url('/assets/fonts/PxGrotesk-LightIta.ttf') format('truetype'),
+    url('/assets/fonts/PxGrotesk-LightIta.svg#PxGrotesk') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PxGrotesk';
+  src: url('/assets/fonts/PxGrotesk-BoldIta.eot');
+  src:
+    url('/assets/fonts/PxGrotesk-BoldIta.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/PxGrotesk-BoldIta.woff2') format('woff2'),
+    url('/assets/fonts/PxGrotesk-BoldIta.woff') format('woff'),
+    url('/assets/fonts/PxGrotesk-BoldIta.ttf') format('truetype'),
+    url('/assets/fonts/PxGrotesk-BoldIta.svg#PxGrotesk') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PxGrotesk';
+  src: url('/assets/fonts/PxGrotesk-Regular.eot');
+  src:
+    url('/assets/fonts/PxGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/PxGrotesk-Regular.woff2') format('woff2'),
+    url('/assets/fonts/PxGrotesk-Regular.woff') format('woff'),
+    url('/assets/fonts/PxGrotesk-Regular.ttf') format('truetype'),
+    url('/assets/fonts/PxGrotesk-Regular.svg#PxGrotesk') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PxGrotesk';
+  src: url('/assets/fonts/PxGrotesk-RegularIta.eot');
+  src:
+    url('/assets/fonts/PxGrotesk-RegularIta.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/PxGrotesk-RegularIta.woff2') format('woff2'),
+    url('/assets/fonts/PxGrotesk-RegularIta.woff') format('woff'),
+    url('/assets/fonts/PxGrotesk-RegularIta.ttf') format('truetype'),
+    url('/assets/fonts/PxGrotesk-RegularIta.svg#PxGrotesk') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
