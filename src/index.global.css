@@ -73,6 +73,16 @@ body {
   }
 }
 
+/* styling FAQ content */
+.faq-question {
+  font-style: italic;
+}
+
+.faq-answer {
+  color: var(--mainColor);
+  opacity: 0.6;
+}
+
 /* minimal styling, prefer removing this and use local styles */
 a {
   color: var(--mainColor);
@@ -168,4 +178,3 @@ small {
   font-weight: 400;
   font-style: italic;
 }
-
