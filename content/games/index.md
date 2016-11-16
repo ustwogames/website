@@ -1,5 +1,5 @@
 ---
-title: ustwo games - games
+title: Our games
 layout: GamesIndex
 ---
 

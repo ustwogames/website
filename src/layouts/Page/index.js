@@ -63,7 +63,7 @@ const Page = (
       {
         isLoading
         ? <Loading />
-        : <BodyContainer>{ body }</BodyContainer>
+        : <BodyContainer className={ styles.body }>{ body }</BodyContainer>
       }
       {
         !displayChildrenFirst &&

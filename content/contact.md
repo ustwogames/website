@@ -1,5 +1,5 @@
 ---
-title: ustwo games - contact
+title: Hello ustwo games
 layout: Page
 ---
 

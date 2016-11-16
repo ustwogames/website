@@ -1,8 +1,6 @@
 ---
-title: ustwo games
+title: Hi there, we're ustwo games
 layout: Homepage
 ---
 
-Hi there.
-
-We are ustwo games and we make awesome sh... stuff!
+We are a small(ish) team based in Oval, South London, who love making interactive entertainment that challenges the medium and delights players.

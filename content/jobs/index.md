@@ -1,5 +1,5 @@
 ---
-title: ustwo games - jobs
+title: Work at ustwo games
 layout: Page
 ---
 

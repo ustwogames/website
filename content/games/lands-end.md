@@ -1,5 +1,5 @@
 ---
-title: ustwo games - Land’s end
+title: Land’s end
 name: Land’s end
 date: 2015-11-10
 layout: Game

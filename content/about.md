@@ -1,5 +1,5 @@
 ---
-title: ustwo games - about
+title: All about ustwo games
 layout: Page
 ---
 

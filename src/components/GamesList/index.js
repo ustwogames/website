@@ -12,6 +12,7 @@ const GamesList = ({ games }) => {
               <a href={ game.__url } className={ styles.listContainer }>
                 <img src={ game.cover } />
                 <span>{ game.name }</span>
+                <p>{ game.description }</p>
               </a>
             </li>
           ))

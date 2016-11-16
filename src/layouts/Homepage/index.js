@@ -13,7 +13,6 @@ const Homepage = (props, { collection }) => {
 
   return (
     <Page { ...props }>
-      <h2>{ "Featured game" }</h2>
       <GamesList games={ featuredGame } />
     </Page>
   )
