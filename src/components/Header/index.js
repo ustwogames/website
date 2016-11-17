@@ -44,7 +44,7 @@ const Header = () => (
       </Link>
       <a
         className={ styles.link }
-        href="https://medium.com/ustwo-games"
+        href="https://medium.com/@ustwogames"
       >
         { "Blog" }
       </a>
