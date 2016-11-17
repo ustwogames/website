@@ -91,6 +91,8 @@ body {
 a {
   color: var(--mainColor);
   text-decoration: none;
+  /* FIXME: we need to have some distinct style on links, temporarily made them bold */
+  font-weight: 600;
 }
 
 /* handy for content */
