@@ -8,9 +8,15 @@
   font-size: calc(200vw / 75 + 20px);
   line-height: 1.2;
   max-width: 8em;
+  margin-bottom: 0.5em;
 }
 
 .body {
   font-size: calc(200vw / 375 + 16px);
   max-width: 32em;
+  margin-bottom: 4em;
+}
+
+.body p {
+  margin-bottom: 0.75em;
 }

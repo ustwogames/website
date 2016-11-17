@@ -13,7 +13,6 @@ const Game = (props, { collection }) => {
 
   return (
     <Page { ...props }>
-      <h2>{ "These are our games" }</h2>
       <GamesList games={ games } />
     </Page>
   )

@@ -4,20 +4,16 @@ import styles from "./index.css"
 
 const GamesList = ({ games }) => {
   return (
-    <div>
-      <ul>
+    <div className={ styles.listContainer}>
         {
           games.map((game) => (
-            <li key={ game.title } className={ styles.listItem } >
-              <a href={ game.__url } className={ styles.listContainer }>
+              <a href={ game.__url } className={ styles.listItem }>
                 <img src={ game.cover } />
-                <span>{ game.name }</span>
+                <h2 className={ styles.heading }>{ game.name }</h2>
                 <p>{ game.description }</p>
               </a>
-            </li>
           ))
         }
-      </ul>
     </div>
   )
 }

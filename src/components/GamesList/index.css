@@ -2,9 +2,25 @@
   --nav-item-padding: 0.5rem;
 }
 
+.heading {
+  font-size: calc(200vw / 375 + 16px);
+  max-width: 32em;
+  font-weight: 600;
+  margin: 1em 0 0.5em;
+}
+
+.listContainer p {
+  max-width: 32em;
+  margin-bottom: 0.5em;
+}
+
 .listItem {
   list-style: none;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 4em;
 }
 
 .listItem::after {
@@ -14,15 +30,26 @@
 }
 
 .listContainer {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.listItem:nth-child(odd) .listContainer {
-  float: left;
+.listItem:nth-child(odd) {
+  align-self: flex-end;
 }
 
-.listItem:nth-child(even) .listContainer {
-  float: right;
+.listItem:nth-child(even) {
+  align-self: flex-start;
+}
+
+.listItem:nth-child(5) {
+  align-self: center;
+}
+
+.listItem:first-child {
+  align-self: center;
 }
