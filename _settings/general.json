@@ -6,4 +6,34 @@
   "email":"hello@ustwogames.co.uk",
   "medium":"@ustwogames",
   "facebook":"monumentvalleygame"
+  "nav": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "Games",
+      "url": "/games"
+    },
+    {
+      "title": "About us",
+      "url": "/about"
+    },
+    {
+      "title": "Jobs",
+      "url": "/jobs"
+    },
+    {
+      "title": "Support",
+      "url": "/support"
+    },
+    {
+      "title": "Contact",
+      "url": "/contact"
+    },
+    {
+      "title": "Blog",
+      "url": "https://medium.com/@ustwogames"
+    }
+  ]
 }
