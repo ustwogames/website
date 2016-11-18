@@ -14,6 +14,7 @@ const DefaultHeadMeta = (props, { metadata: { pkg, settings } }) => (
       ] }
       script={ [
         { src: "https://cdn.polyfill.io/v2/polyfill.min.js" },
+        { src: "//cdn.iubenda.com/iubenda.js" },
       ] }
     />
 

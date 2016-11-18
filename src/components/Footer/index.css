@@ -35,3 +35,7 @@
 .svg {
   fill: #f90;
 }
+
+.notices iframe {
+  vertical-align: middle;
+}

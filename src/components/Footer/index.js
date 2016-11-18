@@ -15,12 +15,7 @@ const Footer = (props, { metadata: { settings } }) => (
         }
       </div>
     </nav>
-    <small>
-      { "For company information and other legal bits, see our legal page." }
-    </small>
-    <small>
-      { "We’re using cookies, hope that’s cool. Here’s our Privacy Policy." }
-    </small>
+    <small className={ styles.notices } dangerouslySetInnerHTML={ {__html: settings.footer_notices} } />
   </footer>
 )
 
