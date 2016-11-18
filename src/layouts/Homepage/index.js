@@ -6,7 +6,7 @@ import GamesList from "../../components/GamesList"
 
 const Homepage = (props, { collection }) => {
   const featuredGame = enhanceCollection(collection, {
-    filter: ({ layout, promoted }) => layout === "Game" && promoted,
+    filter: ({ layout, promoted }) => layout === "Game" && promoted === true,
     sort: "date",
     reverse: true,
   })
