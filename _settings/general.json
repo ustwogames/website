@@ -1,11 +1,38 @@
 {
   "path":"_settings/general.json",
   "site_title":"website-refresh",
-  "twitter":"ustwogames",
-  "instagram":"ustwogames",
-  "email":"hello@ustwogames.co.uk",
-  "medium":"@ustwogames",
-  "facebook":"monumentvalleygame"
+  "social": [
+    {
+      "type": "twitter",
+      "title": "ustwogames",
+      "image": "/assets/twitter.svg",
+      "url": "https://twitter.com/ustwogames"
+    },
+    {
+      "type": "instagram",
+      "title": "ustwogames",
+      "image": "/assets/instagram.svg",
+      "url": "https://instagram.com/ustwogames"
+    },
+    {
+      "type": "email",
+      "title": "hello@ustwogames.co.uk",
+      "image": "/assets/email.svg",
+      "url": "mailto:hello@ustwogames.co.uk"
+    },
+    {
+      "type": "medium",
+      "title": "@ustwogames",
+      "image": "/assets/medium.svg",
+      "url": "https://medium.com/@ustwogames"
+    },
+    {
+      "type": "facebook",
+      "title": "monumentvalleygame",
+      "image": "/assets/facebook.svg",
+      "url": "https://facebook.com/monumentvalleygame"
+    }
+  ],
   "nav": [
     {
       "title": "Home",
