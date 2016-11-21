@@ -1,8 +1,11 @@
-import React from "react"
+import React, { PropTypes } from "react"
 
 import Page from "../Page"
+import FaqList from "../../components/FaqList"
 
-const Support = (props) => {
+import styles from "./index.css"
+
+const Support = (props, { metadata: { settings } }) => {
   function setAutocompleteType(component, type) {
     if(component) {
       component.setAttribute('x-autocompletetype', type)
@@ -15,7 +18,10 @@ const Support = (props) => {
     <Page
       { ...props }
     >
-      <div className="form-wrapper">
+      <h2>FAQs</h2>
+      <FaqList faqs={ settings.faqs } />
+      <h2>Get in touch</h2>
+      <div className={ styles.form_wrapper }>
         <div className="form-inner-wrapper">
           <form autoComplete="on" action="https://dan-gray-o03j.squarespace.com" method="POST" onSubmit={ () => { return false; } }>
               <div className="field-list clear">
@@ -56,6 +62,10 @@ const Support = (props) => {
       </div>
     </Page>
   )
+}
+
+Support.contextTypes = {
+  metadata: PropTypes.object.isRequired,
 }
 
 export default Support

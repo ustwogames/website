@@ -77,20 +77,12 @@ body {
   }
 }
 
-/* styling FAQ content */
-.faq-question {
-  font-style: italic;
-}
-
-.faq-answer {
-  color: var(--mainColor);
-  opacity: 0.6;
-}
-
 /* minimal styling, prefer removing this and use local styles */
 a {
   color: var(--mainColor);
   text-decoration: none;
+  /* FIXME: we need to have some distinct style on links, temporarily made them bold */
+  font-weight: 600;
 }
 
 /* handy for content */

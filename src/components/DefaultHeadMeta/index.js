@@ -10,10 +10,11 @@ const DefaultHeadMeta = (props, { metadata: { pkg, settings } }) => (
           process.env.PHENOMIC_NAME } ${ process.env.PHENOMIC_VERSION }`,
         },
         { property: "og:site_name", content: pkg.name },
-        { name: "twitter:site", content: `@${ settings.twitter }` },
+        { name: "twitter:site", content: `@${ settings.social.find(x => x.type === 'twitter').title }` },
       ] }
       script={ [
         { src: "https://cdn.polyfill.io/v2/polyfill.min.js" },
+        { src: "//cdn.iubenda.com/iubenda.js" },
       ] }
     />
 

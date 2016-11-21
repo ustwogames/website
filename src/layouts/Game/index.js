@@ -3,16 +3,10 @@ import React, { PropTypes } from "react"
 import Page from "../Page"
 
 const Game = (props) => {
-  const mergedProps = {
-    ...props,
-    displayChildrenFirst: true
-  }
-
   return (
     <Page
-      { ...mergedProps }
+      { ...props }
     >
-      <img src={props.head.cover} />
     </Page>
   )
 }

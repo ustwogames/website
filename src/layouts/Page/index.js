@@ -40,7 +40,7 @@ const Page = (
     { property: "og:description", content: head.description },
     { name: "twitter:card", content: "summary" },
     { name: "twitter:title", content: metaTitle },
-    { name: "twitter:creator", content: `@${ settings.twitter }` },
+    { name: "twitter:creator", content: `@${ settings.social.find(x => x.type === 'twitter').title }` },
     { name: "twitter:description", content: head.description },
     { name: "description", content: head.description },
   ]

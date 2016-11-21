@@ -1,9 +1,81 @@
 {
   "path":"_settings/general.json",
   "site_title":"website-refresh",
-  "twitter":"ustwogames",
-  "instagram":"ustwogames",
-  "email":"hello@ustwogames.co.uk",
-  "medium":"ustwo-games",
-  "facebook":"monumentvalleygame"
+  "footer_notices": "For company information and other legal bits, see our <a href=\"/legal/\" title=\"legal page\">legal page</a>.<br/>We’re using cookies, hope that’s cool. Here’s our <a href=\"//www.iubenda.com/privacy-policy/7953842\" class=\"iubenda-white iubenda-embed\" title=\"Privacy Policy\">Privacy Policy</a>.",
+  "faqs": [
+    {
+      "question": "What is the answer to the Ultimate Question of Life, the Universe, and Everything?",
+      "answer": "42."
+    },
+    {
+      "question": "How can I play Land's End?",
+      "answer": "Land's End is currently only available for Gear VR, which requires one of these four Samsung Smartphones: Galaxy S6, Galaxy S6 Edge, Galaxy S6 Edge+, Note 5. Land's End can also be played on the Gear VR Innovator's Edition, both the Galaxy S6 and the Note 4 versions.<br/>You do not need a hand-held controller in order to experience Land's End.<br/>You can unlock the special volcano level by playing on the Galaxy Note 7."
+    },
+    {
+      "question": "I want to sell some Monument Valley merch, how can I give you a share?",
+      "answer": "Call Manesh on 07956529217 for a confidential conversation."
+    }
+  ],
+  "social": [
+    {
+      "type": "twitter",
+      "title": "ustwogames",
+      "image": "/assets/twitter.svg",
+      "url": "https://twitter.com/ustwogames"
+    },
+    {
+      "type": "instagram",
+      "title": "ustwogames",
+      "image": "/assets/instagram.svg",
+      "url": "https://instagram.com/ustwogames"
+    },
+    {
+      "type": "email",
+      "title": "hello@ustwogames.co.uk",
+      "image": "/assets/email.svg",
+      "url": "mailto:hello@ustwogames.co.uk"
+    },
+    {
+      "type": "medium",
+      "title": "@ustwogames",
+      "image": "/assets/medium.svg",
+      "url": "https://medium.com/@ustwogames"
+    },
+    {
+      "type": "facebook",
+      "title": "monumentvalleygame",
+      "image": "/assets/facebook.svg",
+      "url": "https://facebook.com/monumentvalleygame"
+    }
+  ],
+  "nav": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "Games",
+      "url": "/games/"
+    },
+    {
+      "title": "About us",
+      "url": "/about/"
+    },
+    {
+      "title": "Jobs",
+      "url": "/jobs/"
+    },
+    {
+      "title": "Support",
+      "url": "/support/"
+    },
+    {
+      "title": "Contact",
+      "url": "/contact/"
+    },
+    {
+      "title": "Blog",
+      "url": "https://medium.com/@ustwogames"
+    }
+  ]
 }

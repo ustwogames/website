@@ -7,10 +7,10 @@ const GamesList = ({ games }) => {
     <div className={ styles.listContainer}>
         {
           games.map((game) => (
-              <a href={ game.__url } className={ styles.listItem }>
+              <a href={ game.__url } className={ styles.listItem } key={ game.__url }>
                 <img src={ game.cover } />
                 <h2 className={ styles.heading }>{ game.name }</h2>
-                <p>{ game.description }</p>
+                <p>{ game.blurb }</p>
               </a>
           ))
         }
