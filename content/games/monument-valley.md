@@ -4,7 +4,7 @@ name: Monument Valley
 date: 2016-02-16
 layout: Game
 cover: /assets/mv-icon-large.png
-video: /assets/MonumentValley1080p30s.mp4
+video: /assets/MonumentValleyTeaser.mp4
 promoted: true
 blurb: An illusory adventure of impossible architecture and forgiveness.
 ---
