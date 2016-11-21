@@ -1,8 +1,8 @@
 ---
-title: Support is here
+title: Support
 layout: Support
 ---
 
-If you have some trouble, just call!
+Please use the widget in the bottom left corner to get in touch!
 
-<!-- FAQ and form will be rendered below here -->
+<!-- FAQ will be rendered below here -->

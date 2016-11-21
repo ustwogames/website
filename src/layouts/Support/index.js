@@ -1,4 +1,5 @@
 import React, { PropTypes } from "react"
+import Helmet from "react-helmet"
 
 import Page from "../Page"
 import FaqList from "../../components/FaqList"
@@ -6,60 +7,17 @@ import FaqList from "../../components/FaqList"
 import styles from "./index.css"
 
 const Support = (props, { metadata: { settings } }) => {
-  function setAutocompleteType(component, type) {
-    if(component) {
-      component.setAttribute('x-autocompletetype', type)
-      component.setAttribute('autocompletetype', type)
-      component.setAttribute('autocomplete', type)
-    }
-  }
-
   return (
     <Page
       { ...props }
     >
+      <Helmet
+        script={ [
+          {"type": "text/javascript", "innerHTML": `/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","ustwogames.zendesk.com");/*]]>*/`},
+        ] }
+      />
       <h2>FAQs</h2>
       <FaqList faqs={ settings.faqs } />
-      <h2>Get in touch</h2>
-      <div className={ styles.form_wrapper }>
-        <div className="form-inner-wrapper">
-          <form autoComplete="on" action="https://dan-gray-o03j.squarespace.com" method="POST" onSubmit={ () => { return false; } }>
-              <div className="field-list clear">
-                    <fieldset id="form-name" className="form-item fields name">
-                    <div className="title">Name</div>
-                    <legend>Name</legend>
-                      <div className="field first-name">
-                        <label className="caption"><input className="field-element field-control" name="fname" ref={(input) => setAutocompleteType(input, 'given-name')} type="text" spellCheck="false" maxLength="30" data-title="First" />First Name</label>
-                      </div>
-                      <div className="field last-name">
-                        <label className="caption"><input className="field-element field-control" name="lname" ref={(input) => setAutocompleteType(input, 'surname')} type="text" spellCheck="false" maxLength="30" data-title="Last" />Last Name</label>
-                      </div>
-                    </fieldset>
-                    <div id="form-email" className="form-item field email required">
-                      <label className="title" htmlFor="form-email-input">Email Address <span className="required">*</span></label>
-                      <input className="field-element" name="email" ref={(input) => setAutocompleteType(input, 'email')} type="text" spellCheck="false" id="form-email-input" />
-                    </div>
-                    <div id="form-reason" className="form-item field select required">
-                      <label className="title" htmlFor="form-reason-input">Reason <span className="required">*</span></label>
-                      <select name="form-reason-input">
-                          <option value="Select One">Select One</option>
-                          <option value="Report a Bug">Report a Bug</option>
-                          <option value="General Enquiries">General Enquiries</option>
-                          <option value="Press Enquiries">Press Enquiries</option>
-                      </select>
-                    </div>
-                    <div id="form-message" className="form-item field textarea required">
-                      <label className="title" htmlFor="form-message-input">Message <span className="required">*</span></label>
-                      <div className="description">If you are contacting us to report a bug in the game, please give details of the device and software version you are currently using.</div>
-                      <textarea className="field-element " id="form-message-input"></textarea>
-                    </div>
-              </div>
-            <div className="form-button-wrapper form-button-wrapper--align-left">
-              <input className="button" type="submit" value="Submit" />
-            </div>
-          </form>
-        </div>
-      </div>
     </Page>
   )
 }
