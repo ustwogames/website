@@ -1,19 +1,21 @@
 import React, { PropTypes } from "react"
+import Collapse, { Panel } from "rc-collapse"
 
 import styles from "./index.css"
 
 const FaqList = ({ faqs }) => {
   return (
-    <ul className={ styles.faq_list }>
-      {
-        faqs.map((faq, index) => (
-          <li key={ index }>
-            <p className={ styles.faq_question } dangerouslySetInnerHTML={ {__html: faq.question} } />
-            <p className={ styles.faq_answer } dangerouslySetInnerHTML={ {__html: faq.answer} } />
-          </li>
-        ))
-      }
-    </ul>
+    <Collapse
+        accordion={true}
+      >
+        {
+          faqs.map((faq, index) => (
+            <Panel header={ faq.question } key={ index }>
+              <p className={ styles.faq_answer } dangerouslySetInnerHTML={ {__html: faq.answer} } />
+            </Panel>
+          ))
+        }
+      </Collapse>
   )
 }
 

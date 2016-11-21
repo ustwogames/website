@@ -96,6 +96,40 @@ small {
   opacity: 0.6;
 }
 
+/* FAQ accordion component styling */
+.rc-collapse-anim-active {
+  transition: height 0.2s ease-out;
+}
+
+.rc-collapse-content-inactive {
+  display: none;
+}
+
+.rc-collapse-header {
+  cursor: pointer;
+
+  & .arrow {
+    display: inline-block;
+    content: '\20';
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 4px solid var(--mainColor);
+    vertical-align: middle;
+    margin-right: 8px;
+
+    @nest .rc-collapse-item-active & {
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+      border-top: 4px solid var(--mainColor);
+      margin-right: 6px;
+    }
+  }
+}
+
 /* font face https://medium.com/@dowsoncreative/a-little-bit-of-web-font-best-practice-5db63ef14d41#.nfals04ia */
 
 @font-face {
