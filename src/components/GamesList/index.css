@@ -10,7 +10,8 @@
 }
 
 .cover_video {
-  width: 50%;
+  width: 100%;
+  display: inline;
 }
 
 .listContainer p {
@@ -25,6 +26,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   margin-bottom: 4em;
+  width: 50%;
 }
 
 .listItem::after {
