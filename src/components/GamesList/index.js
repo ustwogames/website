@@ -8,7 +8,7 @@ const GamesList = ({ games }) => {
         {
           games.map((game) => (
               <a href={ game.__url } className={ styles.listItem } key={ game.__url }>
-                <img src={ game.cover } />
+                <video className={ styles.cover_video } src={game.video} autoPlay loop muted playsInline></video>
                 <h2 className={ styles.heading }>{ game.name }</h2>
                 <p>{ game.blurb }</p>
               </a>

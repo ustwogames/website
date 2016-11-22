@@ -9,6 +9,10 @@
   margin: 1em 0 0.5em;
 }
 
+.cover_video {
+  width: 50%;
+}
+
 .listContainer p {
   max-width: 32em;
   margin-bottom: 0.5em;
