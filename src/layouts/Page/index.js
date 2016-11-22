@@ -1,4 +1,5 @@
 import React, { PropTypes } from "react"
+import classnames from "classnames"
 import Helmet from "react-helmet"
 import invariant from "invariant"
 import { BodyContainer, joinUri } from "phenomic"
@@ -18,6 +19,7 @@ const Page = (
     footer,
     children,
     displayChildrenFirst,
+    bodyExtraClass,
   },
   {
     metadata: { settings },
@@ -63,7 +65,7 @@ const Page = (
       {
         isLoading
         ? <Loading />
-        : <BodyContainer className={ styles.body }>{ body }</BodyContainer>
+        : <BodyContainer className={ classnames(styles.body, bodyExtraClass) }>{ body }</BodyContainer>
       }
       {
         !displayChildrenFirst &&

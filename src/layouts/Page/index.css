@@ -19,4 +19,8 @@
 
 .body p {
   margin-bottom: 0.75em;
+
+  & img {
+    width: 90vw;
+  }
 }

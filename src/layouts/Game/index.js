@@ -7,7 +7,8 @@ import styles from "./index.css"
 const Game = (props) => {
   const mergedProps = {
     ...props,
-    displayChildrenFirst: true
+    displayChildrenFirst: true,
+    bodyExtraClass: styles.extraBody,
   }
 
   return (
