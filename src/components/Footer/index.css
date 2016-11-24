@@ -3,7 +3,7 @@
 }
 
 .footer {
-  color: var(--mainColor);
+  color: var(--colorPrimary);
   text-align: right;
 }
 

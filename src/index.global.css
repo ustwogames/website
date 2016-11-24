@@ -17,11 +17,7 @@ html { box-sizing: border-box; }
  * kill document defaults margin & padding. We all do that all the time, right ?
  */
 html,
-body,
-ul,
-p,
-h1,
-h2 {
+body {
   margin: 0;
   padding: 0;
 }
@@ -31,17 +27,18 @@ h2 {
  */
 html {
   min-height: 100%;
+  background: color(var(--colorPrimary) l(99%));
 }
 
 body {
-  margin: 5%;
+  margin: 0 5%;
   font-size: 1rem;
   line-height: 1.6;
   text-wrap: balance;
 
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
   font-family: 'PxGrotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  color: var(--mainColor);
+  color: var(--colorPrimary);
 }
 
 /*
@@ -79,15 +76,11 @@ body {
 
 /* minimal styling, prefer removing this and use local styles */
 a {
-  color: var(--mainColor);
+  color: inherit;
   text-decoration: none;
   /* FIXME: we need to have some distinct style on links, temporarily made them bold */
   font-weight: 600;
-}
 
-/* handy for content */
-img {
-  max-width: 100%;
 }
 
 /* making small behave more like a p */
@@ -117,14 +110,14 @@ small {
     line-height: 0;
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
-    border-left: 4px solid var(--mainColor);
+    border-left: 4px solid var(--colorPrimary);
     vertical-align: middle;
     margin-right: 8px;
 
     @nest .rc-collapse-item-active & {
       border-left: 3px solid transparent;
       border-right: 3px solid transparent;
-      border-top: 4px solid var(--mainColor);
+      border-top: 4px solid var(--colorPrimary);
       margin-right: 6px;
     }
   }
@@ -208,4 +201,12 @@ small {
     url('/assets/fonts/PxGrotesk-RegularIta.svg#PxGrotesk') format('svg');
   font-weight: 400;
   font-style: italic;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--colorNeutral);
+  opacity: 0.2;
+  margin: 2rem 0;
 }

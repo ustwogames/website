@@ -3,7 +3,7 @@
 }
 
 .header {
-  color: var(--mainColor);
+  color: var(--colorPrimary);
 }
 
 .nav {

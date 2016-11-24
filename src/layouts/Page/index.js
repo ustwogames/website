@@ -1,9 +1,10 @@
 import React, { PropTypes } from "react"
 import classnames from "classnames"
 import Helmet from "react-helmet"
-import invariant from "invariant"
-import { BodyContainer, joinUri } from "phenomic"
+import warning from "warning"
+import { BodyContainer, joinUri, Link } from "phenomic"
 
+import Button from "../../components/Button"
 import Loading from "../../components/Loading"
 
 import styles from "./index.css"
@@ -25,7 +26,7 @@ const Page = (
     metadata: { settings },
   }
 ) => {
-  invariant(
+  warning(
     typeof head.title === "string",
     `Your page '${ __filename }' needs a title`
   )
@@ -54,24 +55,46 @@ const Page = (
         meta={ meta }
       />
       {
-        head.title &&
-        <h1 className={ styles.heading }>{ head.title }</h1>
+        <div
+          className={ styles.hero }
+          style={ head.hero && {
+            background: `#111 url(${ head.hero }) 50% 50% / cover`,
+          } }
+        >
+          <div className={ styles.header }>
+            <div className={ styles.wrapper }>
+              <h1 className={ styles.heading }>{ head.title }</h1>
+              {
+                head.cta &&
+                <Link to={ head.cta.link }>
+                  <Button className={ styles.cta } light { ...head.cta.props }>
+                    { head.cta.label }
+                  </Button>
+                </Link>
+              }
+            </div>
+          </div>
+        </div>
       }
-      { header }
-      {
-        displayChildrenFirst &&
-        children
-      }
-      {
-        isLoading
-        ? <Loading />
-        : <BodyContainer className={ classnames(styles.body, bodyExtraClass) }>{ body }</BodyContainer>
-      }
-      {
-        !displayChildrenFirst &&
-        children
-      }
-      { footer }
+      <div className={ styles.wrapper + " " + styles.pageContent }>
+        { header }
+        {
+          displayChildrenFirst &&
+          children
+        }
+        <div className={ styles.body }>
+          {
+            isLoading
+            ? <Loading />
+            : <BodyContainer className={ classnames(styles.body, bodyExtraClass) }>{ body }</BodyContainer>
+          }
+        </div>
+        {
+          !displayChildrenFirst &&
+          children
+        }
+        { footer }
+      </div>
     </div>
   )
 }

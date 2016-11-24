@@ -11,10 +11,12 @@ const DefaultHeadMeta = (props, { metadata: { pkg, settings } }) => (
         },
         { property: "og:site_name", content: pkg.name },
         { name: "twitter:site", content: `@${ settings.social.find(x => x.type === 'twitter').title }` },
+        ...props.meta ? props.meta : [],
       ] }
       script={ [
         { src: "https://cdn.polyfill.io/v2/polyfill.min.js" },
         { src: "//cdn.iubenda.com/iubenda.js" },
+        ...props.scripts ? props.scripts : [],
       ] }
     />
 
@@ -27,6 +29,11 @@ const DefaultHeadMeta = (props, { metadata: { pkg, settings } }) => (
     <style>{ "@-ms-viewport { width: device-width; }" }</style>
   </div>
 )
+
+DefaultHeadMeta.propTypes = {
+  meta: React.PropTypes.arrayOf(React.PropTypes.object),
+  scripts: React.PropTypes.arrayOf(React.PropTypes.object),
+}
 
 DefaultHeadMeta.contextTypes = {
   metadata: PropTypes.object.isRequired,

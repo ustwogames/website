@@ -2,7 +2,8 @@
   "private": true,
   "name": "website-refresh",
   "homepage": "https://ustwogames.co.uk/",
-  "repository": "https://gitlab.com/ustwogames/website-refresh",
+  "twitter": "",
+  "repository": "",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
     "lint:css": "stylelint \"src/**/*.css\"",
@@ -15,6 +16,7 @@
   "phenomic": {
     "CNAME": false
   },
+  "#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
   "babel": {
     "env": {
       "test": {
@@ -107,10 +109,8 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "history": "^2.0.0",
-    "invariant": "^2.1.1",
     "json-loader": "^0.5.2",
     "npm-run-all": "^1.7.0",
-    "phenomic": "^0.18.1",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-loader": "^0.13.0",
@@ -128,8 +128,9 @@
     "redux": "^3.0.0",
     "style-loader": "^0.13.0",
     "stylelint": "^7.2.0",
-    "stylelint-config-standard": "^13.0.0",
+    "warning": "^3.0.0",
     "webpack": "^1.11.0",
-    "whatwg-fetch": "^0.11.0"
+    "whatwg-fetch": "^0.11.0",
+    "phenomic": "^0.19.4"
   }
 }
