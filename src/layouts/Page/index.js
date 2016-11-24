@@ -84,6 +84,7 @@ Page.propTypes = {
   __url: PropTypes.string,
   head: PropTypes.object.isRequired,
   body: PropTypes.string,
+  bodyExtraClass: PropTypes.string,
   header: PropTypes.element,
   footer: PropTypes.element,
 }

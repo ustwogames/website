@@ -4,8 +4,6 @@ import Helmet from "react-helmet"
 import Page from "../Page"
 import FaqList from "../../components/FaqList"
 
-import styles from "./index.css"
-
 const Support = (props, { metadata: { settings } }) => {
   return (
     <Page
