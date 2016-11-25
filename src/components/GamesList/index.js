@@ -10,7 +10,7 @@ const GamesList = ({ games }) => {
           games.map((game) => (
             <li key={ game.__url } className={ styles.listItem }>
               <Link to={ game.__url }>
-                <img src={ game.cover } />
+                <img src={ game.icon } />
                 <h2 className={ styles.heading }>{ game.name }</h2>
               </Link>
               <p>{ game.blurb }</p>
