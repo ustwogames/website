@@ -1,4 +1,5 @@
 ---
+metaTitle: All about ustwo games
 title: All about ustwo games
 layout: About
 ---

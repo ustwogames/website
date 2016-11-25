@@ -1,4 +1,5 @@
 ---
+metaTitle: ustwo games
 title: Hi there, we're ustwo games
 layout: Homepage
 ---
