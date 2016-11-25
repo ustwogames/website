@@ -51,4 +51,6 @@ As we mentioned, it won a 2014 Apple Design Award, and also went on to be named 
 
 To date, Monument Valley has seen a total of over 25 million downloads since launch, across all platforms including iOS, Google, Amazon and Windows.
 
-<iframe src="https://player.vimeo.com/video/89525141" width="1280" height="720" title="Monument Valley - Behind the Scenes"></iframe>
+<div class='fluid-embed'>
+  <iframe src='http://player.vimeo.com/video/89525141' title="Monument Valley - Behind the Scenes" width="1280" height="720" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>

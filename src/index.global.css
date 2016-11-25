@@ -123,6 +123,24 @@ small {
   }
 }
 
+.fluid-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+
+  & iframe,
+  & object,
+  & embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 /* font face https://medium.com/@dowsoncreative/a-little-bit-of-web-font-best-practice-5db63ef14d41#.nfals04ia */
 
 @font-face {

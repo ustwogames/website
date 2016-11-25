@@ -131,4 +131,6 @@ We’re already back in the process of experimenting with new ideas. Stay tuned 
 
 [Download Android Blip Blup via Google Play](https://play.google.com/store/apps/details?id=com.ustwo.blipblupfree)
 
-<iframe src="//www.youtube.com/embed/qR699KEEWmA" height="312" width="555" frameborder="0"></iframe>
+<div class='fluid-embed'>
+  <iframe src="//www.youtube.com/embed/qR699KEEWmA" height="312" width="555" frameborder="0"></iframe>
+</div>
