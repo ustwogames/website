@@ -1,4 +1,5 @@
 import React, { PropTypes } from "react"
+import { Link } from "phenomic"
 
 import styles from "./index.css"
 
@@ -8,9 +9,9 @@ const Footer = (props, { metadata: { settings } }) => (
       <div className={ styles.navPartSocial }>
         {
           settings.social.map((socialItem) => (
-            <a key={ socialItem.url } href={ socialItem.url } className={ styles.link }>
+            <Link key={ socialItem.url } to={ socialItem.url } className={ styles.link }>
               <img src={ socialItem.image } alt={ socialItem.title } />
-            </a>
+            </Link>
           ))
         }
       </div>

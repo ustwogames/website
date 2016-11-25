@@ -21,19 +21,33 @@
       color(var(--colorSecondary) l(+ 10%)) 15%,
       var(--colorSecondary) 70%
     );
+  height: 70vh;
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+
+  & > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .header {
   display: flex;
-  flex-direction: column;
-  padding: 5rem 0;
-  padding: 10vh 0;
   text-align: center;
-  background: linear-gradient(
-    to bottom,
-    var(--colorPrimaryDark),
-    color(var(--colorPrimary) a(0.2))
-  );
+  position: relative;
+  height: 100%;
 }
 
 .heading {
@@ -77,9 +91,12 @@
   }
 
   /* handy for content */
-  & img,
-  & video,
-  & iframe {
+  & img {
     max-width: 100%;
+  }
+
+  & video {
+    width: 100%;
+    height: auto;
   }
 }

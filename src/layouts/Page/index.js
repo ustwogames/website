@@ -55,13 +55,18 @@ const Page = (
         meta={ meta }
       />
       {
-        <div
-          className={ styles.hero }
-          style={ head.hero && {
-            background: `#111 url(${ head.hero }) 50% 50% / cover`,
-          } }
-        >
+        <div className={ styles.hero }>
           <div className={ styles.header }>
+            {
+              head.hero &&
+              <div className={ styles.heroBackground }>
+                {
+                  head.hero.match(/(jpg|jpeg|png|gif)/gi)
+                  ? <img src={ head.hero } />
+                  : <video src={ head.hero } autoPlay loop muted playsInline />
+                }
+              </div>
+            }
             <div className={ styles.wrapper }>
               <h1 className={ styles.heading }>{ head.title }</h1>
               {

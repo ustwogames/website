@@ -8,14 +8,6 @@ const Header = (props, { metadata: { settings } }) => (
     <nav className={ styles.nav }>
       {
         settings.nav.map((navItem) => (
-          navItem.url.includes('http') ?
-          <a
-            key={ navItem.url }
-            className={ styles.link }
-            href={ navItem.url }
-          >
-            { navItem.title }
-          </a> :
           <Link
             key={ navItem.url }
             className={ styles.link }
