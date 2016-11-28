@@ -7,35 +7,22 @@
   text-align: right;
 }
 
-.nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  /*max-width: calc(60rem + (var(--nav-item-padding) * 2));*/
-  margin: 0 auto;
-  padding: 0;
-}
-
 .navPartSocial {
   display: flex;
+  justify-content: flex-end;
   flex-direction: row;
   align-items: center;
   margin-bottom: 1em;
 }
 
-.link {
+.navPartSocial li {
   display: flex;
   align-items: center;
   padding: 0 var(--nav-item-padding);
   color: inherit;
-  text-decoration: none;
-}
-
-.svg {
-  fill: #f90;
 }
 
 .notices iframe {
+  margin-top: 0;
   vertical-align: middle;
 }

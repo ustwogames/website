@@ -8,19 +8,10 @@
   flex-direction: column;
   align-self: center;
   width: 100%;
-  padding: 1rem 0.75rem;
 }
 
 .hero {
-  /* fallback, mainly visible when hero image is loading */
-  background-color: var(--colorSecondary);
-  /* fallback when there is no hero image */
-  background:
-    radial-gradient(
-      ellipse at 50% 50%,
-      color(var(--colorSecondary) l(+ 10%)) 15%,
-      var(--colorSecondary) 70%
-    );
+  background-color: var(--colorPrimary);
   height: 70vh;
 }
 
@@ -48,13 +39,8 @@
 }
 
 .heading {
-  font-size: calc(200vw / 75 + 20px);
   color: var(--colorNeutralLight);
-  text-shadow:
-    0 0 10px var(--colorPrimaryDark),
-    0 0 6px var(--colorNeutralDark),
-    0 0 2px var(--colorNeutralDark)
-  ;
+  text-shadow: 0 0 5px var(--colorPrimary);
   letter-spacing: 1px;
 }
 
@@ -63,31 +49,10 @@
 }
 
 .pageContent {
-  margin: 1rem 0;
+  margin-bottom: 2rem;
 }
 
 .body {
-  font-size: calc(200vw / 375 + 16px);
-
-  & a {
-    color: var(--colorPrimary);
-    transition: all 0.2s;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-
-    &:hover {
-      opacity: 1;
-      color: color(var(--colorPrimary) l(- 5%));
-      border-bottom-color: var(--colorPrimary);
-    }
-  }
-
-  & p,
-  & ul {
-    margin-bottom: 0.75em;
-  }
-
-  /* handy for content */
   & img {
     max-width: 100%;
   }

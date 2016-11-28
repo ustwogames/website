@@ -6,15 +6,17 @@ import styles from "./index.css"
 const Footer = (props, { metadata: { settings } }) => (
   <footer className={ styles.footer }>
     <nav className={ styles.nav }>
-      <div className={ styles.navPartSocial }>
+      <ul className={ styles.navPartSocial }>
         {
           settings.social.map((socialItem) => (
-            <Link key={ socialItem.url } to={ socialItem.url } className={ styles.link }>
-              <img src={ socialItem.image } alt={ socialItem.title } />
-            </Link>
+            <li key={ socialItem.url } className="no-bullet-list">
+              <Link to={ socialItem.url } className={ styles.link }>
+                <img src={ socialItem.image } alt={ socialItem.title } />
+              </Link>
+            </li>
           ))
         }
-      </div>
+      </ul>
     </nav>
 
     <div id="mc_embed_signup">

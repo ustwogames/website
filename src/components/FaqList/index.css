@@ -1,17 +1,3 @@
-.faq_list {
-  margin-bottom: 5vw;
-}
-
-.faq_list li {
-  list-style: none;
-  margin-bottom: 1vw;
-}
-
-.faq_question {
-  font-size: calc(200vw / 275 + 18px);
-}
-
 .faq_answer {
-  font-size: calc(200vw / 375 + 16px);
   opacity: 0.6;
 }
