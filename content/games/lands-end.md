@@ -3,7 +3,8 @@ title: Land’s end
 name: Land’s end
 date: 2015-11-10
 layout: Game
-cover: /assets/lands_end-icon-large.png
+icon: /assets/lands_end-icon-large.png
+promoted: true
 blurb: Awaken a lost civilization in this amazing virtual reality adventure.
 ---
 

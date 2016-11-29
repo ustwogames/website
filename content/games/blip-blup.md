@@ -3,7 +3,8 @@ title: Blip Blup
 name: Blip Blup
 date: 2015-07-09
 layout: Game
-cover: /assets/blip_blup-icon-large.png
+icon: /assets/blip_blup-icon-large.png
+hero: /assets/BB-hero.jpg
 blurb: An addictive conundrum of colouration that will consume your thoughts and occupy your dreams.
 ---
 
@@ -131,4 +132,6 @@ We’re already back in the process of experimenting with new ideas. Stay tuned 
 
 [Download Android Blip Blup via Google Play](https://play.google.com/store/apps/details?id=com.ustwo.blipblupfree)
 
-<iframe src="//www.youtube.com/embed/qR699KEEWmA" height="312" width="555" frameborder="0"></iframe>
+<div class='fluid-embed'>
+  <iframe src="//www.youtube.com/embed/qR699KEEWmA" height="312" width="555" frameborder="0"></iframe>
+</div>

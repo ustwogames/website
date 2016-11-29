@@ -2,7 +2,7 @@ import React, { PropTypes } from "react"
 
 import Page from "../Page"
 
-const Game = (props) => {
+const Profile = (props) => {
   return (
     <Page
       { ...props }
@@ -10,8 +10,8 @@ const Game = (props) => {
   )
 }
 
-Game.propTypes = {
+Profile.propTypes = {
   head: PropTypes.object.isRequired,
 }
 
-export default Game
+export default Profile

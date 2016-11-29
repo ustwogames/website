@@ -3,10 +3,10 @@
 }
 
 .header {
-  color: var(--mainColor);
+  color: var(--colorPrimary);
 }
 
-.nav {
+.nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,7 +16,7 @@
   padding: 0;
 }
 
-.link {
+.nav li {
   display: flex;
   align-items: center;
   padding: 0 var(--nav-item-padding);

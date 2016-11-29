@@ -3,7 +3,7 @@ title: Whale Trail
 name: Whale Trail
 date: 2015-06-03
 layout: Game
-cover: /assets/whale_trail-icon-large.png
+icon: /assets/whale_trail-icon-large.png
 blurb: Fly as Willow the Whale, collect Blubbles, loop the Loop, smash enemies and meet bonkers characters along the way.
 ---
 
