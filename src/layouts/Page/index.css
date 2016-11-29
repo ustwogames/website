@@ -13,10 +13,10 @@
 
 .body {
   font-size: calc(200vw / 375 + 16px);
-  max-width: 32em;
   margin-bottom: 4em;
 }
 
 .body p {
+  max-width: 32em;
   margin-bottom: 0.75em;
 }
