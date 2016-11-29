@@ -68,7 +68,13 @@ const Page = (
               </div>
             }
             <div className={ styles.wrapper }>
-              <h1 className={ styles.heading }>{ head.title }</h1>
+              <h1 className={ styles.heading }>
+                {
+                  head.logotype
+                  ? <img src={ head.logotype } alt={ head.title }/>
+                  : head.title
+                }
+              </h1>
               {
                 head.blurb &&
                 <p className={ styles.blurb }>{ head.blurb }</p>
