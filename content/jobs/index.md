@@ -1,7 +1,7 @@
 ---
 metaTitle: Jobs
 title: Work at ustwo games
-layout: Page
+layout: JobsIndex
 ---
 
 ustwo games is still a small company, but we’re constantly seeking to challenge ourselves with the games we make, and in turn build an even better team.

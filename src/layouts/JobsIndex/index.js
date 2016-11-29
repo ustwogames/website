@@ -2,24 +2,24 @@ import React, { PropTypes } from "react"
 import enhanceCollection from "phenomic/lib/enhance-collection"
 
 import Page from "../Page"
-import GamesList from "../../components/GamesList"
+import JobsList from "../../components/JobsList"
 
-const GamesIndex = (props, { collection }) => {
-  const games = enhanceCollection(collection, {
-    filter: { layout: "Game" },
+const JobsIndex = (props, { collection }) => {
+  const jobs = enhanceCollection(collection, {
+    filter: { layout: "Job" },
     sort: "date",
     reverse: true,
   })
 
   return (
     <Page { ...props }>
-      <GamesList games={ games } />
+      <JobsList jobs={ jobs } />
     </Page>
   )
 }
 
-GamesIndex.contextTypes = {
+JobsIndex.contextTypes = {
   collection: PropTypes.array.isRequired,
 }
 
-export default GamesIndex
+export default JobsIndex
