@@ -5,6 +5,7 @@ date: 2016-02-16
 layout: Game
 icon: /assets/mv-icon-large.png
 hero: /assets/MonumentValleyTeaser.mp4
+logotype: /assets/mv-logotype-white.svg
 promoted: true
 blurb: An illusory adventure of impossible architecture and forgiveness.
 ---

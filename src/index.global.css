@@ -60,6 +60,14 @@ body {
   display: none;
 }
 
+p {
+  max-width: 40em;
+}
+
+p + img {
+  max-width: 100vw;
+}
+
 /* minimal styling, prefer removing this and use local styles */
 a {
   color: var(--colorPrimary);
