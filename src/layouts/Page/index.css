@@ -1,3 +1,10 @@
+:root {
+  --shadowy-text: {
+    color: var(--colorNeutralLight);
+    text-shadow: 0 0 5px var(--colorPrimary);
+  };
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -8,6 +15,7 @@
   flex-direction: column;
   align-self: center;
   width: 100%;
+  position: relative;
 }
 
 .hero {
@@ -38,10 +46,9 @@
   height: 100%;
 }
 
-.heading {
-  color: var(--colorNeutralLight);
-  text-shadow: 0 0 5px var(--colorPrimary);
-  letter-spacing: 1px;
+.heading,
+.blurb {
+  @apply --shadowy-text;
 }
 
 .cta {

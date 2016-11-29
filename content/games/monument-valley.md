@@ -8,6 +8,9 @@ hero: /assets/MonumentValleyTeaser.mp4
 logotype: /assets/mv-logotype-white.svg
 promoted: true
 blurb: An illusory adventure of impossible architecture and forgiveness.
+cta:
+  label: Open microsite
+  link: "http://monumentvalleygame.com/"
 ---
 
 A story of forgiveness

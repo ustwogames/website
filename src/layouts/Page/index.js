@@ -70,6 +70,10 @@ const Page = (
             <div className={ styles.wrapper }>
               <h1 className={ styles.heading }>{ head.title }</h1>
               {
+                head.blurb &&
+                <p className={ styles.blurb }>{ head.blurb }</p>
+              }
+              {
                 head.cta &&
                 <Link to={ head.cta.link }>
                   <Button className={ styles.cta } light { ...head.cta.props }>
