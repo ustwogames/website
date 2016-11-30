@@ -62,7 +62,7 @@ body {
   display: none;
 }
 
-p {
+p, blockquote {
   @apply --text-squash;
 }
 
