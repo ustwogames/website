@@ -19,7 +19,8 @@ look like:
 > written like so.
 >
 > They can span multiple paragraphs,
-> if you like.
+> if you like.  
+> <cite>And of course cite the source!</cite>
 
 Unicode is supported. ☺
 
@@ -95,9 +96,11 @@ Some of our lovely content boxes below:
 
 <div class='content-box text dark'>
 
+### And this is the dark one
+
 Our testing showed that it’s actually a huge benefit to many players to give them a condensed experience, to allow them to see a piece of content through, from start to finish. Especially on mobile it’s a vanishingly small number of players who ever complete a game. It’s something we crave personally and something we hope to see more of in interactive digital entertainment. Offering that finality therefore became a defining factor in the design of Monument Valley.
 
-Our ambition for the game became to produce a piece of work that was ‘all killer and no filler’ — something that would excite the player, but never frustrate. We wanted the player to stick around just long enough to deliver only novelty and delight. It would be a game with no grind, but also no real failure: there were no stars to collect, no leaderboards. Players should experience a game that is more akin to a film in length.
+> Our ambition for the game became to produce a piece of work that was ‘all killer and no filler’ — something that would excite the player, but never frustrate. We wanted the player to stick around just long enough to deliver only novelty and delight. It would be a game with no grind, but also no real failure: there were no stars to collect, no leaderboards. Players should experience a game that is.
 
 </div>
 
@@ -107,11 +110,13 @@ Our ambition for the game became to produce a piece of work that was ‘all kill
 
 <div class='content-box text'>
 
-## iPad Game of the Year
+## This is the default light one
 
 When we released a teaser trailer before Christmas 2013, it got a huge number of views, gained us thousands of new Twitter followers and generated over 10,000 beta test applicants. All this activity helped us begin a relationship with Apple that led to us to being Editor’s Choice in the App Store on release and culminated with Monument Valley being awarded the prestigious Apple design award. This kind of relationship with Apple — and of course Google Play and the Amazon app stores — is crucial to a game and a team like ours. We know from experience that ‘store featuring’ is often the most crucial part in a successful app store launch.
 
 </div>
+
+---
 
 And a fluidly embedded map:
 

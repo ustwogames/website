@@ -14,12 +14,10 @@
  *
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  */
-html { box-sizing: border-box; }
-
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -62,8 +60,43 @@ body {
   display: none;
 }
 
-p, blockquote, ol, ul, pre, table {
+@custom-selector :--blocks p, blockquote, ol, ul, pre, table;
+:--blocks {
   @apply --text-squash;
+}
+
+blockquote {
+  position: relative;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  content: open-quote;
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  line-height: 1;
+  font-size: 4em;
+}
+
+blockquote:after {
+  content: close-quote;
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+  line-height: 1;
+  font-size: 4em;
+}
+
+blockquote cite {
+  opacity: 0.6;
+  font-size: 80%;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
 }
 
 /* minimal styling, prefer removing this and use local styles */
@@ -91,17 +124,17 @@ small {
   margin-top: 0;
   line-height: 0;
 
-  & p {
+  & :--blocks {
     line-height: 1.7;
   }
   & :--headings {
     line-height: 1.2;
   }
-  & p:first-child,
+  & > :--blocks:first-child,
   & :--headings {
     padding-top: 1.5em;
   }
-  & p:last-child {
+  & > :--blocks:last-child {
     padding-bottom: 1.5em;
   }
 }
