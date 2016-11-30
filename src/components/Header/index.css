@@ -4,7 +4,7 @@
 
 .header {
   margin-top: 0;
-  background: var(--colorPrimary);
+  background: #181D2E;
   position: fixed;
   width: 100vw;
   z-index: 100;
