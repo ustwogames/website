@@ -38,6 +38,10 @@ input {
   color: inherit;
 }
 
+.notices {
+  margin: 0 3em;
+}
+
 .notices iframe {
   margin-top: 0;
   vertical-align: middle;

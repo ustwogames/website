@@ -4,19 +4,19 @@ name: Land’s end
 date: 2015-11-10
 layout: Game
 icon: /assets/lands_end-icon-large.png
+logotype: /assets/le-logotype-white.svg
 promoted: true
-blurb: Awaken a lost civilization in this amazing virtual reality adventure.
+blurb: Awaken a lost civilization in this amazing virtual reality adventure
+cta:
+  label: landsendgame.com
+  link: "http://landsendgame.com/"
 ---
 
-Awaken a lost civilization in this amazing virtual reality adventure.
-
-[www.landsendgame.com](http://www.landsendgame.com/)
-
-![Game screenshot](/assets/LandsEnd_Sept16_01.jpg)
-
-[Land’s End](http://www.landsendgame.com/) is an incredible virtual reality adventure in which you explore spectacular landscapes to awaken a lost civilization.
+Land’s End is an incredible virtual reality adventure in which you explore spectacular landscapes to awaken a lost civilization.
 
 Built exclusively for the Samsung Gear VR, the game combines our ambition to bring together interactive storytelling with new technology to create a compelling, immersive experience.
+
+![Game screenshot](/assets/LandsEnd_Sept16_01.jpg)
 
 The reception of Land’s End was quite stunning. In addition to being played and enjoyed by people across the globe, it received positive coverage in renowned gaming and tech publications, including [Polygon](http://www.polygon.com/2015/11/10/9696182/lands-end-is-one-of-the-best-vr-games-so-far-this-is-how-it-was), [WIRED](http://www.wired.com/2014/10/a-gorgeous-new-virtual-reality-game-from-the-makers-of-monument-valley/) and [Tech Insider](http://www.techinsider.io/inside-lands-end-game-for-gear-vr-2015-11).
 
