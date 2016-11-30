@@ -60,7 +60,7 @@
 }
 
 .cta {
-  
+
 }
 
 .pageContent {
@@ -68,6 +68,9 @@
 }
 
 .body {
+  display: flex;
+  flex-wrap: wrap;
+  
   & img {
     max-width: 100%;
   }

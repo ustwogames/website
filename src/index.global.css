@@ -20,12 +20,6 @@ html { box-sizing: border-box; }
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-/*
- * kill document defaults margin & padding. We all do that all the time, right ?
- */
-html, body, h1, h4, ul {
   margin: 0;
   padding: 0;
 }
@@ -93,7 +87,46 @@ small {
   opacity: 0.6;
 }
 
+.content-box {
+  margin-top: 0;
+  line-height: 0;
+  flex: 1 1 33rem;
+
+  & p {
+    line-height: 1.7;
+  }
+  & :--headings {
+    line-height: 1.2;
+  }
+  & p:first-child,
+  & :--headings {
+    padding-top: 1.5em;
+  }
+  & p:last-child {
+    padding-bottom: 1.5em;
+  }
+}
+
+.content-box.dark {
+  background-color: var(--colorPrimary);
+  color: var(--colorNeutralLight);;
+}
+
+.content-box.media > * {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.content-box ~ .fluid-embed {
+  margin-top: 0;
+}
+
 /* FAQ accordion component styling */
+.rc-collapse {
+  @apply --text-squash;
+}
+
 .rc-collapse-anim-active {
   transition: height 0.2s ease-out;
 }
@@ -137,6 +170,7 @@ small {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  flex-basis: 100%;
 
   & iframe,
   & object,
