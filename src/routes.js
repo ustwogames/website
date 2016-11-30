@@ -12,6 +12,8 @@ import Game from "./layouts/Game"
 import Support from "./layouts/Support"
 import Profile from "./layouts/Profile"
 import About from "./layouts/About"
+import JobsIndex from "./layouts/JobsIndex"
+import Job from "./layouts/Job"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -26,6 +28,8 @@ const PageContainer = (props) => (
       Support,
       Profile,
       About,
+      JobsIndex,
+      Job
     }}
   />
 )

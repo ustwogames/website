@@ -8,6 +8,7 @@
   flex-direction: column;
   align-self: center;
   width: 100%;
+  position: relative;
 }
 
 .hero {
@@ -22,6 +23,7 @@
   bottom: 0;
   right: 0;
   overflow: hidden;
+  opacity: 0.4;
 
   & > * {
     object-position: 50% 50%;
@@ -36,12 +38,7 @@
   text-align: center;
   position: relative;
   height: 100%;
-}
-
-.heading {
   color: var(--colorNeutralLight);
-  text-shadow: 0 0 5px var(--colorPrimary);
-  letter-spacing: 1px;
 }
 
 .cta {

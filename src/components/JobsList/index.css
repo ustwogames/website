@@ -1,0 +1,21 @@
+:root {
+  --nav-item-padding: 0.5rem;
+}
+
+.listItem {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 4em;
+}
+
+.listContainer {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
