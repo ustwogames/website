@@ -6,8 +6,9 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  align-items: center;
   width: 100%;
+  justify-content: space-around;
   position: relative;
 }
 
@@ -39,10 +40,23 @@
   position: relative;
   height: 100%;
   color: var(--colorNeutralLight);
+  padding: 2em;
+}
+
+.heading img {
+  width: 70vw;
+  max-height: 25vh;
+}
+
+.blurb {
+ /* font-size: 0.74em; */
+ font-size: calc((200vw / 375) + 16px);
+ line-height: 1.7;
+ margin: 0 2em;
 }
 
 .cta {
-  margin-top: 2rem;
+  
 }
 
 .pageContent {

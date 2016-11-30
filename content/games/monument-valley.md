@@ -7,21 +7,19 @@ icon: /assets/mv-icon-large.png
 hero: /assets/MonumentValleyTeaser.mp4
 logotype: /assets/mv-logotype-white.svg
 promoted: true
-blurb: An illusory adventure of impossible architecture and forgiveness.
+blurb: An illusory adventure of impossible architecture and forgiveness
 cta:
-  label: Open microsite
+  label: monumentvalleygame.com
   link: "http://monumentvalleygame.com/"
 ---
 
-A story of forgiveness
+## A story of forgiveness
 
-[www.monumentvalleygame.com](http://www.monumentvalleygame.com/)
+Monument Valley is a surreal exploration through fantastical architecture and impossible geometry. The player guides the silent princess Ida through mysterious monuments, to uncover hidden paths, unfold optical illusions and outsmart the enigmatic Crow People.
 
 ![Game screenshots](/assets/MV_Split.jpg)
 
 ## Impossible geometry
-
-Monument Valley is a surreal exploration through fantastical architecture and impossible geometry. The player guides the silent princess Ida through mysterious monuments, to uncover hidden paths, unfold optical illusions and outsmart the enigmatic Crow People.
 
 We didn’t experience a classic ‘eureka’ moment that signified the birth of Monument Valley, but it was close. Ken Wong, the team’s lead designer, created a piece of artwork, an image of a building in isometric view with a single figure, staring at its strange but completely possible architecture. The image came with no suggestion of a game design, but it was instantly arresting and it dared us to come up with something that would be as powerful as it was. The great thing about looking at the image now is just how close it looks to the finished game. It’s incredibly satisfying that we managed to realise the potential of that very pure idea.
 

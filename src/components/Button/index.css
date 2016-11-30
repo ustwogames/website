@@ -2,15 +2,15 @@
   display: inline-flex;
   padding: 0 1rem;
   line-height: 2rem;
-  font-weight: 100;
+  font-weight: 400;
   text-align: center;
   border-radius: 3px;
-
+  font-size: 0.7em;
   transition: .2s all;
 
   color: var(--colorPrimary);
   border: 1px solid var(--colorPrimary);
-  background: color(var(--colorNeutralLight) a(0.2));
+  background: color(var(--colorNeutralLight) a(0.0));
 
   &:hover {
     text-decoration: none;
@@ -35,8 +35,12 @@
 
   &:hover {
     color: var(--colorNeutralLight);
+    border: 1px solid color(var(--colorNeutralLight) a(0.0));
+    background: color(var(--colorNeutralLight) a(0.2));
+  }
+
+  &:active {
     border: 1px solid var(--colorNeutralLight);
-    background: color(var(--colorNeutralLight) a(0.3));
   }
 }
 

@@ -17,7 +17,8 @@ html { box-sizing: border-box; }
  * kill document defaults margin & padding. We all do that all the time, right ?
  */
 html,
-body {
+body,
+h1 {
   margin: 0;
   padding: 0;
 }
@@ -28,7 +29,7 @@ body {
 }
 
 /* but remove it from some type of elements */
-body, br, li, dt, dd, th, td, option {
+body, br, li, dt, dd, th, td, option, span, a {
   margin-top: 0;
 }
 
