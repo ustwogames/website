@@ -43,6 +43,10 @@
   padding: 2em;
 }
 
+.header .wrapper {
+  margin-top: 0;
+}
+
 .heading img {
   width: 70vw;
   max-height: 25vh;

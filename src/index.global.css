@@ -16,9 +16,7 @@ html { box-sizing: border-box; }
 /*
  * kill document defaults margin & padding. We all do that all the time, right ?
  */
-html,
-body,
-h1 {
+html, body, h1, h4, ul {
   margin: 0;
   padding: 0;
 }
@@ -43,7 +41,7 @@ html {
 
 body {
   font-size: 142%;
-  line-height: 1.6em;
+  line-height: 1.7em;
   text-wrap: balance;
 
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
@@ -83,6 +81,8 @@ a {
 
 /* making small behave more like a p */
 small {
+  font-size: 0.7em;
+  line-height: 1.7;
   display: block;
   opacity: 0.6;
 }

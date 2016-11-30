@@ -4,12 +4,28 @@
 
 .footer {
   color: var(--colorPrimary);
-  text-align: right;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+label {
+  font-size: 0.7em;
+}
+
+input {
+  background: var(--colorPrimary);
+  color: #fff;
+  font-size: 0.7em;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  display: inline;
+  border: none;
+  font-family: "PxGrotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .navPartSocial {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   margin-bottom: 1em;
