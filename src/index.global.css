@@ -141,7 +141,11 @@ small {
 
 .content-box.dark {
   background-color: var(--colorPrimary);
-  color: var(--colorNeutralLight);;
+  color: var(--colorNeutralLight);
+
+  & a {
+    color: inherit;
+  }
 }
 
 .content-box.media > * {
