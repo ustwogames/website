@@ -28,7 +28,7 @@
 }
 
 /* but remove it from some type of elements */
-body, br, li, dt, dd, th, td, option, span, a {
+body, br, li, dt, dd, th, td, option, span, a, nav {
   margin-top: 0;
 }
 

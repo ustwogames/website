@@ -11,6 +11,11 @@
   height: 48px;
 }
 
+.logotype {
+  position: absolute;
+  margin: 10px;
+}
+
 .nav ul {
   display: flex;
   flex-direction: row;
