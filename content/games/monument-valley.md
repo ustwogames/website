@@ -81,6 +81,21 @@ When we released a teaser trailer before Christmas 2013, it got a huge number of
 
 It was released for iOS on April 3, 2014 and shot to the top of the charts based on word of mouth, great reviews and widespread press coverage. We ported it over to Android soon after, and to Windows Phone in 2015.
 
+> MONUMENT VALLEY IS THE MOST ELEGANT GAME I HAVE EVER PLAYED.  
+> &mdash; <cite>TIM SCHAFER</cite>
+
+> THE MOST SUBLIME HOUR MY IPAD HAS EVER GIVEN ME... AND THE VALUE OF SUCH A THING IS INCALCULABLE.
+> &mdash; <cite>KOTAKU</cite>
+
+> BRILLIANT DESIGN... STAYED WITH ME LIKE A DREAM I DIDN'T WANT TO FORGET... 9/10
+> &mdash; <cite>POLYGON</cite>
+
+> MONUMENT VALLEY STUNS WITH ITS SERENITY... EACH SCREEN IS A WORK OF ART.
+> &mdash; <cite>HUFFINGTON POST</cite>
+
+> ALMOST IMPOSSIBLY GORGEOUS... A FEAST FOR YOUR SENSES... 5/5
+> &mdash; <cite>TOUCHARCADE</cite>
+
 </div>
 
 <div class='content-box media'>

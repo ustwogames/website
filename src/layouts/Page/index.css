@@ -45,6 +45,10 @@
 
 .header .wrapper {
   margin-top: 0;
+
+  & h1 {
+    max-width: initial;
+  }
 }
 
 .heading img {
@@ -70,7 +74,11 @@
 .body {
   display: flex;
   flex-wrap: wrap;
-  
+
+  & > * {
+    flex-basis: 100%;
+  }
+
   & img {
     max-width: 100%;
   }

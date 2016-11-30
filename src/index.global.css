@@ -62,7 +62,7 @@ body {
   display: none;
 }
 
-p, blockquote {
+p, blockquote, ol, ul, pre, table {
   @apply --text-squash;
 }
 
@@ -90,7 +90,6 @@ small {
 .content-box {
   margin-top: 0;
   line-height: 0;
-  flex: 1 1 33rem;
 
   & p {
     line-height: 1.7;
@@ -170,7 +169,6 @@ small {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  flex-basis: 100%;
 
   & iframe,
   & object,

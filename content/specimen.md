@@ -4,20 +4,16 @@ title: The styles, they are all here
 layout: Page
 ---
 
-An h1 header
-============
+# An h1 header
 
 Paragraphs are separated by a blank line.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:
 
-  * this one
-  * that one
-  * the other one
-
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+* this one
+* that one
+* the other one
 
 > Block quotes are
 > written like so.
@@ -25,28 +21,23 @@ content starts at 4-columns in.
 > They can span multiple paragraphs,
 > if you like.
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
 Unicode is supported. ☺
 
 
-
-An h2 header
-------------
+## An h2 header
 
 Here's a numbered list:
 
- 1. first item
- 2. second item
- 3. third item
+1. first item
+2. second item
+3. third item
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+Here's a code sample:
 
     # Let me re-iterate ...
     for i in 1 .. 10 { do-something(i) }
 
-As you probably guessed, indented 4 spaces. By the way, instead of
+Notice that it's indented 4 spaces. By the way, instead of
 indenting the block, you can use delimited blocks, if you like:
 
 ~~~
@@ -69,33 +60,7 @@ for i in range(10):
 
 
 
-### An h3 header ###
-
-Now a nested list:
-
- 1. First, get these ingredients:
-
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
+### An h3 header
 
 Here's a link to [a website](http://foo.bar), to a [local
 doc](local-doc.html), and to a [section heading in the current
@@ -105,59 +70,51 @@ doc](#an-h2-header). Here's a footnote [^1].
 
 Tables can look like this:
 
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
+Prototype table
 
 A horizontal rule follows.
 
 ***
 
-Here's a definition list:
+Images can be specified like so:
 
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](http://placekitten.com/g/200/300 "An exemplary image")
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+![The Stormtroopocat](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+
+#### An h4 header
+
+Some of our lovely content boxes below:
+
+<div class='content-box text dark'>
+
+Our testing showed that it’s actually a huge benefit to many players to give them a condensed experience, to allow them to see a piece of content through, from start to finish. Especially on mobile it’s a vanishingly small number of players who ever complete a game. It’s something we crave personally and something we hope to see more of in interactive digital entertainment. Offering that finality therefore became a defining factor in the design of Monument Valley.
+
+Our ambition for the game became to produce a piece of work that was ‘all killer and no filler’ — something that would excite the player, but never frustrate. We wanted the player to stick around just long enough to deliver only novelty and delight. It would be a game with no grind, but also no real failure: there were no stars to collect, no leaderboards. Players should experience a game that is more akin to a film in length.
+
+</div>
+
+<div class='content-box media'>
+  <img src="/assets/MV_sketch_level.jpg" alt="Game sketch and level" />
+</div>
+
+<div class='content-box text'>
+
+## iPad Game of the Year
+
+When we released a teaser trailer before Christmas 2013, it got a huge number of views, gained us thousands of new Twitter followers and generated over 10,000 beta test applicants. All this activity helped us begin a relationship with Apple that led to us to being Editor’s Choice in the App Store on release and culminated with Monument Valley being awarded the prestigious Apple design award. This kind of relationship with Apple — and of course Google Play and the Amazon app stores — is crucial to a game and a team like ours. We know from experience that ‘store featuring’ is often the most crucial part in a successful app store launch.
+
+</div>
+
+And a fluidly embedded map:
+
+<div class='fluid-embed'>
+  <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.8026120943214!2d-0.11554537867375589!3d51.48013736932205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d70846bce702a0!2sustwo+games!5e0!3m2!1sen!2sus!4v1479374791370" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
