@@ -1,10 +1,12 @@
+@import "../../variables.global.css";
+
 :root {
   --nav-item-padding: 2rem;
 }
 
 .header {
   margin-top: 0;
-  background: #181D2E;
+  background: var(--colorSecondaryDark);
   position: fixed;
   width: 100vw;
   z-index: 100;
@@ -17,9 +19,7 @@
 }
 
 .nav {
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 0 1rem;
+  @apply --content-squash;
 }
 
 .nav ul {
@@ -43,10 +43,6 @@
 }
 
 .header a {
-  color: #fff;
+  color: var(--colorNeutralLight);
   font-weight: normal;
-
-  &:hover {
-    opacity: 0.5;
-  }
 }

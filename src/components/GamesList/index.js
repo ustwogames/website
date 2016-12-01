@@ -5,7 +5,7 @@ import styles from "./index.css"
 
 const GamesList = ({ games }) => {
   return (
-    <ul className={ styles.listContainer}>
+    <ul className={ styles.listContainer }>
         {
           games.map((game) => (
             <li key={ game.__url } className={ styles.listItem }>

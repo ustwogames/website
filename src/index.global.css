@@ -1,13 +1,6 @@
 /* Using global sytles is not recommended, prefer local styles via CSS Modules */
 
-:root {
-  --text-squash: {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 60rem;
-    padding: 0 1rem;
-  };
-}
+@import "./variables.global.css";
 
 /*
  * box model like it should be
@@ -50,9 +43,8 @@ body {
   color: var(--colorPrimary);
 }
 
-@custom-selector :--headings h1, h2, h3, h4, h5, h6;
 :--headings {
-  @apply --text-squash;
+  @apply --content-squash;
   font-weight: 400;
 }
 
@@ -60,9 +52,8 @@ body {
   display: none;
 }
 
-@custom-selector :--blocks p, blockquote, ol, ul, pre, table;
 :--blocks {
-  @apply --text-squash;
+  @apply --content-squash;
 }
 
 blockquote {
@@ -108,7 +99,7 @@ a {
   font-weight: 600;
 
   &:hover {
-    color: color(var(--colorPrimary) l(+42%));
+    opacity: 0.6;
   }
 }
 
@@ -140,12 +131,7 @@ small {
 }
 
 .content-box.dark {
-  background-color: var(--colorPrimary);
-  color: var(--colorNeutralLight);
-
-  & a {
-    color: inherit;
-  }
+  @apply --inverted-colours;
 }
 
 .content-box.media > * {
@@ -160,7 +146,7 @@ small {
 
 /* FAQ accordion component styling */
 .rc-collapse {
-  @apply --text-squash;
+  @apply --content-squash;
 }
 
 .rc-collapse-anim-active {

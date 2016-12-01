@@ -1,5 +1,6 @@
 module.exports = (config) => [
     require("stylelint")(),
+    require("postcss-import")(),
     require("postcss-cssnext")({
       browsers: "last 2 versions",
       features: {
@@ -8,7 +9,7 @@ module.exports = (config) => [
             maxWidth: "32rem",
             colorPrimaryDark: "#107491",
             colorPrimary: "#313B5D",
-            colorSecondaryDark: "#22846C",
+            colorSecondaryDark: "#181D2E",
             colorSecondary: "#46BE77",
             colorNeutralDark: "#111",
             colorNeutral: "#8C8D91",

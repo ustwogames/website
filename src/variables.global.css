@@ -1,0 +1,19 @@
+:root {
+  --content-squash: {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    padding: 0 1rem;
+  };
+  --inverted-colours: {
+    background-color: var(--colorPrimary);
+    color: var(--colorNeutralLight);
+
+    & a {
+      color: inherit;
+    }
+  };
+}
+
+@custom-selector :--headings h1, h2, h3, h4, h5, h6;
+@custom-selector :--blocks p, blockquote, ol, ul, pre, table;
