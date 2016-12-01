@@ -41,7 +41,7 @@ html {
 }
 
 body {
-  font-size: 142%;
+  font-size: calc(1em + 20vw / 33);
   line-height: 1.7em;
   text-wrap: balance;
 
