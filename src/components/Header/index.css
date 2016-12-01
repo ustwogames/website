@@ -20,18 +20,12 @@
 }
 
 .nav {
-<<<<<<< Updated upstream
   @apply --content-squash;
-=======
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 0 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 100%;
   justify-content: space-between;
->>>>>>> Stashed changes
 }
 
 .nav ul {
