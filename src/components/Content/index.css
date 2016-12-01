@@ -3,5 +3,5 @@
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  margin-top: 44px;
+  margin-top: calc((400vw / 225) + (112 / 3px));
 }
