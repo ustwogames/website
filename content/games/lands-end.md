@@ -4,7 +4,7 @@ name: Land’s end
 date: 2015-11-10
 layout: Game
 icon: /assets/lands_end-icon-large.png
-logotype: /assets/le-logotype-light.svg
+logolight: /assets/le-logotype-light.svg
 promoted: true
 blurb: Awaken a lost civilization in this amazing virtual reality adventure
 cta:
