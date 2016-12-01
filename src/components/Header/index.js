@@ -5,7 +5,7 @@ import styles from "./index.css"
 
 const Header = (props, { metadata: { settings } }) => (
   <header className={ styles.header }>
-    <img src='/assets/ustwo-games.svg' className={ styles.logotype } />
+    <Link className={ styles.link } to='/'><img src='/assets/ustwo-games.svg' className={ styles.logotype } /></Link>
     <nav className={ styles.nav }>
       <ul>
         {
