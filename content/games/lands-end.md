@@ -5,6 +5,7 @@ date: 2015-11-10
 layout: Game
 icon: /assets/lands_end-icon-large.png
 logolight: /assets/le-logotype-light.svg
+logodark: /assets/le-logotype-light.svg
 promoted: true
 blurb: Awaken a lost civilization in this amazing virtual reality adventure
 cta:

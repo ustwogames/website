@@ -6,7 +6,6 @@ module.exports = (config) => [
       features: {
         customProperties: {
           variables: {
-            maxWidth: "32rem",
             colorPrimaryDark: "#107491",
             colorPrimary: "#313B5D",
             colorSecondaryDark: "#181D2E",
