@@ -50,10 +50,6 @@
   ],
   "nav": [
     {
-      "title": "Home",
-      "url": "/"
-    },
-    {
       "title": "Games",
       "url": "/games/"
     },
