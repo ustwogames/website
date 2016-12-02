@@ -10,7 +10,7 @@ const GamesList = ({ games }) => {
         {
           games.map((game) => (
             <li key={ game.__url } className={ styles.listItem }>
-                {
+                { /*
                   game.hero &&
                   <div className={ styles.heroBackground }>
                     {
@@ -19,16 +19,28 @@ const GamesList = ({ games }) => {
                       : <video src={ game.hero } autoPlay loop muted playsInline />
                     }
                   </div>
+                */ }
+                {
+                  game.background &&
+                  <div className={ styles.heroBackground }>
+                    <img src={ game.background} />
+                  </div>
                 }
+                
                 <div className={ styles.wrapper }>
-                  <h1 className={ styles.heading }>
+                  {
+                    game.icon &&
+                    <img src={ game.icon } className={styles.icon} />
+                  }
+                  
+                  <h2 className={ styles.heading }>
                     {
                       game.logolight && game.logodark
                       ? [<img key="logolight" src={ game.logolight } alt={ game.title } className={ styles.logolight }/>,
                          <img key="logodark" src={ game.logodark } alt={ game.title } className={ styles.logodark }/>]
                       : game.title
                     }
-                  </h1>
+                  </h2>
                   {
                     game.blurb &&
                     <p className={ styles.blurb }>{ game.blurb }</p>

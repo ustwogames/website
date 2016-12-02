@@ -3,7 +3,8 @@ title: Land’s end
 name: Land’s end
 date: 2015-11-10
 layout: Game
-icon: /assets/lands_end-icon-large.png
+background: /assets/le-module-bg.png
+-icon: /assets/lands_end-icon-large.png
 logolight: /assets/le-logotype-light.svg
 logodark: /assets/le-logotype-light.svg
 promoted: true

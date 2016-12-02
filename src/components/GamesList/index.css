@@ -15,7 +15,7 @@
   padding: 1rem;
   position: relative;
   text-align: center;
-  min-height: 50vh;
+  min-height: 70vh;
 
   & .logolight {
     display: none;
@@ -104,13 +104,24 @@
   }
 }
 
+.icon {
+  width: 25%;
+}
+
+.heading {
+  margin-top: 0.5em;
+}
+
 .heading img {
-  width: 70%;
+  width: 100%;
+  margin-top: 0;
 }
 
 .blurb {
-  line-height: 1.7;
-  margin: 0 2em;
+ /* font-size: 0.74em; */
+ font-size: calc((200vw / 375) + 16px);
+ line-height: 1.7;
+ margin: 0 2em;
 }
 
 .cta {

@@ -3,9 +3,10 @@ title: Blip Blup
 name: Blip Blup
 date: 2015-07-09
 layout: Game
-icon: /assets/blip_blup-icon-large.png
+-icon: /assets/blip_blup-icon-large.png
 hero: /assets/BB-hero.jpg
-blurb: An addictive conundrum of colouration that will consume your thoughts and occupy your dreams.
+background: /assets/BB-hero.jpg
+blurb: An addictive conundrum of colouration that will consume your thoughts and occupy your dreams
 ---
 
 After over a year of pouring our hearts and souls into Whale Trail, we wanted to make something new, quick and agile. Introducing Blip Blup: a minimalist puzzle game.
