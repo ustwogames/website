@@ -1,6 +1,5 @@
 ---
 title: Our games
 layout: GamesIndex
+blurb: Gotta buy ’em all!
 ---
-
-Gotta buy ’em all!

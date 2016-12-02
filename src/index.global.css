@@ -295,3 +295,8 @@ hr {
   opacity: 0.2;
   margin: 2rem 0;
 }
+
+#map {
+  width: 100%;
+  height: 50vh;
+}
