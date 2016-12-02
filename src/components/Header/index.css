@@ -11,7 +11,8 @@
   width: 100vw;
   z-index: 100;
   /*height: 44px; */
-  height: calc((400vw / 225) + (112 / 3px));
+  /*height: calc((400vw / 225) + (112 / 3px)); */
+  height: calc((400vw / 375) + 40px);
 }
 
 .logo {
