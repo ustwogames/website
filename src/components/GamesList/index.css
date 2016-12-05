@@ -64,7 +64,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
 }
 
@@ -106,6 +106,7 @@
 
 .icon {
   width: 25%;
+  margin-bottom: 2rem;
 }
 
 .heading {
@@ -121,7 +122,7 @@
  /* font-size: 0.74em; */
  font-size: calc((200vw / 375) + 16px);
  line-height: 1.7;
- margin: 0 2em;
+ margin: 2rem 2em 0;
 }
 
 .cta {

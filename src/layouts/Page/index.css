@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
 }
 
@@ -59,11 +59,7 @@
  /* font-size: 0.74em; */
  font-size: calc((200vw / 375) + 16px);
  line-height: 1.7;
- margin: 0 2em;
-}
-
-.cta {
-
+ margin: inherit 2em;
 }
 
 .pageContent {

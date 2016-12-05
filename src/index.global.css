@@ -20,6 +20,18 @@
   margin-top: 1.5em;
 }
 
+p:first-child { 
+  margin-top: 3em; 
+}
+
+p:last-child {
+  margin-bottom: 3em;
+}
+
+h2:first-child {
+  margin-top: 1em;
+}
+
 /* but remove it from some type of elements */
 body, br, li, dt, dd, th, td, option, span, a, nav, ul {
   margin-top: 0;
