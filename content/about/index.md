@@ -1,7 +1,8 @@
 ---
 metaTitle: All about ustwo games
-title: All about ustwo games
+title: All about ustwo games
 layout: About
+hero: /assets/ustwo-games-smurf.jpg
 ---
 
 We are a small(ish) team based in Oval, South London, who love making interactive entertainment that challenges the medium and delights players.

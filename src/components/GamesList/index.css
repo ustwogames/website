@@ -127,7 +127,7 @@
  /* font-size: 0.74em; */
  font-size: calc((200vw / 375) + 16px);
  line-height: 1.7;
- margin: 2rem 2em 0;
+ margin: 2rem 1rem 0;
 }
 
 .cta {

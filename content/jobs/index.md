@@ -1,6 +1,6 @@
 ---
 metaTitle: Jobs
-title: Work at ustwo games
+title: Work at ustwo games
 layout: JobsIndex
 hero: /assets/ustwo-games-humble.png
 ---

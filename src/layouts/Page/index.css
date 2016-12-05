@@ -50,6 +50,10 @@
   }
 }
 
+.heading {
+  line-height: 1.2;
+}
+
 .heading img {
   width: 70vw;
   max-height: 25vh;
@@ -59,7 +63,7 @@
  /* font-size: 0.74em; */
  font-size: calc((200vw / 375) + 16px);
  line-height: 1.7;
- margin: inherit 2em;
+ margin: 1.5rem 2rem;
 }
 
 .pageContent {

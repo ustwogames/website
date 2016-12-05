@@ -1,6 +1,6 @@
 ---
 metaTitle: Contact
-title: Hello ustwo games
+title: Hello ustwo games
 layout: Page
 ---
 
