@@ -5,7 +5,7 @@ date: 2015-06-03
 layout: Game
 icon: /assets/whale_trail-icon-large.png
 logotype: /assets/wt-logotype-color.svg
-blurb: Fly as Willow the Whale, collect Blubbles, loop the Loop, smash enemies and meet bonkers characters along the way
+blurb: Fly as Willow the Whale, collect blubbles and meet bonkers characters along the way
 ---
 
 Whale Trail is an iOS game developed by ustwo and released on October 20, 2011. The game follows Willow the Whale as he flies through the sky, trying to get away from Baron von Barry, the squid-like antagonist. Whale Trail is an endless runner game, where the player tries to collect bubbles to allow them to keep flying, while avoiding clouds.
