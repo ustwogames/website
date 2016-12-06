@@ -6,13 +6,14 @@
     padding: 0 1rem;
   }
 
+  --normal-colours: {
+    background: color(var(--colorPrimary) l(99%));
+    color: var(--colorPrimary);
+  }
+
   --inverted-colours: {
     background-color: var(--colorPrimary);
     color: var(--colorNeutralLight);
-
-    & a {
-      color: inherit;
-    }
   }
 
   --button-light: {
@@ -37,6 +38,38 @@
     &:hover {
       border: 2px solid color(var(--colorPrimary) a(0.5));
       color: color(var(--colorPrimary) a(0.5));
+    }
+  }
+
+  --list-item-light: {
+    @apply --normal-colours;
+
+    & .cta {
+      @apply --button-dark;
+    }
+
+    & .logolight {
+      display: none;
+    }
+
+    & .logodark {
+      display: initial;
+    }
+  }
+
+  --list-item-dark: {
+    @apply --inverted-colours;
+
+    & .cta {
+      @apply --button-light;
+    }
+
+    & .logolight {
+      display: initial;
+    }
+
+    & .logodark {
+      display: none;
     }
   }
 }

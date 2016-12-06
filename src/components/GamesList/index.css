@@ -1,36 +1,5 @@
 @import "../../variables.global.css";
 
-:root {
-  --list-item-light: {
-    & .cta {
-      @apply --button-dark;
-    }
-
-    & .logolight {
-      display: none;
-    }
-
-    & .logodark {
-      display: initial;
-    }
-  }
-  --list-item-dark: {
-    @apply --inverted-colours;
-
-    & .cta {
-      @apply --button-light;
-    }
-
-    & .logolight {
-      display: initial;
-    }
-
-    & .logodark {
-      display: none;
-    }
-  }
-}
-
 .listContainer {
   max-width: 100%;
   padding: 0;
@@ -136,8 +105,4 @@ img {
 
 .blurb:last-child {
   margin-bottom: 0
-}
-
-.cta {
-  color: inherit;
 }

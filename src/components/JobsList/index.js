@@ -1,6 +1,7 @@
 import React, { PropTypes } from "react"
 import { Link } from "phenomic"
 
+import Button from "../../components/Button"
 import styles from "./index.css"
 
 const JobsList = ({ jobs }) => {
@@ -9,10 +10,23 @@ const JobsList = ({ jobs }) => {
         {
           jobs.map((job) => (
             <li key={ job.__url } className={ styles.listItem }>
-              <Link to={ job.__url }>
+              {
+                job.background &&
+                <div className={ styles.heroBackground }>
+                  <img src={ job.background} />
+                </div>
+              }
+
+              <div className={ styles.wrapper }>
                 <h2 className={ styles.heading }>{ job.title }</h2>
-              </Link>
-              <p>{ job.blurb }</p>
+                {
+                  job.blurb &&
+                  <p className={ styles.blurb }>{ job.blurb }</p>
+                }
+                <Link to={ job.__url }>
+                  <Button className={ styles.cta }>See position</Button>
+                </Link>
+              </div>
             </li>
           ))
         }

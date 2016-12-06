@@ -10,34 +10,34 @@ const GamesList = ({ games }) => {
         {
           games.map((game) => (
             <li key={ game.__url } className={ styles.listItem }>
-                {
-                  game.background &&
-                  <div className={ styles.heroBackground }>
-                    <img src={ game.background} />
-                  </div>
-                }
-
-                <div className={ styles.wrapper }>
-                  {
-                    game.icon &&
-                    <img src={ game.icon } className={styles.icon} />
-                  }
-                    {
-                      game.logolight && game.logodark
-                      ? [<img key="logolight" src={ game.logolight } alt={ game.title } className={ styles.logolight }/>,
-                         <img key="logodark" src={ game.logodark } alt={ game.title } className={ styles.logodark }/>]
-                      : <h2 className={ styles.heading }>{ game.title }</h2>
-                    }
-                  {
-                    game.blurb &&
-                    <p className={ styles.blurb }>{ game.blurb }</p>
-                  }
-                  <Link to={ game.__url }>
-                    <Button className={ styles.cta }>
-                      { game.name }
-                    </Button>
-                  </Link>
+              {
+                game.background &&
+                <div className={ styles.heroBackground }>
+                  <img src={ game.background} />
                 </div>
+              }
+
+              <div className={ styles.wrapper }>
+                {
+                  game.icon &&
+                  <img src={ game.icon } className={styles.icon} />
+                }
+                {
+                  game.logolight && game.logodark
+                  ? [<img key="logolight" src={ game.logolight } alt={ game.title } className={ styles.logolight }/>,
+                     <img key="logodark" src={ game.logodark } alt={ game.title } className={ styles.logodark }/>]
+                  : <h2 className={ styles.heading }>{ game.title }</h2>
+                }
+                {
+                  game.blurb &&
+                  <p className={ styles.blurb }>{ game.blurb }</p>
+                }
+                <Link to={ game.__url }>
+                  <Button className={ styles.cta }>
+                    { game.name }
+                  </Button>
+                </Link>
+              </div>
             </li>
           ))
         }
