@@ -6,7 +6,10 @@ import styles from "./index.css"
 const Header = (props, { metadata: { settings } }) => (
   <header className={ styles.header }>
     <nav className={ styles.nav }>
-      <Link className={ styles.logo } to='/'><img src='/assets/ustwo-games.svg' className={ styles.logotype } /></Link>
+      <Link className={ styles.logo } to="/"><img src="/assets/ustwo-games.svg" className={ styles.logotype } /></Link>
+      <button className={ styles.cta }>
+        <img src="/assets/menu.svg" />
+      </button>
       <ul>
         {
           settings.nav.map((navItem) => (
