@@ -1,3 +1,5 @@
+@import "../../variables.global.css";
+
 .button {
   display: inline-flex;
   padding: 0 1rem ;
@@ -5,16 +7,10 @@
   line-height: 2rem;
   font-weight: 600;
   text-align: center;
-  /*border-radius: 3px;*/
   font-size: 0.7em;
   transition: .2s all;
-  color: var(--colorPrimary);
-  border: 2px solid var(--colorPrimary);
 
-  &:hover {
-    border: 2px solid color(var(--colorPrimary) a(0.5));
-    color: color(var(--colorPrimary) a(0.5));
-  }
+  @apply --button-dark;
 }
 
 .secondary {
@@ -28,18 +24,7 @@
 }
 
 .light {
-  color: var(--colorNeutralLight);
-  border: 2px solid var(--colorNeutralLight);
-
-  &:hover {
-    border: 2px solid color(var(--colorNeutralLight) a(0.5));
-    color: color(var(--colorNeutralLight) a(0.5));
-  }
-
-  &:active {
-    border: 2px solid var(--colorNeutralLight);
-    color: var(--colorNeutralLight);
-  }
+  @apply --button-light;
 }
 
 

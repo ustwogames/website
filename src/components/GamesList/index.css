@@ -1,5 +1,36 @@
 @import "../../variables.global.css";
 
+:root {
+  --list-item-light: {
+    & .cta {
+      @apply --button-dark;
+    }
+
+    & .logolight {
+      display: none;
+    }
+
+    & .logodark {
+      display: initial;
+    }
+  }
+  --list-item-dark: {
+    @apply --inverted-colours;
+
+    & .cta {
+      @apply --button-light;
+    }
+
+    & .logolight {
+      display: initial;
+    }
+
+    & .logodark {
+      display: none;
+    }
+  }
+}
+
 .listContainer {
   max-width: 100%;
   padding: 0;
@@ -17,26 +48,12 @@
   text-align: center;
   min-height: 70vh;
 
-  & .logolight {
-    display: none;
-  }
-
-  & .logodark {
-    display: initial;
-  }
+  @apply --list-item-light;
 }
 
 @media (max-width: 1024px) {
   .listItem:nth-of-type(2n) {
-    @apply --inverted-colours;
-
-    & .logolight {
-      display: initial;
-    }
-
-    & .logodark {
-      display: none;
-    }
+    @apply --list-item-dark;
   }
 }
 
@@ -47,15 +64,7 @@
 
   .listItem:nth-of-type(4n+2),
   .listItem:nth-of-type(4n+3) {
-    @apply --inverted-colours;
-
-    & .logolight {
-      display: initial;
-    }
-
-    & .logodark {
-      display: none;
-    }
+    @apply --list-item-dark;
   }
 }
 

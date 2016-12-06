@@ -10,23 +10,13 @@ const GamesList = ({ games }) => {
         {
           games.map((game) => (
             <li key={ game.__url } className={ styles.listItem }>
-                { /*
-                  game.hero &&
-                  <div className={ styles.heroBackground }>
-                    {
-                      game.hero.match(/(jpg|jpeg|png|gif)/gi)
-                      ? <img src={ game.hero } />
-                      : <video src={ game.hero } autoPlay loop muted playsInline />
-                    }
-                  </div>
-                */ }
                 {
                   game.background &&
                   <div className={ styles.heroBackground }>
                     <img src={ game.background} />
                   </div>
                 }
-                
+
                 <div className={ styles.wrapper }>
                   {
                     game.icon &&
@@ -36,7 +26,7 @@ const GamesList = ({ games }) => {
                       game.logolight && game.logodark
                       ? [<img key="logolight" src={ game.logolight } alt={ game.title } className={ styles.logolight }/>,
                          <img key="logodark" src={ game.logodark } alt={ game.title } className={ styles.logodark }/>]
-                      : [<h2 className={ styles.heading }>{ game.title }</h2>]
+                      : <h2 className={ styles.heading }>{ game.title }</h2>
                     }
                   {
                     game.blurb &&

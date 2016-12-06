@@ -4,7 +4,8 @@
     margin-right: auto;
     max-width: 60rem;
     padding: 0 1rem;
-  };
+  }
+
   --inverted-colours: {
     background-color: var(--colorPrimary);
     color: var(--colorNeutralLight);
@@ -12,7 +13,32 @@
     & a {
       color: inherit;
     }
-  };
+  }
+
+  --button-light: {
+    color: var(--colorNeutralLight);
+    border: 2px solid var(--colorNeutralLight);
+
+    &:hover {
+      border: 2px solid color(var(--colorNeutralLight) a(0.5));
+      color: color(var(--colorNeutralLight) a(0.5));
+    }
+
+    &:active {
+      border: 2px solid var(--colorNeutralLight);
+      color: var(--colorNeutralLight);
+    }
+  }
+
+  --button-dark: {
+    color: var(--colorPrimary);
+    border: 2px solid var(--colorPrimary);
+
+    &:hover {
+      border: 2px solid color(var(--colorPrimary) a(0.5));
+      color: color(var(--colorPrimary) a(0.5));
+    }
+  }
 }
 
 @custom-selector :--headings h1, h2, h3, h4, h5, h6;
