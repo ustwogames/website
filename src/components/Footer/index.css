@@ -13,14 +13,19 @@ label {
 }
 
 input {
-  background: var(--colorPrimary);
-  color: #fff;
+  background: #fff;
+  color: var(--colorPrimary);
+  border: 2px solid var(--colorPrimary);
   font-size: 0.7em;
-  padding: 0.5em;
-  margin: 0 0.5em;
+  padding: 0.5rem 1rem;
+  margin: 0 -2px -2px -2px;
   display: inline;
-  border: none;
-  font-family: "PxGrotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: inherit;
+  width: 17rem;
+}
+
+input[type=submit] {
+  font-weight: 600;
 }
 
 .navPartSocial {
