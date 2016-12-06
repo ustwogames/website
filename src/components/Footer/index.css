@@ -28,6 +28,26 @@ input[type=submit] {
   font-weight: 600;
 }
 
+input::placeholder {
+  color: color(var(--colorPrimary) a(0.5));
+} 
+
+input::-webkit-input-placeholder {
+  color: color(var(--colorPrimary) a(0.5));
+}
+
+input:-moz-placeholder {
+  color: color(var(--colorPrimary) a(0.5));
+}
+
+input::-moz-placeholder {
+  color: color(var(--colorPrimary) a(0.5));
+} 
+
+input:-ms-input-placeholder {
+  color: color(var(--colorPrimary) a(0.5));
+}
+
 .navPartSocial {
   display: flex;
   justify-content: center;
