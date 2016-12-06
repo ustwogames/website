@@ -2,7 +2,7 @@
 
 .button {
   display: inline-flex;
-  padding: 0 1rem ;
+  padding: 0.1em 1em 0;
   margin: 2rem 2rem 0;
   line-height: 2rem;
   font-weight: 600;
