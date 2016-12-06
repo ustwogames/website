@@ -1,6 +1,4 @@
-:root {
-  --nav-item-padding: 1rem;
-}
+@import "../../variables.global.css";
 
 .footer {
   color: var(--colorPrimary);
@@ -22,29 +20,15 @@ input {
   display: inline;
   font-family: inherit;
   width: 17rem;
+  transition: .2s all;
 }
 
 input[type=submit] {
   font-weight: 600;
+  @apply --button-dark;
 }
 
 input::placeholder {
-  color: color(var(--colorPrimary) a(0.5));
-} 
-
-input::-webkit-input-placeholder {
-  color: color(var(--colorPrimary) a(0.5));
-}
-
-input:-moz-placeholder {
-  color: color(var(--colorPrimary) a(0.5));
-}
-
-input::-moz-placeholder {
-  color: color(var(--colorPrimary) a(0.5));
-} 
-
-input:-ms-input-placeholder {
   color: color(var(--colorPrimary) a(0.5));
 }
 
@@ -59,7 +43,7 @@ input:-ms-input-placeholder {
 .navPartSocial li {
   display: flex;
   align-items: center;
-  padding: 0 var(--nav-item-padding);
+  padding: 0 1rem;
   color: inherit;
 }
 

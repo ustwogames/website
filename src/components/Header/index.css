@@ -1,9 +1,5 @@
 @import "../../variables.global.css";
 
-:root {
-  --nav-item-padding: 2rem;
-}
-
 .header {
   margin-top: 0;
   background: var(--colorSecondaryDark);
@@ -40,7 +36,7 @@
 
 .nav li {
   font-size: 0.7em;
-  padding-left: var(--nav-item-padding);
+  padding-left: 2rem;
   color: inherit;
   text-decoration: none;
 }
