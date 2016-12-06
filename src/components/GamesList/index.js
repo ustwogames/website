@@ -32,21 +32,18 @@ const GamesList = ({ games }) => {
                     game.icon &&
                     <img src={ game.icon } className={styles.icon} />
                   }
-                  
-                  <h2 className={ styles.heading }>
                     {
                       game.logolight && game.logodark
                       ? [<img key="logolight" src={ game.logolight } alt={ game.title } className={ styles.logolight }/>,
                          <img key="logodark" src={ game.logodark } alt={ game.title } className={ styles.logodark }/>]
-                      : game.title
+                      : [<h2 className={ styles.heading }>{ game.title }</h2>]
                     }
-                  </h2>
                   {
                     game.blurb &&
                     <p className={ styles.blurb }>{ game.blurb }</p>
                   }
                   <Link to={ game.__url }>
-                    <Button className={ styles.cta } light>
+                    <Button className={ styles.cta }>
                       { game.name }
                     </Button>
                   </Link>

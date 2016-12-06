@@ -1,6 +1,6 @@
 ---
-title: Land’s end
-name: Land’s end
+title: Land’s End
+name: Land’s End
 date: 2015-11-10
 layout: Game
 background: /assets/le-module-bg.png

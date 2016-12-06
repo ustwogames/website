@@ -99,10 +99,6 @@
 
 .header .wrapper {
   margin-top: 0;
-
-  & h1 {
-    max-width: initial;
-  }
 }
 
 .icon {
@@ -118,8 +114,7 @@
   line-height: 0;
 }
 
-.heading img {
-  width: 100%;
+img {
   margin: 0;
 }
 
@@ -128,6 +123,10 @@
  font-size: calc((200vw / 375) + 16px);
  line-height: 1.7;
  margin: 2rem 1rem 0;
+}
+
+.blurb:last-child {
+  margin-bottom: 0
 }
 
 .cta {

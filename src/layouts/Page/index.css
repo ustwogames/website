@@ -66,6 +66,10 @@
  margin: 1.5rem 2rem;
 }
 
+p.blurb:last-child {
+  margin-bottom: 2rem;
+}
+
 .pageContent {
   margin-bottom: 2rem;
   margin-top: 0;
