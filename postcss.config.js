@@ -6,6 +6,7 @@ module.exports = (config) => [
       features: {
         customProperties: {
           variables: {
+            headerHeight: "46px",
             colorPrimaryDark: "#107491",
             colorPrimary: "#313B5D",
             colorSecondaryDark: "#181D2E",

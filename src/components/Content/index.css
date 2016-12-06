@@ -3,5 +3,5 @@
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  margin-top: calc((400vw / 375) + 40px);
+  margin-top: var(--headerHeight);
 }

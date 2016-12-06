@@ -24,6 +24,7 @@ input {
 }
 
 input[type=submit] {
+  cursor: pointer;
   font-weight: 600;
   @apply --button-dark;
 }
