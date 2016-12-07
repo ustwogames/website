@@ -41,12 +41,14 @@
   flex-wrap: wrap;
   justify-content: flex-end;
   margin: 0;
-  padding: 0;
+  padding: 1em 0;
 }
 
 .nav li {
-  font-size: 0.7em;
+  font-size: 1em;
   padding-left: 2rem;
+  line-height: 44px;
+  text-align: right;
   color: inherit;
   text-decoration: none;
 }
@@ -73,6 +75,11 @@
 
   .nav ul {
     flex-direction: row;
+  }
+
+  .nav li { 
+    font-size: 0.7em;
+    text-align: left;
   }
 
   .menuToggle {

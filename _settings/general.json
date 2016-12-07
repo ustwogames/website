@@ -1,7 +1,7 @@
 {
   "path":"_settings/general.json",
   "site_title":"website-refresh",
-  "footer_notices": "For company information and other legal bits, see our <a href=\"/legal/\" title=\"legal page\">legal page</a>.<br/>We’re using cookies, hope that’s cool. Here’s our <a href=\"//www.iubenda.com/privacy-policy/7953842\" class=\"iubenda-white iubenda-embed\" title=\"Privacy Policy\">Privacy Policy</a>.",
+  "footer_notices": "For company information and other legal bits, see our <a href=\"/legal/\" title=\"legal page\">legal page</a>.<br/>We’re using cookies, hope that’s cool. Here’s our <a href=\"//www.iubenda.com/privacy-policy/7953842\" class=\"iubenda-white iubenda-embed\" title=\"Privacy Policy\">Privacy Policy</a>.",
   "faqs": [
     {
       "question": "What is the answer to the Ultimate Question of Life, the Universe, and Everything?",
