@@ -15,7 +15,7 @@ input {
   color: var(--colorPrimary);
   border: 2px solid var(--colorPrimary);
   font-size: 0.7em;
-  padding: 0.6em 1rem 0.5rem;
+  padding: 0.6em 1em 0.5em;
   margin: 0 -2px -2px -2px;
   border-radius: 0;
   display: inline;
@@ -29,9 +29,11 @@ input {
 }
 
 input[type=submit] {
+  @apply --button-dark;
   cursor: pointer;
   font-weight: 600;
-  @apply --button-dark;
+  margin: -2px -2px 0 -2px;
+  
 }
 
 input::placeholder {

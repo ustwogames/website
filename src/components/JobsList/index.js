@@ -24,7 +24,7 @@ const JobsList = ({ jobs }) => {
                   <p className={ styles.blurb }>{ job.blurb }</p>
                 }
                 <Link to={ job.__url }>
-                  <Button className={ styles.cta }>See position</Button>
+                  <Button className={ styles.cta }>{ job.title }</Button>
                 </Link>
               </div>
             </li>
