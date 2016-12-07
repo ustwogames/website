@@ -2,6 +2,7 @@
 metaTitle: Contact
 title: Hello ustwo games
 layout: Page
+hero: /assets/contact.jpg
 ---
 
 <div class='fluid-embed'>

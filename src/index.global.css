@@ -41,6 +41,7 @@ body, br, li, dt, dd, th, td, option, span, a, nav, ul {
  * page styles
  */
 html {
+  background: var(--colorSecondaryDark);
   min-height: 100%;
 }
 
@@ -48,6 +49,7 @@ body {
   font-size: calc(1em + 20vw / 33);
   line-height: 1.7em;
   text-wrap: balance;
+  background: color(var(--colorPrimary) l(99%));
 
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
   font-family: "PxGrotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;

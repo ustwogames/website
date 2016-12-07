@@ -17,10 +17,15 @@ input {
   font-size: 0.7em;
   padding: 0.6em 1rem 0.5rem;
   margin: 0 -2px -2px -2px;
+  border-radius: 0;
   display: inline;
   font-family: inherit;
   width: 17rem;
   transition: .2s all;
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 input[type=submit] {
