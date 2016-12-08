@@ -10,6 +10,7 @@ import Post from "./layouts/Post"
 import GamesIndex from "./layouts/GamesIndex"
 import Game from "./layouts/Game"
 import Support from "./layouts/Support"
+import Contact from "./layouts/Contact"
 import Profile from "./layouts/Profile"
 import About from "./layouts/About"
 import JobsIndex from "./layouts/JobsIndex"
@@ -26,6 +27,7 @@ const PageContainer = (props) => (
       GamesIndex,
       Game,
       Support,
+      Contact,
       Profile,
       About,
       JobsIndex,
