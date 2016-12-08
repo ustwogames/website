@@ -41,7 +41,6 @@ body, br, li, dt, dd, th, td, option, span, a, nav, ul {
  * page styles
  */
 html {
-  background: var(--colorSecondaryDark);
   min-height: 100%;
 }
 
