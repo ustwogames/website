@@ -22,9 +22,6 @@ input {
   font-family: inherit;
   width: 17rem;
   transition: .2s all;
-  
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 
@@ -33,7 +30,7 @@ input[type=submit] {
   cursor: pointer;
   font-weight: 600;
   margin: -2px -2px 0 -2px;
-  
+
 }
 
 input::placeholder {
