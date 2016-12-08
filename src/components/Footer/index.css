@@ -20,7 +20,7 @@ input {
   border-radius: 0;
   display: inline;
   font-family: inherit;
-  min-width: 12rem;
+  min-width: 12.5rem;
   transition: .2s all;
   appearance: none;
 }

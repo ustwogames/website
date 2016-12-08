@@ -62,6 +62,7 @@
   flex-basis: calc(100% - 56px);
   margin: 0;
   height: 100%;
+  outline: none;
 
   &:hover {
     opacity: 0.6;
@@ -77,7 +78,7 @@
     flex-direction: row;
   }
 
-  .nav li { 
+  .nav li {
     font-size: 0.7em;
     text-align: left;
   }

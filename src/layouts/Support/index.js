@@ -15,9 +15,19 @@ class Support extends Component {
   }
 
   componentDidMount() {
-    window.zE(function() {
-      window.zE.hide();
-    });
+    if(window) {
+      window.zESettings = {
+        webWidget: {
+          contactForm: {
+            subject: true
+          }
+        }
+      };
+
+      window.zE(function() {
+        window.zE.hide();
+      });
+    }
   }
 
   render() {
