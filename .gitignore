@@ -3,5 +3,8 @@ node_modules
 *.log
 .DS_Store
 
+# temporarily ignoring to see if Netlify will build without
+yarn.lock
+
 # phenomic build
 dist
