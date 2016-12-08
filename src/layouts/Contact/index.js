@@ -2,10 +2,8 @@ import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 
 import Page from "../Page"
-import FaqList from "../../components/FaqList"
-import Button from "../../components/Button"
 
-const Contact = (props, { metadata: { settings } }) => {
+const Contact = (props) => {
   return (
     <Page
       { ...props }
@@ -29,9 +27,6 @@ const Contact = (props, { metadata: { settings } }) => {
           {"type": "text/javascript", "src": "https://maps.googleapis.com/maps/api/js?key=AIzaSyC5pWn6imufG6UZuXgMDixqhQvdR0DiVo8&callback=initMap", "async": true, "defer": true}
         ] }
       />
-      <Button big>Initiate Contact ticket</Button>
-      <h2>FAQs</h2>
-      <FaqList faqs={ settings.faqs } />
     </Page>
   )
 }
