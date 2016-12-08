@@ -1,0 +1,8 @@
+.faqLinkList {
+  margin: 1em 0;
+  text-align: center;
+
+  & > li {
+    list-style: none;
+  }
+}

@@ -9,6 +9,7 @@
   text-align: center;
   font-size: 0.7em;
   transition: .2s all;
+  cursor: pointer;
 
   @apply --button-dark;
 }
@@ -34,10 +35,12 @@
   margin: 0;
   line-height: 1.7;
   background: var(--colorPrimary);
-  color: #fff;
+  color: var(--colorNeutralLight);
   font-weight: 400;
 
   &:hover {
-    color: #fff;
+    background: color(var(--colorPrimary) a(0.8));
+    border: 2px solid transparent;
+    color: var(--colorNeutralLight);
   }
 }
