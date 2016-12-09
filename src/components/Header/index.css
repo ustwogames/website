@@ -52,13 +52,13 @@
 .nav li {
   font-size: 1em;
   padding-left: 2rem;
-  line-height: 44px;
+  line-height: var(--headerHeight);
   text-align: right;
   color: inherit;
   text-decoration: none;
 }
 
-.nav li:last-child {
+.menuOpen .nav li:last-child {
   margin-bottom: 0.5rem;
 }
 
