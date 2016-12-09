@@ -1,10 +1,9 @@
 .page {
   display: flex;
   flex-direction: column;
-  /*hero v1*/
-  /*max-width: 100rem;
+  max-width: 100rem;
   margin-left: auto;
-  margin-right: auto;*/
+  margin-right: auto;
 }
 
 .wrapper {
@@ -14,10 +13,6 @@
   width: 100%;
   justify-content: center;
   position: relative;
-  /*hero v2*/
-  max-width: 100rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero {
@@ -39,9 +34,6 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
-    /*hero v2*/
-    max-width: 100rem;
-
   }
 }
 
