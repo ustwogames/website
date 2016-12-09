@@ -73,7 +73,7 @@ body {
 
 blockquote {
   position: relative;
-  padding-left: 4rem;
+  padding-left: 3rem;
   padding-right: 2rem;
   max-width: 48rem;
   quotes: "\201C""\201D""\2018""\2019";
@@ -100,7 +100,7 @@ blockquote:after {
   content: close-quote;
   position: absolute;
   bottom: -0.75rem;
-  right: -1rem;
+  right: 1rem;
   line-height: 1;
   font-size: 4em;
 }
