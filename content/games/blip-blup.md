@@ -7,6 +7,10 @@ layout: Game
 hero: /assets/BB-hero.jpg
 background: /assets/BB-hero.jpg
 blurb: An addictive conundrum of colouration that will consume your thoughts and occupy your dreams
+stores:
+  - {type: "apple", url: "http://itunes.apple.com/app/id601330882", label: "Free"}
+  - {type: "apple", url: "http://itunes.apple.com/app/id586558668", label: "Premium"}
+  - {type: "google", url: "https://play.google.com/store/apps/details?id=com.ustwo.blipblupfree"}
 ---
 
 <div class='content-box'>
@@ -192,12 +196,6 @@ All in all it’s been a fantastic six month journey, and this post only scratch
 <div class='content-box'>
 
 We’re already back in the process of experimenting with new ideas. Stay tuned for the next bold creation from ustwo games, but in the meantime pick up Blip Blup from the App Store or Google Play now and tell us what you think of it.
-
-[Download iOS Blip Blup via iTunes – Free](http://itunes.apple.com/app/id601330882)
-
-[Download iOS Blip Blup via iTunes – £1.49](http://itunes.apple.com/app/id586558668)
-
-[Download Android Blip Blup via Google Play](https://play.google.com/store/apps/details?id=com.ustwo.blipblupfree)
 
 </div>
 

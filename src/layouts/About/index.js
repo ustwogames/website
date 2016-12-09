@@ -4,7 +4,7 @@ import enhanceCollection from "phenomic/lib/enhance-collection"
 import Page from "../Page"
 import ProfilesList from "../../components/ProfilesList"
 
-const Game = (props, { collection }) => {
+const About = (props, { collection }) => {
   const profiles = enhanceCollection(collection, {
     filter: { layout: "Profile" },
     sort: "date",
@@ -18,8 +18,8 @@ const Game = (props, { collection }) => {
   )
 }
 
-Game.contextTypes = {
+About.contextTypes = {
   collection: PropTypes.array.isRequired,
 }
 
-export default Game
+export default About
