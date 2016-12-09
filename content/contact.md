@@ -1,7 +1,7 @@
 ---
 metaTitle: Contact
 title: Hello ustwo games
-layout: Contact
+layout: Page
 hero: /assets/contact.jpg
 ---
 
@@ -25,5 +25,3 @@ Or send us some nice words:
     </div>
   </div>
 </div>
-
-<!-- <div id="map"></div> -->
