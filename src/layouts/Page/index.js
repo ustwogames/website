@@ -97,13 +97,11 @@ const Page = (
           displayChildrenFirst &&
           children
         }
-        <div className={ styles.body }>
-          {
-            isLoading
-            ? <Loading />
-            : <BodyContainer className={ classnames(styles.body, bodyExtraClass) }>{ body }</BodyContainer>
-          }
-        </div>
+        {
+          isLoading
+          ? <Loading />
+          : <BodyContainer className={ classnames(styles.body, bodyExtraClass) }>{ body }</BodyContainer>
+        }
         {
           !displayChildrenFirst &&
           children

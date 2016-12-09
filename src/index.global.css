@@ -217,8 +217,9 @@ small {
 
 .fluid-embed {
   @apply --content-squash;
+  width: 100%;
   position: relative;
-  padding-bottom: 50%;
+  padding-bottom: 30%;
   height: 0;
   overflow: hidden;
 

@@ -201,6 +201,8 @@ We’re already back in the process of experimenting with new ideas. Stay tuned 
 
 </div>
 
-<div class='fluid-embed'>
-  <iframe src="//www.youtube.com/embed/qR699KEEWmA" frameborder="0"></iframe>
+<div class='content-box text'>
+  <div class='fluid-embed'>
+    <iframe src="//www.youtube.com/embed/qR699KEEWmA" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
 </div>
