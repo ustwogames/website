@@ -9,7 +9,7 @@ background: /assets/BB-hero.jpg
 blurb: An addictive conundrum of colouration that will consume your thoughts and occupy your dreams
 ---
 
-<div class='content-box text'>
+<div class='content-box'>
 
 After over a year of pouring our hearts and souls into Whale Trail, we wanted to make something new, quick and agile. Introducing Blip Blup: a minimalist puzzle game, through the words of Manesh.
 
@@ -27,7 +27,7 @@ After over a year of pouring our hearts and souls into Whale Trail, we wanted to
 
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ## Concept
 
@@ -39,7 +39,7 @@ I joined this prototyping process in August 2012 after four years of working on 
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 The presentations were opened up to the rest of the company and became something I massively looked forward to. Not only was it a chance to see something brand new and interesting, but it was an opportunity to kick back and talk about games. Gamers love playing games almost as much as they love talking about them! If an idea was engaging, we’d take it further. If it didn’t have a spark, we would shelf it and move on. It was an important lesson for us to learn how to say no to our own ideas if they simply weren’t good enough.
 
@@ -47,7 +47,7 @@ The presentations were opened up to the rest of the company and became something
 
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 The idea for Blip Blup started on paper. I’ve been a gamer for most of my life, with a particular love for puzzle games. In my mind, the mechanic came from a few basic sketches and then asking myself questions like:
 
@@ -63,7 +63,7 @@ The result was a minimal prototype in which the screen starts with a grid of dar
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 As we built more levels, we were also delving deeper into the puzzle aspect and starting to build an arsenal of levels that explored different puzzle elements, and this led to the inclusion of what are now known as the “special tiles”, tiles which might change the direction of the light, or “kill” the player if touched and so forth.
 
@@ -77,7 +77,7 @@ After iterating on this theme we felt we had an engaging prototype to take forwa
 
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ## Visual Style
 
@@ -91,7 +91,7 @@ We started with a skeuomorphic aesthetic which made the levels feel tactile and 
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 One of the boldest examples of the prototype-inspired design is the treatment of the level select screen. In the prototype and level editor, I implemented level thumbnails that were dynamically created from the level itself. These were not only incredibly useful for seeing which level I was working on, but seen together they were all visually striking. We took this into the full game and they instantly made sense once they were in place.
 
@@ -99,7 +99,7 @@ One of the boldest examples of the prototype-inspired design is the treatment of
 
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ## Game Design
 
@@ -111,7 +111,7 @@ One of the biggest problems we faced was creating the tutorial. The original int
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 Blip Blup is not a game about trial-and-error. Every level solution can be arrived at through logic, but it requires an understanding of the way the mechanic works. Without an adequate tutorial, we found that users were either resorting to trial-and-error or giving up altogether.
 
@@ -123,7 +123,7 @@ The vast majority of people simply didn’t understand the way that the tiles we
 
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ## Q&A
 
@@ -135,7 +135,7 @@ Our Android version on the other hand is a whole different beast. With piracy a 
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 **Why is it called Blip Blup?**
 
@@ -145,7 +145,7 @@ The original prototype was called Blip and was inspired by blips on a radar. We 
 
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 **Who made the music and SFX?**
 
@@ -153,7 +153,7 @@ We’ve got a good range of talented people at ustwo™, so we were fortunate en
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 **What user testing did you do?**
 
@@ -163,7 +163,7 @@ Extensive user testing was a key requirement on such a cerebral experience as th
 
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 **What are your expectations for the game?**
 
@@ -171,7 +171,7 @@ It’s very difficult to say, but our ambition is for Blip Blup to break the top
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 **What tech did you use to build the game?**
 
@@ -179,7 +179,7 @@ Blip Blup started as a prototype built in AS3, which was ported to HaXe/NME, and
 
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ### Done!
 
@@ -189,7 +189,7 @@ All in all it’s been a fantastic six month journey, and this post only scratch
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 We’re already back in the process of experimenting with new ideas. Stay tuned for the next bold creation from ustwo games, but in the meantime pick up Blip Blup from the App Store or Google Play now and tell us what you think of it.
 
@@ -201,7 +201,7 @@ We’re already back in the process of experimenting with new ideas. Stay tuned 
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
   <div class='fluid-embed'>
     <iframe src="//www.youtube.com/embed/qR699KEEWmA" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
   </div>

@@ -14,7 +14,7 @@ cta:
   link: "http://monumentvalleygame.com/"
 ---
 
-<div class='content-box text'>
+<div class='content-box'>
 
 ## A story of forgiveness
 
@@ -22,11 +22,11 @@ Monument Valley is a surreal exploration through fantastical architecture and im
 
 </div>
 
-<div class='content-box media'>
+<div class='content-box'>
   <img src="/assets/MV_Split.jpg" alt="Game screenshots" />
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ## Impossible geometry
 
@@ -34,11 +34,11 @@ We didn’t experience a classic ‘eureka’ moment that signified the birth of
 
 </div>
 
-<div class='content-box media'>
+<div class='content-box'>
   <img src="/assets/MV_Original.jpg" alt="Game screenshots 2" />
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 But while many have described Monument Valley as visually stunning, it’s the impossibility at the heart of the game’s puzzles that make it so special. We knew we were trying to make a game about architecture and so drew a lot of inspiration from the artist M. C. Escher, whose work incorporates impossibility into architecture in a way that, to us, suggested possibilities for gameplay.
 
@@ -46,11 +46,11 @@ The technical difficulties of recreating the impossible in a navigable on-screen
 
 </div>
 
-<div class='content-box media'>
+<div class='content-box'>
   <img src="/assets/MV_Sketches_2.jpg" alt="Game sketches" />
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ## Gameplay
 
@@ -58,7 +58,7 @@ During the development of Monument Valley we discussed many times which particul
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 Our testing showed that it’s actually a huge benefit to many players to give them a condensed experience, to allow them to see a piece of content through, from start to finish. Especially on mobile it’s a vanishingly small number of players who ever complete a game. It’s something we crave personally and something we hope to see more of in interactive digital entertainment. Offering that finality therefore became a defining factor in the design of Monument Valley.
 
@@ -66,11 +66,11 @@ Our ambition for the game became to produce a piece of work that was ‘all kill
 
 </div>
 
-<div class='content-box media'>
+<div class='content-box'>
   <img src="/assets/MV_sketch_level.jpg" alt="Game sketch and level" />
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ## iPad Game of the Year
 
@@ -78,7 +78,7 @@ When we released a teaser trailer before Christmas 2013, it got a huge number of
 
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 It was released for iOS on April 3, 2014 and shot to the top of the charts based on word of mouth, great reviews and widespread press coverage. We ported it over to Android soon after, and to Windows Phone in 2015.
 
@@ -99,11 +99,11 @@ It was released for iOS on April 3, 2014 and shot to the top of the charts based
 
 </div>
 
-<div class='content-box media'>
+<div class='content-box'>
   <img src="/assets/MV_Awards.jpg" alt="Game awards" />
 </div>
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 As we mentioned, it won a 2014 Apple Design Award, and also went on to be named Apple’s best iPad game of 2014. It also won the BAFTA Video Game Awards for Best British Game and Mobile/Handheld Game, and was nominated for Best Game, Artistic Achievement, and Original Property. It was included in scores of ‘best of’ lists, including Time.
 
@@ -111,8 +111,10 @@ To date, Monument Valley has seen a total of over 25 million downloads since lau
 
 </div>
 
-<div class='content-box text dark'>
-  <div class='fluid-embed'>
-    <iframe src='http://player.vimeo.com/video/89525141' title="Monument Valley - Behind the Scenes" width="100%" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class='content-box dark'>
+  <div class='squashed'>
+    <div class='fluid-embed'>
+      <iframe src='http://player.vimeo.com/video/89525141' title="Monument Valley - Behind the Scenes" width="600" height="300" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
   </div>
 </div>

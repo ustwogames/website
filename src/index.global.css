@@ -28,7 +28,7 @@ p:last-child {
   margin-bottom: 3em;
 }
 
-h2:first-child {
+:--headings:first-child {
   margin-top: 1em;
 }
 
@@ -135,6 +135,10 @@ small {
   opacity: 0.6;
 }
 
+.squashed {
+  @apply --content-squash;
+}
+
 .content-box {
   margin-top: 0;
   line-height: 0;
@@ -158,19 +162,9 @@ small {
   @apply --inverted-colours;
 }
 
-.content-box.media > * {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.content-box.text img {
+.content-box img {
   display: block;
   margin: auto;
-}
-
-.content-box ~ .fluid-embed {
-  margin-top: 0;
 }
 
 /* FAQ accordion component styling */
@@ -216,10 +210,8 @@ small {
 }
 
 .fluid-embed {
-  @apply --content-squash;
-  width: 100%;
   position: relative;
-  padding-bottom: 30%;
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 
@@ -240,6 +232,7 @@ small {
 
 ul {
   list-style-type: square;
+  -webkit-padding-start: 3rem;
 }
 
 /* font face https://medium.com/@dowsoncreative/a-little-bit-of-web-font-best-practice-5db63ef14d41#.nfals04ia */

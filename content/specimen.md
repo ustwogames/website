@@ -94,7 +94,7 @@ which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 
 Some of our lovely content boxes below:
 
-<div class='content-box text dark'>
+<div class='content-box dark'>
 
 ### And this is the dark one
 
@@ -104,11 +104,11 @@ Our testing showed that it’s actually a huge benefit to many players to give t
 
 </div>
 
-<div class='content-box media'>
+<div class='content-box'>
   <img src="/assets/MV_sketch_level.jpg" alt="Game sketch and level" />
 </div>
 
-<div class='content-box text'>
+<div class='content-box'>
 
 ## This is the default light one
 

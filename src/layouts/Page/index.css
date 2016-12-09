@@ -77,20 +77,10 @@ p.blurb:last-child {
 
 .body {
   display: flex;
-  /*flex-wrap: wrap;*/
   width: 100%;
   flex-direction: column;
 
-  & > * {
-    flex-basis: 100%;
-  }
-
   & img {
     max-width: 100%;
-  }
-
-  & video {
-    width: 100%;
-    height: auto;
   }
 }
