@@ -226,6 +226,10 @@ small {
   list-style: none;
 }
 
+ul {
+  list-style-type: square;
+}
+
 /* font face https://medium.com/@dowsoncreative/a-little-bit-of-web-font-best-practice-5db63ef14d41#.nfals04ia */
 
 @font-face {

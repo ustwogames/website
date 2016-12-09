@@ -16,13 +16,16 @@ input {
   border: 2px solid var(--colorPrimary);
   font-size: 0.7em;
   padding: 0.6em 1em 0.5em;
-  margin: 0 -2px -3px -2px;
   border-radius: 0;
   display: inline;
   font-family: inherit;
   min-width: 12.5rem;
   transition: .2s all;
   appearance: none;
+}
+
+input[type=email] {
+  margin: 0 -2px -3px -2px;
 }
 
 input[type=submit] {
