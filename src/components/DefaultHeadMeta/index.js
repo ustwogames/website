@@ -4,6 +4,9 @@ import Helmet from "react-helmet"
 const DefaultHeadMeta = (props, { metadata: { pkg, settings } }) => (
   <div hidden>
     <Helmet
+      link={ [
+        { "rel": "icon", "href": "/assets/favicon.ico" },
+      ] }
       meta={ [
         {
           name: "generator", content: `${
