@@ -82,16 +82,16 @@ When we released a teaser trailer before Christmas 2013, it got a huge number of
 
 It was released for iOS on April 3, 2014 and shot to the top of the charts based on word of mouth, great reviews and widespread press coverage. We ported it over to Android soon after, and to Windows Phone in 2015.
 
-> Monument Valley is the most elegant game I have ever played.
+> Monument Valley is the most elegant game I have ever played.  
 > <cite>Tim Schafer</cite>
 
-> The most sublime hour my iPad has ever given me… And the value of such a thing is incalculable.
+> The most sublime hour my iPad has ever given me… And the value of such a thing is incalculable.  
 > <cite>Kotaku</cite>
 
-> Brilliant design… Stayed with me like a dream I didn't want to gorget… 9/10
+> Brilliant design… Stayed with me like a dream I didn't want to gorget… 9/10  
 > <cite>Polygon</cite>
 
-> Monument Valley stuns with its serenity… Each screen is a work of art.
+> Monument Valley stuns with its serenity… Each screen is a work of art.  
 > <cite>Huffington Post</cite>
 
 > Almost impossibly gorgeous… A feast for your senses… 5/5  
