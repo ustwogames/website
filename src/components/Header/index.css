@@ -6,7 +6,8 @@
   position: fixed;
   width: 100vw;
   z-index: 100;
-  height: var(--headerHeight);
+  max-height: var(--headerHeight);
+  transition: max-height 0.2s ease-out;
 
   & a {
     color: var(--colorNeutralLight);
@@ -14,9 +15,8 @@
   }
 }
 
-.menuOpen {
-  height: auto;
-  padding: 4px 0;
+.menuOpen.header {
+  max-height: 400px;
 }
 
 .logo {
@@ -30,9 +30,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  height: 100%;
+  max-height: var(--headerHeight);
   justify-content: flex-end;
   overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.menuOpen .nav {
+  max-height: 400px;
 }
 
 .nav ul {
@@ -41,6 +46,7 @@
   flex-wrap: wrap;
   justify-content: flex-end;
   margin: 0;
+  padding: 0;
 }
 
 .nav li {
@@ -52,15 +58,19 @@
   text-decoration: none;
 }
 
+.nav li:last-child {
+  margin-bottom: 0.5rem;
+}
+
 .menuToggle {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  display: flex;
-  justify-content: flex-end;
+  display: block;
+  text-align: right;
   flex-basis: calc(100% - 56px);
   margin: 0;
-  height: 100%;
+  height: var(--headerHeight);
   outline: none;
 
   &:hover {
