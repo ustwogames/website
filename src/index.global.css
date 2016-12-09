@@ -73,14 +73,23 @@ blockquote {
   position: relative;
   padding-left: 4rem;
   padding-right: 2rem;
+  max-width: 48rem;
   quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:first-child {
+  padding-top: 0!important;
+}
+
+blockquote:last-child {
+  padding-bottom: 0!important;
 }
 
 blockquote:before {
   content: open-quote;
   position: absolute;
   top: 0;
-  left: 2rem;
+  left: 1rem;
   line-height: 1;
   font-size: 4em;
 }
@@ -88,8 +97,8 @@ blockquote:before {
 blockquote:after {
   content: close-quote;
   position: absolute;
-  bottom: -1rem;
-  right: 0;
+  bottom: -0.75rem;
+  right: -1rem;
   line-height: 1;
   font-size: 4em;
 }
