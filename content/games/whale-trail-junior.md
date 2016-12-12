@@ -3,8 +3,11 @@ title: Whale Trail Junior
 name: Whale Trail Junior
 date: 2015-07-03
 layout: Game
-icon: /assets/WTJ-icon.png
+background: /assets/wtj-module-bg.jpg
+-icon: /assets/WTJ-icon.png
 hero: /assets/WTJ-hero.jpg
+logolight: /assets/wtj-logo.png
+logodark: /assets/wtj-logo.png
 blurb: Fly as Willow the Whale in a game for 3-6 year olds and anyone looking for an easy ride
 stores:
   - {type: "apple", url: "https://itunes.apple.com/us/app/whale-trail-junior/id569862218?mt=8"}

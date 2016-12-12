@@ -5,6 +5,8 @@ date: 2015-07-09
 layout: Game
 -icon: /assets/blip_blup-icon-large.png
 hero: /assets/BB-hero.jpg
+logolight: /assets/bb-logo.png
+logodark: /assets/bb-logo.png
 background: /assets/BB-hero.jpg
 blurb: An addictive conundrum of colouration that will consume your thoughts and occupy your dreams
 stores:
