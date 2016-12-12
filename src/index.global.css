@@ -47,8 +47,8 @@ html {
 }
 
 body {
-  font-size: calc(1em + 20vw / 33);
-  line-height: 1.7em;
+  font-size: calc(1em + 1vw / 2.5);
+  line-height: 1.4em;
   text-wrap: balance;
 
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
