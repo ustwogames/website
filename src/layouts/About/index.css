@@ -1,0 +1,5 @@
+.aboutBody {
+  & img {
+    margin-top: 4rem;
+  }
+}

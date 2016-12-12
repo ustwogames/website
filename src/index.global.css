@@ -172,6 +172,10 @@ small {
   margin: auto;
 }
 
+.content-box > img {
+  width: 100%;
+}
+
 /* FAQ accordion component styling */
 .rc-collapse {
   @apply --content-squash;

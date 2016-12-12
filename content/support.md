@@ -2,7 +2,7 @@
 title: Support
 blurb: Need a helping hand?
 layout: Support
-hero: /assets/ustwo-games-smurf.jpg
+hero: /assets/studio-light.jpg
 ---
 
  

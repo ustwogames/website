@@ -3,6 +3,7 @@ import enhanceCollection from "phenomic/lib/enhance-collection"
 
 import Page from "../Page"
 import ProfilesList from "../../components/ProfilesList"
+import styles from "./index.css"
 
 const About = (props, { collection }) => {
   const profiles = enhanceCollection(collection, {
@@ -12,7 +13,7 @@ const About = (props, { collection }) => {
   })
 
   return (
-    <Page { ...props }>
+    <Page { ...props } bodyExtraClass={ styles.aboutBody }>
       <ProfilesList profiles={ profiles } />
     </Page>
   )
