@@ -11,7 +11,7 @@ logodark: /assets/le-logotype-light.svg
 promoted: true
 blurb: Awaken a lost civilization in this amazing virtual reality adventure
 cta:
-  label: landsendgame.com
+  label: Visit landsendgame.com
   link: "http://landsendgame.com/"
 ---
 

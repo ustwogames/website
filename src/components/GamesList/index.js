@@ -34,7 +34,7 @@ const GamesList = ({ games }) => {
                 }
                 <Link to={ game.__url }>
                   <Button className={ styles.cta }>
-                    { game.name }
+                    { `More about ${game.name}` }
                   </Button>
                 </Link>
               </div>

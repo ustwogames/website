@@ -10,7 +10,7 @@ logodark: /assets/mv-logotype-dark.svg
 promoted: true
 blurb: An illusory adventure of impossible architecture and forgiveness
 cta:
-  label: monumentvalleygame.com
+  label: Visit monumentvalleygame.com
   link: "http://monumentvalleygame.com/"
 stores:
   - {type: "apple", url: "https://itunes.apple.com/us/app/monument-valley/id728293409?mt=8"}
