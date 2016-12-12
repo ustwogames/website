@@ -1,11 +1,11 @@
 ---
 metaTitle: Contact
-title: Hello ustwo games
+title: Come around and say hello
 layout: Page
 hero: /assets/contact.jpg
 ---
 
-Come around and say hello at:
+Our studio’s full postal address:
 
 ustwo games  
 Unit C1  
@@ -14,7 +14,9 @@ Offley Works
 SW9 0FJ  
 London, United Kingdom
 
-Or send us some nice words:
+The guest entrance is from Clapham Road through the big wooden gate.
+
+Send us some nice words and pictures:
 
 [hello@ustwogames.co.uk](mailto:hello@ustwogames.co.uk)
 
