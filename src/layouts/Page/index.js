@@ -56,17 +56,17 @@ const Page = (
       />
       {
         <div className={ styles.hero }>
+          {
+            head.hero &&
+            <div className={ styles.heroBackground }>
+              {
+                head.hero.match(/(jpg|jpeg|png|gif)/gi)
+                ? <img src={ head.hero } />
+                : <video src={ head.hero } autoPlay loop muted playsInline />
+              }
+            </div>
+          }
           <div className={ styles.header }>
-            {
-              head.hero &&
-              <div className={ styles.heroBackground }>
-                {
-                  head.hero.match(/(jpg|jpeg|png|gif)/gi)
-                  ? <img src={ head.hero } />
-                  : <video src={ head.hero } autoPlay loop muted playsInline />
-                }
-              </div>
-            }
             <div className={ styles.wrapper }>
               <h1 className={ styles.heading }>
                 {
