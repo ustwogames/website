@@ -7,18 +7,13 @@ import styles from "./index.css"
 const PageError = ({ error, errorText }) => (
   <Page
     head={{
-      // hero credit: https://www.flickr.com/photos/mypubliclands/16101654539/
-      hero: "https://farm8.staticflickr.com/7559/16101654539_bee5151340_k.jpg",
+      hero: "/assets/404.jpg",
+      title: error,
+      blurb: errorText
     }}
   >
     <div className={ styles.container }>
-      <div className={ styles.oops }>{ "😱 Oooops!" }</div>
       <div className={ styles.text }>
-        <p className={ styles.title }>
-          <strong>{ error }</strong>
-          { " " }
-          { errorText }
-        </p>
         {
           error === 404 &&
           <div>
