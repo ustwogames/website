@@ -3,7 +3,8 @@ title: Monument Valley
 name: Monument Valley
 date: 2016-02-16
 layout: Game
-icon: /assets/mv-icon-large.png
+background: /assets/mv-module-bg.jpg
+-icon: /assets/mv-icon-large.png
 hero: /assets/MonumentValleyTeaser.mp4
 logolight: /assets/mv-logotype-light.svg
 logodark: /assets/mv-logotype-dark.svg
