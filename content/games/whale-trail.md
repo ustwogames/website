@@ -3,6 +3,7 @@ title: Whale Trail
 name: Whale Trail
 date: 2015-06-03
 layout: Game
+background: /assets/wt-module-bg.jpg
 -icon: /assets/whale_trail-icon-large.png
 hero: /assets/whaletrail.mp4
 logolight: /assets/wt-logotype-color.svg
