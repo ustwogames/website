@@ -20,9 +20,11 @@
     color: var(--colorNeutralLight);
     border: 2px solid var(--colorNeutralLight);
 
-    &:hover {
-      border: 2px solid color(var(--colorNeutralLight) a(0.5));
-      color: color(var(--colorNeutralLight) a(0.5));
+    @media (hover: hover) {
+      &:hover {
+        border: 2px solid color(var(--colorNeutralLight) a(0.5));
+        color: color(var(--colorNeutralLight) a(0.5));
+      }
     }
 
     &:active {
@@ -35,9 +37,11 @@
     color: var(--colorPrimary);
     border: 2px solid var(--colorPrimary);
 
-    &:hover {
-      border: 2px solid color(var(--colorPrimary) a(0.5));
-      color: color(var(--colorPrimary) a(0.5));
+    @media (hover: hover) {
+      &:hover {
+        border: 2px solid color(var(--colorPrimary) a(0.5));
+        color: color(var(--colorPrimary) a(0.5));
+      }
     }
   }
 

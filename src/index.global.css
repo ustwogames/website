@@ -122,8 +122,10 @@ a {
   /* FIXME: we need to have some distinct style on links, temporarily made them bold */
   font-weight: 600;
 
-  &:hover {
-    opacity: 0.6;
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.6;
+    }
   }
 }
 

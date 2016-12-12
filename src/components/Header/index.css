@@ -7,7 +7,7 @@
   width: 100vw;
   z-index: 100;
   max-height: var(--headerHeight);
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.3s ease-out;
 
   & a {
     color: var(--colorNeutralLight);
@@ -73,8 +73,10 @@
   height: var(--headerHeight);
   outline: none;
 
-  &:hover {
-    opacity: 0.6;
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.6;
+    }
   }
 }
 

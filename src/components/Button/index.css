@@ -18,16 +18,17 @@
   color: var(--colorSecondary);
   border: 2px solid var(--colorSecondary);
 
-  &:hover {
-    color: var(--colorSecondaryDark);
-    border: 2px solid var(--colorSecondaryDark);
+  @media (hover: hover) {
+    &:hover {
+      color: var(--colorSecondaryDark);
+      border: 2px solid var(--colorSecondaryDark);
+    }
   }
 }
 
 .light {
   @apply --button-light;
 }
-
 
 .big {
   font-size: 1.5rem;
@@ -38,9 +39,11 @@
   color: var(--colorNeutralLight);
   font-weight: 400;
 
-  &:hover {
-    background: color(var(--colorPrimary) a(0.8));
-    border: 2px solid transparent;
-    color: var(--colorNeutralLight);
+  @media (hover: hover) {
+    &:hover {
+      background: color(var(--colorPrimary) a(0.8));
+      border: 2px solid transparent;
+      color: var(--colorNeutralLight);
+    }
   }
 }

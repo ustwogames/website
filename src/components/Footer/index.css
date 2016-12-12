@@ -45,6 +45,7 @@ input::placeholder {
   flex-direction: row;
   align-items: center;
   margin-bottom: 1em;
+  -webkit-padding-start: 1rem;
 }
 
 .navPartSocial li {
