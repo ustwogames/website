@@ -6,7 +6,6 @@ import AppContainer from "./AppContainer"
 import Page from "./layouts/Page"
 import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
-import Post from "./layouts/Post"
 import GamesIndex from "./layouts/GamesIndex"
 import Game from "./layouts/Game"
 import Support from "./layouts/Support"
@@ -22,7 +21,6 @@ const PageContainer = (props) => (
       Page,
       PageError,
       Homepage,
-      Post,
       GamesIndex,
       Game,
       Support,

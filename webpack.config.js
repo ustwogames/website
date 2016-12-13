@@ -235,25 +235,25 @@ export default (config = {}) => {
       }),
       */
 
-      new PhenomicLoaderFeedWebpackPlugin({
-        // here you define generic metadata for your feed
-        feedsOptions: {
-          title: pkg.name,
-          site_url: pkg.homepage,
-        },
-        feeds: {
-          // here we define one feed, but you can generate multiple, based
-          // on different filters
-          "feed.xml": {
-            collectionOptions: {
-              filter: { layout: "Post" },
-              sort: "date",
-              reverse: true,
-              limit: 20,
-            },
-          },
-        },
-      }),
+      // new PhenomicLoaderFeedWebpackPlugin({
+      //   // here you define generic metadata for your feed
+      //   feedsOptions: {
+      //     title: pkg.name,
+      //     site_url: pkg.homepage,
+      //   },
+      //   feeds: {
+      //     // here we define one feed, but you can generate multiple, based
+      //     // on different filters
+      //     "feed.xml": {
+      //       collectionOptions: {
+      //         filter: { layout: "Post" },
+      //         sort: "date",
+      //         reverse: true,
+      //         limit: 20,
+      //       },
+      //     },
+      //   },
+      // }),
 
       // webpack 1
       new ExtractTextPlugin("[name].[hash].css", { disable: config.dev }),
