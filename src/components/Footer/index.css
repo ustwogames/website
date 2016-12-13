@@ -7,14 +7,14 @@
 }
 
 label {
-  font-size: 0.7em;
+  font-size: 70%;
 }
 
 input {
   background: #fff;
   color: var(--colorPrimary);
   border: 2px solid var(--colorPrimary);
-  font-size: 0.7em;
+  font-size: 70%;
   padding: 0.6em 1em 0.5em;
   border-radius: 0;
   display: inline;

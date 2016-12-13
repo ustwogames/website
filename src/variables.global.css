@@ -2,6 +2,7 @@
   --content-squash: {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     max-width: 60rem;
     padding: 0 1rem;
   }

@@ -18,12 +18,12 @@ const JobsList = ({ jobs }) => {
               }
 
               <div className={ styles.wrapper }>
-                <h2 className={ styles.heading }>{ job.title }</h2>
-                {
-                  job.blurb &&
-                  <p className={ styles.blurb }>{ job.blurb }</p>
-                }
                 <Link to={ job.__url }>
+                  <h2 className={ styles.heading }>{ job.title }</h2>
+                  {
+                    job.blurb &&
+                    <p className={ styles.blurb }>{ job.blurb }</p>
+                  }
                   <Button className={ styles.cta }>
                     { `More about the role` }
                   </Button>

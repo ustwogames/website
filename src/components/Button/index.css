@@ -7,7 +7,7 @@
   line-height: 2rem;
   font-weight: 600;
   text-align: center;
-  font-size: 0.7em;
+  font-size: 70%;
   transition: .2s all;
   cursor: pointer;
 
@@ -31,10 +31,10 @@
 }
 
 .big {
-  font-size: 1.5rem;
+  font-size: 120%;
   padding: 0.4em 1em 0.3em;
   margin: 0;
-  line-height: 1.7;
+  line-height: var(--lineHeightNormal);
   background: var(--colorPrimary);
   color: var(--colorNeutralLight);
   font-weight: 400;

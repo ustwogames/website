@@ -97,9 +97,8 @@ img {
 }
 
 .blurb {
- /* font-size: 0.74em; */
- font-size: calc((200vw / 375) + 16px);
- line-height: 1.7;
+ line-height: var(--lineHeightNormal);
+ font-weight: 300;
  margin: 2rem 1rem 0;
 }
 

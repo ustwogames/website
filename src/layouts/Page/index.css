@@ -56,7 +56,7 @@
 }
 
 .heading {
-  line-height: 1.2;
+  line-height: var(--lineHeightHeading);
 }
 
 .heading img {
@@ -65,9 +65,8 @@
 }
 
 .blurb {
- /* font-size: 0.74em; */
- font-size: calc((200vw / 375) + 16px);
- line-height: 1.7;
+ font-size: 115%;
+ line-height: var(--lineHeightNormal);
  margin: 1.5rem 2rem;
 }
 

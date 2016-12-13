@@ -17,27 +17,31 @@ const GamesList = ({ games }) => {
                 </div>
               }
 
+
               <div className={ styles.wrapper }>
-                {
-                  game.icon &&
-                  <img src={ game.icon } className={styles.icon} />
-                }
-                {
-                  game.logolight && game.logodark
-                  ? [<img key="logolight" src={ game.logolight } alt={ game.title } className={ styles.logolight }/>,
-                     <img key="logodark" src={ game.logodark } alt={ game.title } className={ styles.logodark }/>]
-                  : <h2 className={ styles.heading }>{ game.title }</h2>
-                }
-                {
-                  game.blurb &&
-                  <p className={ styles.blurb }>{ game.blurb }</p>
-                }
                 <Link to={ game.__url }>
+                  {
+                    game.icon &&
+                    <img src={ game.icon } className={styles.icon} />
+                  }
+                  {
+                    game.logolight && game.logodark
+                    ? <div>
+                        <img key="logolight" src={ game.logolight } alt={ game.title } className={ styles.logolight }/>
+                        <img key="logodark" src={ game.logodark } alt={ game.title } className={ styles.logodark }/>
+                      </div>
+                    : <h2 className={ styles.heading }>{ game.title }</h2>
+                  }
+                  {
+                    game.blurb &&
+                    <p className={ styles.blurb }>{ game.blurb }</p>
+                  }
                   <Button className={ styles.cta }>
                     { `More about ${game.name}` }
                   </Button>
                 </Link>
               </div>
+
             </li>
           ))
         }
