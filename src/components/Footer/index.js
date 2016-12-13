@@ -36,6 +36,19 @@ const Footer = (props, { metadata: { settings } }) => (
     </div>
 
     <small className={ styles.notices } dangerouslySetInnerHTML={ {__html: settings.footer_notices} } />
+
+    <small className={ styles.hosting }>
+      Open source on
+      <Link to="https://github.com/ustwogames/website">
+        Github <img alt="Github logo" src="https://github.com/favicon.ico" />
+      </Link>
+      .
+      Built and hosted by
+      <Link to="https://www.netlify.com">
+        Netlify <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" />
+      </Link>
+      .
+    </small>
   </footer>
 )
 

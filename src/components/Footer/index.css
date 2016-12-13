@@ -59,7 +59,17 @@ input::placeholder {
   margin: 0 3em;
 }
 
-.notices iframe {
-  margin-top: 0;
+.notices iframe,
+.hosting img {
+  margin-top: -1px;
   vertical-align: middle;
+  max-height: 22px;
+}
+
+.hosting {
+  margin: 0.4em 3em;
+}
+
+.hosting a {
+  margin-left: 0.3rem;
 }

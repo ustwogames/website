@@ -16,10 +16,6 @@ London, United Kingdom
 
 The guest entrance is from Clapham Road through the big wooden gate.
 
-Send us some nice words and pictures:
-
-[hello@ustwogames.co.uk](mailto:hello@ustwogames.co.uk)
-
 <div>
   <div class='squashed'>
     <div class='fluid-embed'>
@@ -27,3 +23,7 @@ Send us some nice words and pictures:
     </div>
   </div>
 </div>
+
+If you’re not around, you can still send us some nice words and pictures:
+
+[hello@ustwogames.co.uk](mailto:hello@ustwogames.co.uk)
