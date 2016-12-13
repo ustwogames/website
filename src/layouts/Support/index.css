@@ -1,9 +1,3 @@
-.faqLinkList {
-  margin: 1em 0;
-  text-align: center;
-  -webkit-padding-start: 1rem;
-
-  & > li {
-    list-style: none;
-  }
+.faqHeading {
+  margin-top: 0;
 }

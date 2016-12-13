@@ -58,7 +58,7 @@
   bottom: 0;
   right: 0;
   overflow: hidden;
-  opacity: 0.3;
+  opacity: 0.25;
 
   & > * {
     object-position: 50% 50%;
@@ -88,18 +88,18 @@
   margin-top: 0;
 }
 
-.heading:has(> img) {
-  line-height: 0;
+.listItem .wrapper img {
+  margin: 0;
+  max-height: 7rem;
+  max-width: 20rem;
 }
 
-img {
-  margin: 0;
+.listItem .wrapper a {
+  padding: 3rem 0;
 }
 
 .blurb {
- line-height: var(--lineHeightNormal);
  font-weight: 300;
- margin: 2rem 1rem 0;
 }
 
 .blurb:last-child {

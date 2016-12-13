@@ -1,5 +1,7 @@
 .listContainer {
   max-width: 100%;
+  margin-top: 1em;
+  margin-bottom: -1em;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -16,8 +18,8 @@
   & a {
     display: flex;
     margin: 0 auto;
-    width: 200px;
-    height: 70px;
+    width: 150px;
+    height: 45px;
   }
 
   & img {
