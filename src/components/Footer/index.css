@@ -61,10 +61,11 @@ input::placeholder {
 }
 
 .notices iframe,
-.hosting img {
-  margin-top: -1px;
+.hosting svg {
+  margin-top: 0;
   vertical-align: middle;
   max-height: 22px;
+  width: auto;
 }
 
 .hosting {
@@ -73,4 +74,8 @@ input::placeholder {
 
 .hosting a {
   margin-left: 0.3rem;
+}
+
+.hosting a svg {
+  margin: -2px 0.3rem 0;
 }
