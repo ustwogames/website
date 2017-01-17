@@ -23,7 +23,7 @@ const Page = (
     bodyExtraClass,
   },
   {
-    metadata: { settings },
+    metadata: { pkg, settings },
   }
 ) => {
   warning(
@@ -40,11 +40,13 @@ const Page = (
       property: "og:url",
       content: joinUri(process.env.PHENOMIC_USER_URL, __url),
     },
-    { property: "og:description", content: head.description },
+    { property: "og:description", content: head.blurb || head.description },
+    { name: "og:image", content: pkg.homepage + (head.background || head.hero) },
     { name: "twitter:card", content: "summary" },
     { name: "twitter:title", content: metaTitle },
     { name: "twitter:creator", content: `@${ settings.social.find(x => x.type === 'twitter').title }` },
-    { name: "twitter:description", content: head.description },
+    { name: "twitter:description", content: head.blurb || head.description },
+    { name: "twitter:image", content: pkg.homepage + (head.background || head.hero) },
     { name: "description", content: head.description },
   ]
 
