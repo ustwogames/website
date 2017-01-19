@@ -180,11 +180,22 @@ small {
   @apply --inverted-colours;
 }
 
-.content-box.column {
-  flex-basis: 50%;
+.squashed-columns {
+  @apply --content-squash;
+  padding: 0;
 }
 
-.content-box img {
+@media (min-width: 1025px) {
+  .squashed-columns {
+    display: flex;
+  }
+
+  .columns > * {
+    flex-basis: 50%;
+  }
+}
+
+.content-box:not(.inline-images) img {
   display: block;
   margin: auto;
 }

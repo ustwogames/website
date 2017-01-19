@@ -8,7 +8,7 @@
   }
 
   --normal-colours: {
-    background: color(var(--colorPrimary) l(99%));
+    /*background: color(var(--colorPrimary) l(99%));*/
     color: var(--colorPrimary);
   }
 
