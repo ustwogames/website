@@ -3,12 +3,10 @@ import Helmet from "react-helmet"
 import { Link } from "phenomic"
 
 import Page from "../Page"
-// import FaqList from "../../components/FaqList"
 import Button from "../../components/Button"
 
 import styles from "./index.css"
 
-// const Support = (props, { metadata: { settings } }) => {
 class Support extends Component {
   constructor(props) {
     super(props);
@@ -42,7 +40,6 @@ class Support extends Component {
         />
         <div className="content-box column">
           <h2 className={ styles.faqHeading }>FAQs</h2>
-          {/* <FaqList faqs={ settings.faqs } /> */}
           <p>
             <Link to="http://blog.monumentvalleygame.com/faq/">Monument Valley FAQ</Link>
             <br/>
