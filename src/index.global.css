@@ -159,6 +159,7 @@ small {
 .content-box {
   margin-top: 0;
   line-height: 0;
+  width: 100%;
 
   & :--blocks {
     line-height: var(--lineHeightNormal);
@@ -177,6 +178,10 @@ small {
 
 .content-box.dark {
   @apply --inverted-colours;
+}
+
+.content-box.column {
+  flex-basis: 50%;
 }
 
 .content-box img {

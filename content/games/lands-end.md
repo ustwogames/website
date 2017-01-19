@@ -81,12 +81,10 @@ Land’s End is ustwo Games’ first complete game for VR. With over a year in r
 
 </div>
 
-<!-- <div class='content-box'>
-  <img src="/assets/LandsEnd_headset.jpg" alt="Woman with VR headset" />
-</div> -->
-
 <div class='content-box dark'>
-  <div class='fluid-embed'>
-    <iframe src="//www.youtube.com/embed/XwJ9fiH2Ksw" frameborder="0" width="100%"></iframe>
+  <div class='squashed'>
+    <div class='fluid-embed'>
+      <iframe src="//www.youtube.com/embed/XwJ9fiH2Ksw" frameborder="0" width="100%"></iframe>
+    </div>
   </div>
 </div>

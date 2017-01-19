@@ -82,7 +82,7 @@ p.blurb:last-child {
 .body {
   display: flex;
   width: 100%;
-  flex-direction: column;
+  flex-wrap: wrap;
 
   & img {
     max-width: 100%;

@@ -5,7 +5,7 @@ layout: Contact
 hero: /assets/contact.jpg
 ---
 
-<div class='content-box'>
+<div class='content-box column'>
 
 ## Talk at us
 
@@ -19,7 +19,7 @@ hero: /assets/contact.jpg
 
 </div>
 
-<div class='content-box'>
+<div class='content-box column'>
 
 ## Studio
 
@@ -40,10 +40,14 @@ The guest entrance is from **Clapham Road** through the big wooden gate.
 
 </div>
 
+<div class='content-box'>
+
 # Support
 
 Lost in Land’s End? Mystified by Monument Valley? Don’t worry, we’ve got you!
 
 Check out the FAQs below to find answers to the most commonly asked questions from our players. If you can’t find what you’re looking for, please hit the create support ticket button and we’ll get back to you as soon as we can!
+
+</div>
 
 <!-- FAQ will be rendered below here -->
