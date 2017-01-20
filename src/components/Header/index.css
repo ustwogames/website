@@ -2,32 +2,35 @@
 
 .header {
   margin-top: 0;
-  background: var(--colorSecondaryDark);
+  background: var(--colorBackground);
   position: fixed;
   width: 100vw;
   z-index: 100;
   max-height: var(--headerHeight);
-  transition: max-height 0.3s ease-out;
+  box-shadow: 0 -14px 9px 12px rgba(0,0,0,0.2);
 
   & a {
-    color: var(--colorNeutralLight);
+    color: var(--colorSecondaryDark);
     font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 90%;
   }
 }
 
 .menuOpen.header {
-  max-height: 400px;
+  max-height: 55vh;
 }
 
 .logo {
   @apply --button-bare;
-
   position: absolute;
-  top: 9px;
+  top: 22px;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 10;
 }
+
 
 .nav {
   @apply --content-squash;
@@ -41,7 +44,7 @@
 }
 
 .menuOpen .nav {
-  max-height: 400px;
+  min-height: 55vh;
 }
 
 .nav ul {
@@ -54,13 +57,22 @@
   padding: 0;
 }
 
-.nav li {
-  padding: 0 1rem;
+.nav li a {
+  padding: 0 2rem;
   line-height: var(--headerHeight);
   text-align: center;
   color: inherit;
+  height: auto;
+  display: block;
   text-decoration: none;
 }
+
+
+.nav li a:hover {
+  color: var(--colorSecondaryDark);
+  background: rgb(250,250,253);
+}
+
 
 .menuOpen .nav li:last-child {
   margin-bottom: 0.5rem;

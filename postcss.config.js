@@ -6,7 +6,7 @@ module.exports = (config) => [
       features: {
         customProperties: {
           variables: {
-            headerHeight: "46px",
+            headerHeight: "10vh",
             logoWidth: "56px",
             lineHeightNormal: "1.6",
             lineHeightHeading: "1.2",
@@ -17,7 +17,7 @@ module.exports = (config) => [
             colorNeutralDark: "#111",
             colorNeutral: "#8C8D91",
             colorNeutralLight: "#FAFAFC",
-            colorHover: "#3500EF",
+            colorHover: "#FF0000",
             colorText: "#556275",
             colorBackground: "#FFF",
           },
