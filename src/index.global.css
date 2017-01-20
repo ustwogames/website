@@ -139,14 +139,14 @@ blockquote cite:before {
 
 /* minimal styling, prefer removing this and use local styles */
 a {
-  color: inherit;
+  color: var(--colorSecondaryDark);
   text-decoration: none;
   transition: all 0.1s;
   font-weight: 600;
 
   @media (hover: hover) {
     &:hover {
-      opacity: 0.6;
+      color: var(--colorSecondaryDark)
     }
   }
 }
