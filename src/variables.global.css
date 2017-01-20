@@ -35,12 +35,13 @@
   }
 
   --button-dark: {
-    color: var(--colorPrimary);
-    border: 2px solid var(--colorPrimary);
+    color: var(--colorSecondary);
+    border: 3px solid var(--colorSecondaryDark);
+    text-transform: uppercase;
 
     @media (hover: hover) {
       &:hover {
-        border: 2px solid color(var(--colorPrimary) a(0.5));
+        border: 3px solid color(var(--colorSecondaryDark) a(0.5));
         color: color(var(--colorPrimary) a(0.5));
       }
     }

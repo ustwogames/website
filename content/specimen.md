@@ -5,6 +5,12 @@ layout: Page
 ---
 
 # An h1 header
+## An h2 header
+### An h3 header
+#### An h4 header
+##### An h5 header
+
+# An h1 header
 
 Paragraphs are separated by a blank line.
 
