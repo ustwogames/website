@@ -20,7 +20,6 @@ const Footer = (props, { metadata: { settings } }) => (
     </nav>
 
     <small className={ styles.notices } dangerouslySetInnerHTML={ {__html: settings.footer_notices} } />
-
     <small className={ styles.hosting }>
       Open source on
       <Link to="https://github.com/ustwogames/website">

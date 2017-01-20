@@ -12,7 +12,7 @@
 }
 
 .hero {
-  background-color: var(--colorPrimary);
+  background-color: transparent;
   min-height: 55vh;
   padding-bottom: 1rem;
   position: relative;
@@ -27,7 +27,6 @@
   bottom: 0;
   right: 0;
   overflow: hidden;
-  opacity: 0.4;
 
   & > * {
     object-position: 50% 50%;
