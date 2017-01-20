@@ -6,8 +6,7 @@ layout: Game
 background: /assets/le-module-bg.jpg
 -icon: /assets/lands_end-icon-large.png
 hero: /assets/landsend.mp4
-logolight: /assets/le-logotype-light.svg
-logodark: /assets/le-logotype-light.svg
+logo: /assets/le-logotype-light.svg
 promoted: true
 blurb: Awaken a lost civilization in this amazing virtual reality adventure
 cta:

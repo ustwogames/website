@@ -1,0 +1,41 @@
+@import "../../variables.global.css";
+
+.listContainer {
+  margin-top: 3rem;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.listItem {
+  list-style: none;
+  flex-basis: 100%;
+  min-height: 70vh;
+  padding: 0 2rem;
+
+  & a {
+    position: relative;
+    display: block;
+  }
+
+  & img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .listItem {
+    flex-basis: 33%;
+  }
+}
+
+.gameLogo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  & :--headings {
+    color: white;
+  }
+}

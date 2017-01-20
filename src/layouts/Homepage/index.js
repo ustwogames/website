@@ -2,18 +2,28 @@ import React, { PropTypes } from "react"
 import enhanceCollection from "phenomic/lib/enhance-collection"
 
 import Page from "../Page"
-import GamesList from "../../components/GamesList"
+import GamesPosters from "../../components/GamesPosters"
+
+import styles from "./index.css"
 
 const Homepage = (props, { collection }) => {
-  const featuredGame = enhanceCollection(collection, {
+  const featuredGames = enhanceCollection(collection, {
     filter: ({ layout, promoted }) => layout === "Game" && promoted === true,
+    sort: "date",
+    reverse: true,
+  });
+  const restOfGames = enhanceCollection(collection, {
+    filter: ({ layout, promoted }) => layout === "Game" && promoted !== true,
     sort: "date",
     reverse: true,
   })
 
   return (
     <Page { ...props }>
-      <GamesList games={ featuredGame } />
+      <h5 className={ styles.centredTitle }>Our recent games</h5>
+      <GamesPosters games={ featuredGames } />
+      <h5 className={ styles.centredTitle }>Our other titles</h5>
+      <GamesPosters games={ restOfGames } />
     </Page>
   )
 }

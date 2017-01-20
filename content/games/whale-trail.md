@@ -6,8 +6,7 @@ layout: Game
 background: /assets/wt-module-bg.jpg
 -icon: /assets/whale_trail-icon-large.png
 hero: /assets/whaletrail.mp4
-logolight: /assets/wt-logotype-color.svg
-logodark: /assets/wt-logotype-color.svg
+logo: /assets/wt-logotype-color.svg
 blurb: Fly as Willow the Whale, collect blubbles and meet bonkers characters along the way
 stores:
   - {type: "apple", url: "https://itunes.apple.com/gb/app/whale-trail/id450163154?mt=8"}
