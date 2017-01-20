@@ -36,24 +36,20 @@
   ],
   "nav": [
     {
-      "title": "Games",
-      "url": "/games/"
+      "title": "What we do",
+      "url": "/"
     },
     {
-      "title": "About us",
-      "url": "/about/"
+      "title": "Team",
+      "url": "/team/"
     },
     {
       "title": "Jobs",
       "url": "/jobs/"
     },
     {
-      "title": "Contact",
-      "url": "/contact/"
-    },
-    {
-      "title": "Blog",
-      "url": "https://medium.com/@ustwogames"
+      "title": "Get in touch",
+      "url": "/get-in-touch/"
     }
   ]
 }

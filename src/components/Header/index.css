@@ -20,8 +20,13 @@
 }
 
 .logo {
-  line-height: 1;
-  font-size: 0%;
+  @apply --button-bare;
+
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
 }
 
 .nav {
@@ -29,7 +34,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
   max-height: var(--headerHeight);
   justify-content: flex-end;
   overflow: hidden;
@@ -41,19 +45,19 @@
 }
 
 .nav ul {
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
 
 .nav li {
-  padding-left: 2rem;
+  padding: 0 1rem;
   line-height: var(--headerHeight);
-  text-align: right;
+  text-align: center;
   color: inherit;
   text-decoration: none;
 }
@@ -63,15 +67,13 @@
 }
 
 .menuToggle {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+  @apply --button-bare;
+
   display: block;
   text-align: right;
-  flex-basis: calc(100% - 56px);
+  flex-basis: 100%;
   margin: 0;
   height: var(--headerHeight);
-  outline: none;
 
   @media (hover: hover) {
     &:hover {
@@ -81,10 +83,6 @@
 }
 
 @media (min-width: 769px) {
-  .nav {
-    justify-content: space-between;
-  }
-
   .nav ul {
     flex-direction: row;
   }
@@ -92,6 +90,10 @@
   .nav li {
     font-size: 80%;
     text-align: left;
+  }
+
+  .nav li:nth-child(2) {
+    margin-right: calc(var(--logoWidth) + 2rem);
   }
 
   .menuToggle {
