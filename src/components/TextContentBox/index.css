@@ -3,4 +3,8 @@
   margin: 0 1rem;
   padding: 4rem;
   flex-basis: 50%;
+
+  & [role="button"] {
+    margin: 1rem 0 0 0;
+  }
 }

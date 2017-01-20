@@ -8,7 +8,7 @@
   }
 
   --normal-colours: {
-    /*background: color(var(--colorPrimary) l(99%));*/
+    background: var(--colorBackground);
     color: var(--colorPrimary);
   }
 
@@ -19,36 +19,41 @@
 
   --button-light: {
     color: var(--colorNeutralLight);
-    border: 2px solid var(--colorNeutralLight);
+    border: 3px solid var(--colorNeutralLight);
 
     @media (hover: hover) {
       &:hover {
-        border: 2px solid color(var(--colorNeutralLight) a(0.5));
+        border: 3px solid color(var(--colorNeutralLight) a(0.5));
         color: color(var(--colorNeutralLight) a(0.5));
       }
     }
 
     &:active {
-      border: 2px solid var(--colorNeutralLight);
+      border: 3px solid var(--colorNeutralLight);
       color: var(--colorNeutralLight);
     }
   }
 
   --button-dark: {
-    color: var(--colorSecondary);
+    color: var(--colorSecondaryDark);
     border: 3px solid var(--colorSecondaryDark);
     text-transform: uppercase;
 
     @media (hover: hover) {
       &:hover {
-        border: 3px solid color(var(--colorSecondaryDark) a(0.5));
-        color: color(var(--colorPrimary) a(0.5));
+        background: var(--colorSecondaryDark);
+        border: 3px solid transparent;
+        color: var(--colorNeutralLight);
       }
     }
   }
 
   --list-item-light: {
     @apply --normal-colours;
+
+    & :--headings {
+      color: var(--colorSecondaryDark);
+    }
 
     & .cta {
       @apply --button-dark;
@@ -65,6 +70,10 @@
 
   --list-item-dark: {
     @apply --inverted-colours;
+
+    & :--headings {
+      color: var(--colorNeutralLight);
+    }
 
     & .cta {
       @apply --button-light;

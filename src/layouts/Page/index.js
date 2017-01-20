@@ -17,6 +17,7 @@ const Page = (
     head,
     body,
     header,
+    mailinglist,
     footer,
     children,
     displayChildrenFirst,
@@ -108,6 +109,7 @@ const Page = (
           !displayChildrenFirst &&
           children
         }
+        { mailinglist }
         { footer }
       </div>
     </div>
@@ -125,6 +127,7 @@ Page.propTypes = {
   bodyExtraClass: PropTypes.string,
   header: PropTypes.element,
   footer: PropTypes.element,
+  mailinglist: PropTypes.element,
 }
 
 Page.contextTypes = {

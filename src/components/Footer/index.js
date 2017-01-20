@@ -28,7 +28,7 @@ const Footer = (props, { metadata: { settings } }) => (
         <img src="/assets/github-logo.svg" alt="Github logo" title="Github logo" />
       </Link>
       <br/>
-      Built and hosted by
+      Hosted by
       <Link to="https://www.netlify.com">
         <span>Netlify</span>
         <img src="/assets/netlify-logo.svg" alt="Netlify logo" title="Netlify logo" />

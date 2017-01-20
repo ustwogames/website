@@ -1,0 +1,38 @@
+@import "../../variables.global.css";
+
+.wrapper {
+  margin: 4rem auto 2rem;
+
+  & label {
+    font-size: 70%;
+  }
+
+  & input {
+    background: #fff;
+    color: var(--colorPrimary);
+    border: 3px solid var(--colorPrimary);
+    font-size: 70%;
+    padding: 0.6em 1em 0.5em;
+    border-radius: 0;
+    font-family: inherit;
+    min-width: 13rem;
+    transition: .2s all;
+    appearance: none;
+  }
+
+  & input[type=email] {
+    margin: 0 -2px -3px -2px;
+  }
+
+  & input[type=submit] {
+    @apply --button-dark;
+    cursor: pointer;
+    font-weight: 600;
+    margin: -2px -2px 0 -2px;
+  }
+
+  & input::placeholder {
+    color: color(var(--colorPrimary) a(0.5));
+  }
+
+}

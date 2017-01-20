@@ -3,7 +3,7 @@
 .button {
   display: inline-flex;
   padding: 0.8em 1.5em;
-  margin: 1rem 0 0 0;
+  margin: 1rem 1rem 0;
   line-height: 2rem;
   font-weight: 700;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -18,12 +18,12 @@
 
 .secondary {
   color: var(--colorSecondary);
-  border: 2px solid var(--colorSecondary);
+  border: 3px solid var(--colorSecondary);
 
   @media (hover: hover) {
     &:hover {
       color: var(--colorSecondaryDark);
-      border: 2px solid var(--colorSecondaryDark);
+      border: 3px solid var(--colorSecondaryDark);
     }
   }
 }
@@ -35,17 +35,8 @@
 .big {
   font-size: 120%;
   padding: 0.4em 1em 0.3em;
-  margin: 0;
   line-height: var(--lineHeightNormal);
-  background: var(--colorPrimary);
-  color: var(--colorPrimary);
   font-weight: 400;
 
-  @media (hover: hover) {
-    &:hover {
-      background: color(var(--colorPrimary) a(0.8));
-      border: 2px solid transparent;
-      color: var(--colorNeutralLight);
-    }
-  }
+  @apply --button-dark;
 }
