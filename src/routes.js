@@ -8,7 +8,7 @@ import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
 import GamesIndex from "./layouts/GamesIndex"
 import Game from "./layouts/Game"
-import Support from "./layouts/Support"
+import Contact from "./layouts/Contact"
 import Profile from "./layouts/Profile"
 import About from "./layouts/About"
 import JobsIndex from "./layouts/JobsIndex"
@@ -23,7 +23,7 @@ const PageContainer = (props) => (
       Homepage,
       GamesIndex,
       Game,
-      Support,
+      Contact,
       Profile,
       About,
       JobsIndex,

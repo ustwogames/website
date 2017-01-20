@@ -1,0 +1,6 @@
+.box {
+  background-color: var(--colorNeutralLight);
+  margin: 0 1rem;
+  padding: 4rem;
+  flex-basis: 50%;
+}

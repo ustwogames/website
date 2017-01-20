@@ -13,7 +13,7 @@
 
 .hero {
   background-color: var(--colorPrimary);
-  min-height: 65vh;
+  min-height: 55vh;
   padding-bottom: 1rem;
   position: relative;
   display: flex;
@@ -82,7 +82,7 @@ p.blurb:last-child {
 .body {
   display: flex;
   width: 100%;
-  flex-direction: column;
+  flex-wrap: wrap;
 
   & img {
     max-width: 100%;

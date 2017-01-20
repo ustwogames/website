@@ -2,12 +2,14 @@
 
 .button {
   display: inline-flex;
-  padding: 0.1em 1em 0;
-  margin: 2rem 2rem 0;
+  padding: 0.8em 1.5em;
+  margin: 1rem 0 0 0;
   line-height: 2rem;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   text-align: center;
-  font-size: 70%;
+  letter-spacing: 0.1em;
+  font-size: 62%;
   transition: .2s all;
   cursor: pointer;
 
@@ -36,7 +38,7 @@
   margin: 0;
   line-height: var(--lineHeightNormal);
   background: var(--colorPrimary);
-  color: var(--colorNeutralLight);
+  color: var(--colorPrimary);
   font-weight: 400;
 
   @media (hover: hover) {
