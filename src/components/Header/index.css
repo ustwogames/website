@@ -13,7 +13,6 @@
     color: var(--colorSecondaryDark);
     font-weight: normal;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-size: 90%;
   }
 }
@@ -57,14 +56,19 @@
   padding: 0;
 }
 
+.nav li {
+  font-size: 120%;
+}
 .nav li a {
   padding: 0 2rem;
   line-height: var(--headerHeight);
   text-align: center;
   color: inherit;
+  letter-spacing: 4px;
   height: auto;
   display: block;
   text-decoration: none;
+  width: auto;
 }
 
 
@@ -75,7 +79,7 @@
 
 
 .menuOpen .nav li:last-child {
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .menuToggle {
@@ -102,6 +106,10 @@
   .nav li {
     font-size: 80%;
     text-align: left;
+  }
+
+  .nav li a {
+    letter-spacing: 3px;
   }
 
   .nav li:nth-child(2) {
