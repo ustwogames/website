@@ -286,40 +286,44 @@ small {
 Body face - Karla
 */
 
-/* Webfont: Karla-Regular */@font-face {
+/* Webfont: Karla-Regular */
+@font-face {
     font-family: 'Karla';
-    src: url('/assets/fonts/Karla-Regular.woff') format('woff'); /* Modern Browsers */
+    src: url('/assets/fonts/Karla-Regular.woff2') format('woff2'),
+         url('/assets/fonts/Karla-Regular.woff') format('woff');
     font-style: normal;
     font-weight: 400;
-    text-rendering: optimizeLegibility;
 }
 
-/* Webfont: Karla-Bold */@font-face {
+/* Webfont: Karla-Bold */
+@font-face {
     font-family: 'Karla';
-    src: url('/assets/fonts/Karla-Bold.woff') format('woff'); /* Modern Browsers */
+    src: url('/assets/fonts/Karla-Bold.woff2') format('woff2'),
+         url('/assets/fonts/Karla-Bold.woff') format('woff');
     font-style: normal;
     font-weight: 700;
-    text-rendering: optimizeLegibility;
 }
 
 /*
 Display face - Montserrat
 */
 
-/* Webfont: Montserrat-Regular */@font-face {
+/* Webfont: Montserrat-Regular */
+@font-face {
     font-family: 'Montserrat';
-    src: url('/assets/fonts/Montserrat-Regular.woff') format('woff'); /* Modern Browsers */
+    src: url('/assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-Regular.woff') format('woff');
     font-style: normal;
     font-weight: 400;
-    text-rendering: optimizeLegibility;
 }
 
-/* Webfont: Montserrat-Bold */@font-face {
+/* Webfont: Montserrat-Bold */
+@font-face {
     font-family: 'Montserrat';
-    src: url('/assets/fonts/Montserrat-Bold.woff') format('woff'); /* Modern Browsers */
+    src: url('/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-Bold.woff') format('woff');
     font-style: normal;
     font-weight: 700;
-    text-rendering: optimizeLegibility;
 }
 
 hr {
