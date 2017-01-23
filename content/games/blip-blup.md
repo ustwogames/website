@@ -3,7 +3,6 @@ title: Blip Blup
 name: Blip Blup
 date: 2015-07-09
 layout: Game
--icon: /assets/blip_blup-icon-large.png
 hero: /assets/BB-hero.jpg
 logo: /assets/bb-logotype-light.svg
 background: /assets/BB-hero.jpg

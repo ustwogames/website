@@ -4,7 +4,6 @@ name: Whale Trail
 date: 2015-06-03
 layout: Game
 background: /assets/wt-module-bg.jpg
--icon: /assets/whale_trail-icon-large.png
 hero: /assets/whaletrail.mp4
 logo: /assets/wt-logotype-color.svg
 blurb: Fly as Willow the Whale, collect blubbles and meet bonkers characters along the way
