@@ -1,10 +1,26 @@
 .box {
   background-color: var(--colorNeutralLight);
-  margin: 0 1rem;
-  padding: 4rem;
+  margin: 0;
+  padding: 2rem;
   flex-basis: 50%;
 
   & [role="button"] {
     margin: 1rem 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .box:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .box {
+    padding: 4rem;
+  }
+
+  .box:not(:last-child) {
+    margin-right: 1rem;
   }
 }
