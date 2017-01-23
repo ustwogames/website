@@ -2,34 +2,40 @@
 
 .header {
   margin-top: 0;
-  background: var(--colorSecondaryDark);
+  background: var(--colorBackground);
   position: fixed;
   width: 100vw;
   z-index: 100;
   max-height: var(--headerHeight);
-  transition: max-height 0.3s ease-out;
+  box-shadow: 0 -14px 9px 12px rgba(0,0,0,0.2);
 
   & a {
-    color: var(--colorNeutralLight);
+    color: var(--colorSecondaryDark);
     font-weight: normal;
+    text-transform: uppercase;
+    font-size: 90%;
   }
 }
 
 .menuOpen.header {
-  max-height: 400px;
+  max-height: 55vh;
 }
 
 .logo {
-  line-height: 1;
-  font-size: 0%;
+  @apply --button-bare;
+  position: absolute;
+  top: calc(var(--headerHeight) / 2);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }
+
 
 .nav {
   @apply --content-squash;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
   max-height: var(--headerHeight);
   justify-content: flex-end;
   overflow: hidden;
@@ -37,41 +43,53 @@
 }
 
 .menuOpen .nav {
-  max-height: 400px;
+  min-height: 55vh;
 }
 
 .nav ul {
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
 
 .nav li {
-  padding-left: 2rem;
+  font-size: 120%;
+}
+.nav li a {
+  padding: 0 2rem;
   line-height: var(--headerHeight);
-  text-align: right;
+  text-align: center;
   color: inherit;
+  letter-spacing: 4px;
+  height: auto;
+  display: block;
   text-decoration: none;
+  width: auto;
 }
 
+
+.nav li a:hover {
+  color: var(--colorSecondaryDark);
+  background: rgb(250,250,253);
+}
+
+
 .menuOpen .nav li:last-child {
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .menuToggle {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+  @apply --button-bare;
+
   display: block;
   text-align: right;
-  flex-basis: calc(100% - 56px);
+  flex-basis: 100%;
   margin: 0;
   height: var(--headerHeight);
-  outline: none;
 
   @media (hover: hover) {
     &:hover {
@@ -81,10 +99,6 @@
 }
 
 @media (min-width: 769px) {
-  .nav {
-    justify-content: space-between;
-  }
-
   .nav ul {
     flex-direction: row;
   }
@@ -92,6 +106,14 @@
   .nav li {
     font-size: 80%;
     text-align: left;
+  }
+
+  .nav li a {
+    letter-spacing: 3px;
+  }
+
+  .nav li:nth-child(2) {
+    margin-right: calc(var(--logoWidth) + 2rem);
   }
 
   .menuToggle {

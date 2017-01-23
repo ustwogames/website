@@ -20,11 +20,17 @@ class Header extends Component {
     this.setState({menuOpen: false });
   }
 
+  onLogoClick() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <header className={ `${ styles.header } ${ this.state.menuOpen ? styles.menuOpen : "" }` }>
         <nav className={ styles.nav }>
-          <Link className={ styles.logo } to="/"><img src="/assets/ustwo-games.svg" className={ styles.logotype } /></Link>
+          <button className={ styles.logo } onClick={ () => { this.onLogoClick() } }>
+            <img src="/assets/ustwo-games.svg" className={ styles.logotype } alt="Scroll to top" />
+          </button>
           <button className={ styles.menuToggle } onClick={ () => { this.toggleMenu() } }>
             <img src="/assets/menu.svg" />
           </button>

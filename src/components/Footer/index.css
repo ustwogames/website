@@ -6,22 +6,27 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 4rem 2rem;
+  text-align: center;
 }
 
 .footer > * {
   flex-basis: 100%;
+  -webkit-padding-start: 0em;
 
 }
 
 .notices,
 .hosting {
-  margin: 0 3em;
+  line-height: 1.9;
+  padding-bottom: 1.3em;
 }
 
 @media (min-width: 1025px) {
   .footer > * {
     flex-basis: 33%;
     margin: 0;
+    text-align: left;
+    justify-content: center;
   }
 }
 
@@ -29,14 +34,17 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 1em;
-  -webkit-padding-start: 1rem;
+  justify-content: center;
+  margin-bottom: 2em;
+  padding:0;
+  -webkit-padding-start: 0em;
 }
 
 .navPartSocial li {
   display: flex;
   align-items: center;
   padding: 0 1rem;
+
   color: inherit;
 }
 
@@ -48,14 +56,12 @@
   width: auto;
 }
 
-.hosting {
-  line-height: 2.2;
-}
-
 .hosting a {
   margin-left: 0.3rem;
+  max-height: 10px;
 }
 
 .hosting a img {
   margin: -2px 0.3rem 0;
+  height: 30%;
 }

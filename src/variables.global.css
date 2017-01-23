@@ -87,6 +87,13 @@
       display: none;
     }
   }
+
+  --button-bare {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
 }
 
 @custom-selector :--headings h1, h2, h3, h4, h5, h6;

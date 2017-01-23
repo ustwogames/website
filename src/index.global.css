@@ -47,7 +47,7 @@ html {
 }
 
 body {
-  font-size: calc(1em + 1vw / 4.5);
+  font-size: calc(1em + 1vw / 4);
 
   line-height: var(--lineHeightNormal);
   text-wrap: balance;
@@ -71,6 +71,9 @@ h5 {
   font-weight: 400;
   font-size: 70%;
   letter-spacing: 2px;
+}
+
+h4 {font-size: 130%; font-weight: 400; font-family: 'Karla', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .phenomic-HeadingAnchor {
@@ -354,4 +357,8 @@ hr {
 
 .top-buffer {
   margin-top: 8vh;
+}
+
+.bottom-buffer {
+  margin-bottom: 8vh;
 }

@@ -4,7 +4,7 @@ layout: About
 hero: /assets/team.mp4
 ---
 
-We are a small(ish) team based in Oval, South London, who love making interactive entertainment that challenges the medium and delights players.
+#### We are a small(ish) team based in Oval, South London, who love making interactive entertainment that challenges the medium and delights players.
 
 We thrive on thinking about interactive experiences in non-traditional ways, continually striving to improve our craft, while also creating user experiences that are inclusive, entertaining, and diverse.
 
@@ -14,6 +14,6 @@ We aim for an environment where everyone is supported and challenged to do their
 
 _Think you might be interested in joining the team? Head over to our [Jobs](/jobs/) page to check out our current vacancies._
 
-<div class='content-box'>
+<div class='content-box top-buffer'>
   <img src="/assets/studio-light.jpg" alt="Studio with people and a lot of sunlight" />
 </div>

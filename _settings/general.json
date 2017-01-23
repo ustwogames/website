@@ -1,7 +1,7 @@
 {
   "path":"_settings/general.json",
   "site_title":"website-refresh",
-  "footer_notices": "For company information and other legal bits, see our <a href=\"/legal/\" title=\"legal page\">legal page</a>.<br/>We’re using cookies, hope that’s cool. Here’s our <a href=\"//www.iubenda.com/privacy-policy/7953842\" class=\"iubenda-white iubenda-embed\" title=\"Privacy Policy\">Privacy Policy</a>.",
+  "footer_notices": "For company information and other legal bits, see our <a href=\"/legal/\" title=\"legal page\">legal page</a><br/>We’re using cookies, hope that’s cool. Here’s our <a href=\"//www.iubenda.com/privacy-policy/7953842\" class=\"iubenda-white iubenda-embed\" title=\"Privacy Policy\">Privacy Policy</a>",
   "social": [
     {
       "type": "twitter",
@@ -36,24 +36,20 @@
   ],
   "nav": [
     {
-      "title": "Games",
-      "url": "/games/"
+      "title": "What we do",
+      "url": "/"
     },
     {
-      "title": "About us",
-      "url": "/about/"
+      "title": "Team",
+      "url": "/team/"
     },
     {
       "title": "Jobs",
       "url": "/jobs/"
     },
     {
-      "title": "Contact",
-      "url": "/contact/"
-    },
-    {
-      "title": "Blog",
-      "url": "https://medium.com/@ustwogames"
+      "title": "Get in touch",
+      "url": "/get-in-touch/"
     }
   ]
 }
