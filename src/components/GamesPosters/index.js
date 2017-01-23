@@ -3,12 +3,12 @@ import { Link } from "phenomic"
 
 import styles from "./index.css"
 
-const GamesPosters = ({ games }) => {
+const GamesPosters = ({ games, mainTitles }) => {
   return (
     <ul className={ styles.listContainer }>
         {
           games.map((game) => (
-            <li key={ game.__url } className={ styles.listItem }>
+            <li key={ game.__url } className={ styles.listItem + (mainTitles ? ` ${styles.mainTitles}` : ` ${styles.oldTitles}`) }>
               <Link to={ game.__url }>
                 {
                   game.background &&
@@ -33,6 +33,7 @@ const GamesPosters = ({ games }) => {
 
 GamesPosters.propTypes = {
   games: PropTypes.array.isRequired,
+  mainTitles: PropTypes.bool,
 }
 
 export default GamesPosters

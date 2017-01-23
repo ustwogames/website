@@ -21,7 +21,7 @@ const Homepage = (props, { collection }) => {
   return (
     <Page { ...props }>
       <h5 className={ styles.centredTitle }>Our recent games</h5>
-      <GamesPosters games={ featuredGames } />
+      <GamesPosters games={ featuredGames } mainTitles />
       <h5 className={ styles.centredTitle }>Our other titles</h5>
       <GamesPosters games={ restOfGames } />
     </Page>
