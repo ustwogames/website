@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>menu</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="ALL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="mobile--home" transform="translate(-625.000000, -82.000000)">
-            <g id="menu" transform="translate(627.000000, 84.000000)">
-                <circle id="Oval-2" stroke="#050607" stroke-width="4" cx="20" cy="20" r="20"></circle>
-                <circle id="Oval-2" fill="#050607" cx="20" cy="20" r="8"></circle>
-            </g>
-        </g>
-    </g>
+<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+  <title>
+    menu
+  </title>
+  <g transform="translate(2 2)" fill="none" fill-rule="evenodd">
+    <circle stroke="#050607" stroke-width="4" cx="20" cy="20" r="20"/>
+    <circle fill="#050607" cx="20" cy="20" r="8"/>
+  </g>
 </svg>
