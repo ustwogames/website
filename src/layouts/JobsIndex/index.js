@@ -1,8 +1,10 @@
 import React, { PropTypes } from "react"
 import enhanceCollection from "phenomic/lib/enhance-collection"
+import { Link } from "phenomic"
 
+import Button from "../../components/Button"
+import TextContentBox from "../../components/TextContentBox"
 import Page from "../Page"
-import JobsList from "../../components/JobsList"
 
 const JobsIndex = (props, { collection }) => {
   const jobs = enhanceCollection(collection, {
@@ -13,7 +15,22 @@ const JobsIndex = (props, { collection }) => {
 
   return (
     <Page { ...props }>
-      <JobsList jobs={ jobs } />
+      <div className="squashed-columns">
+          {
+            jobs.map((job) => (
+              <TextContentBox key={ job.__url } title={ job.title }>
+                <p>
+                  { job.blurb }
+                </p>
+                <p>
+                  <Link to={ job.__url }>
+                    <Button>{ `More about the role` }</Button>
+                  </Link>
+                </p>
+              </TextContentBox>
+            ))
+          }
+      </div>
     </Page>
   )
 }
