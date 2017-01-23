@@ -73,6 +73,9 @@ h5 {
   letter-spacing: 2px;
 }
 
+h4 {font-size: 130%; font-weight: 400; font-family: 'Karla', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
 .phenomic-HeadingAnchor {
   display: none;
 }
@@ -354,4 +357,8 @@ hr {
 
 .top-buffer {
   margin-top: 8vh;
+}
+
+.bottom-buffer {
+  margin-bottom: 8vh;
 }
