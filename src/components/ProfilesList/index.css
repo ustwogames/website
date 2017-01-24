@@ -1,17 +1,77 @@
-.listItem {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-bottom: 4em;
-}
+@import "../../variables.global.css";
 
 .listContainer {
-  padding-left: 0;
   display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 4rem 0 0 0;
+  max-width: 100%;
+}
+
+.listItem {
+  list-style: none;
+  position: relative;
+  flex-basis: 100%;
+
+  & a {
+    @apply --absolute-full;
+  }
+
+  & img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      & .heading {
+        opacity: 1;
+      }
+
+      & a:before {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.listItem:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 70%;
+}
+
+.listItem a:before {
+  content: "";
+  background: purple;
+  opacity: 0.5;
+  transition: .2s all;
+
+  @apply --absolute-full;
+}
+
+@media (min-width: 513px) {
+  .listItem {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .listItem {
+    flex-basis: 25%;
+  }
+}
+
+.heading {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: .2s all;
+
+  @apply --inverted-colours;
+  background: transparent;
+  text-align: center;
 }
