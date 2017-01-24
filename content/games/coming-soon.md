@@ -1,5 +1,5 @@
 ---
-title: Coming soon
+title: Soon
 name: Coming soon
 date: 2017-01-20
 layout: Game

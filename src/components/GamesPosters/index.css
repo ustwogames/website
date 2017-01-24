@@ -33,7 +33,26 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.98;
   }
+}
+
+.listItem:hover img:hover {
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity:1;
+    -webkit-filter: saturate(1.3);
+    filter: saturate(1.3);
+}
+
+.gameLogo img:hover {
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
 }
 
 .listItem:before {
@@ -66,13 +85,13 @@
   }
 
   .mainTitles:nth-child(2) {
-    transform: translateY(2rem);
+    transform: translateY(0rem);
   }
 }
 
 .gameLogo {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 15%;
   right: 15%;
   /* below line fixes inexplicable jagged edges in Chrome */

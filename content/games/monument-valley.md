@@ -7,7 +7,6 @@ background: /assets/mv-module-bg.jpg
 hero: /assets/MonumentValleyTeaser.mp4
 logo: /assets/mv-logotype-light.svg
 promoted: true
-blurb: An illusory adventure of impossible architecture and forgiveness
 cta:
   label: Visit monumentvalleygame.com
   link: "http://monumentvalleygame.com/"

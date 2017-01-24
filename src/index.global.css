@@ -247,7 +247,7 @@ small {
 
 .squiggly > img {
   position: absolute;
-  top: 1em;
+  top: 0.7em;
   left: 0;
   z-index: -1;
 }

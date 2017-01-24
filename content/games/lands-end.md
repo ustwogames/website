@@ -1,13 +1,12 @@
 ---
 title: Land’s End
 name: Land’s End
-date: 2015-11-10
+date: 2016-11-10
 layout: Game
 background: /assets/le-module-bg.jpg
 hero: /assets/landsend.mp4
 logo: /assets/le-logotype-light.svg
 promoted: true
-blurb: Awaken a lost civilization in this amazing virtual reality adventure
 cta:
   label: Visit landsendgame.com
   link: "http://landsendgame.com/"
