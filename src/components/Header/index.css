@@ -27,7 +27,13 @@
   top: calc(var(--headerHeight) / 2);
   left: 50%;
   transform: translate(-50%, -50%);
+  width: var(--logoWidth);
   z-index: 10;
+
+  & img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 
