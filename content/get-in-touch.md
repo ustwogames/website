@@ -5,7 +5,7 @@ layout: Contact
 hero: /assets/contact.jpg
 ---
 
-<div class='squashed-columns top-buffer'>
+<div class='squashed-columns'>
 <div class='content-box inline-images big-links'>
 
 ##### Talk at us
