@@ -30,17 +30,23 @@
   }
 }
 
-.mainTitles {
-  padding-bottom: 40%;
+.listItem:before {
+  display: block;
+  content: "";
+  width: 100%;
 }
 
-.oldTitles {
-  padding-bottom: 20%;
+.mainTitles:before {
+  padding-top: 150%;
+}
+
+.oldTitles:before {
+  padding-bottom: 70%;
 }
 
 @media (max-width: 1024px) {
   .listItem:not(:first-child) {
-    padding-top: 2rem;
+    margin-top: 4rem;
   }
 }
 
