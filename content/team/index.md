@@ -1,5 +1,6 @@
 ---
 metaTitle: The team
+bodyTitle: The team
 layout: About
 hero: /assets/team.mp4
 ---

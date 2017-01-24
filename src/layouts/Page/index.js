@@ -1,7 +1,6 @@
 import React, { PropTypes } from "react"
 import classnames from "classnames"
 import Helmet from "react-helmet"
-import warning from "warning"
 import { BodyContainer, joinUri, Link } from "phenomic"
 
 import Button from "../../components/Button"
@@ -27,13 +26,8 @@ const Page = (
     metadata: { pkg, settings },
   }
 ) => {
-  warning(
-    typeof head.title === "string",
-    `Your page '${ __filename }' needs a title`
-  )
-
-  const metaTitle = head.metaTitle ? head.metaTitle : head.title
-
+  const heroTitle = head.heroTitle || head.title;
+  const metaTitle = head.metaTitle || head.title || head.heroTitle || head.bodyTitle;
   const meta = [
     { property: "og:type", content: "article" },
     { property: "og:title", content: metaTitle },
@@ -74,8 +68,8 @@ const Page = (
               <h1 className={ styles.heading }>
                 {
                   head.logolight
-                  ? <img src={ head.logolight } alt={ head.title }/>
-                  : head.title
+                  ? <img src={ head.logolight } alt={ heroTitle }/>
+                  : heroTitle
                 }
               </h1>
               {
@@ -96,6 +90,7 @@ const Page = (
       }
       <div className={ styles.wrapper + " " + styles.pageContent }>
         { header }
+        <h1 className={ styles.heading }>{ head.bodyTitle }</h1>
         {
           displayChildrenFirst &&
           children
