@@ -4,6 +4,11 @@ import styles from "./index.css"
 
 const MailingList = () => (
   <div id="mc_embed_signup" className={ styles.wrapper }>
+    <h5>Mailing list</h5>
+    <small>
+      Want to know all the things? Announcements, behind the scenes? Merchandise deals?<br/>
+      <strong>Subscribe to our list.</strong> No spam, no passing your email address around.
+    </small>
     <form action="//ustwogames.us14.list-manage.com/subscribe/post?u=4fc4bb980aaf05ff749e5211c&amp;id=fdceefe663" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
       <div id="mc_embed_signup_scroll">
         <div className="mc-field-group">
