@@ -163,7 +163,7 @@ a, button, input[type="submit"] {
 /* making small behave more like a p */
 small {
   font-size: 70%;
-  line-height: var(--lineHeightNormal);
+  line-height: 1.9;
   display: block;
   opacity: 0.6;
 }
