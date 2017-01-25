@@ -14,6 +14,8 @@
 
   & a {
     @apply --absolute-full;
+    cursor: default;
+    transition: 0.5s all;
   }
 
   & img {
@@ -46,7 +48,7 @@
   content: "";
   background: purple;
   opacity: 0.5;
-  transition: .2s all;
+  transition: 0.5s all;
 
   @apply --absolute-full;
 }
@@ -65,7 +67,8 @@
 
 .heading {
   position: absolute;
-  top: 60%;
+  top: 76%;
+  font-size: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
