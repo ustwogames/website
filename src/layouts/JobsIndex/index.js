@@ -15,7 +15,7 @@ const JobsIndex = (props, { collection }) => {
 
   return (
     <Page { ...props }>
-      <div className="squashed-columns">
+      <div className="jobs-columns">
           {
             jobs.map((job) => (
               <TextContentBox key={ job.__url } title={ job.title }>
@@ -24,7 +24,7 @@ const JobsIndex = (props, { collection }) => {
                 </p>
                 <p>
                   <Link to={ job.__url }>
-                    <Button>{ `Is this you? Find out more` }</Button>
+                    <Button>{ `Maybe it's you!` }</Button>
                   </Link>
                 </p>
               </TextContentBox>

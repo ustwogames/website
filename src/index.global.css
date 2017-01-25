@@ -207,6 +207,12 @@ small {
         display: flex;
     }
 
+    .jobs-columns {
+      @apply --content-squash;
+      display:flex;
+      flex-wrap: wrap;
+    }
+
     .columns > * {
         flex-basis: 50%;
     }

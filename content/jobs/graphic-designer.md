@@ -8,7 +8,7 @@ blurb: This role requires a motivated and experienced Graphic Designer to help c
 url: https://www.google.com/
 ---
 
-We’re looking for a motivated and experienced Graphic Designer to be our preferred partner in the production of promotional assets and artwork for our game titles.
+#### We’re looking for a motivated and experienced Graphic Designer to be our preferred partner in the production of promotional assets and artwork for our game titles.
 
 As our Graphic Design resource you will produce a wide range of promotional materials for a diverse set of uses as well as working with the team to help create and expand the reach of our IP.
 

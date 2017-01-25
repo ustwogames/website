@@ -8,7 +8,7 @@ blurb: This role requires someone who is excited by the prospect of engaging wit
 url: https://www.google.com/
 ---
 
-We’re looking for a motivated and experienced Community Manager to develop and expand our social media, online and technical support strategies.
+#### We’re looking for a motivated and experienced Community Manager to develop and expand our social media, online and technical support strategies.
 
 As Community Manager you will be responsible for making sure ustwo games maintains a friendly and enthusiastic online presence. You are excited by the prospect of engaging with our diverse fan base, and can plan and deliver content specifically suited each of our social media channels.
 

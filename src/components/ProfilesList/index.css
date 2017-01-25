@@ -5,7 +5,6 @@
   flex-wrap: wrap;
   padding: 4rem 0 0 0;
   max-width: 100%;
-  background: var(--colorNeutralLight);
 }
 
 .listItem {

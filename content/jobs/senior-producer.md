@@ -8,7 +8,7 @@ blurb: This role requires someone with solid experience and initiative who has e
 url: https://www.google.com/
 ---
 
-We’re looking for a talented Senior Producer to join ustwo Games and help us to build on the success of Monument Valley, making new titles with stand-out production values, heart and broad appeal.
+#### We’re looking for a talented Senior Producer to join ustwo Games and help us to build on the success of Monument Valley, making new titles with stand-out production values, heart and broad appeal.
 
 This role requires someone with solid experience and initiative who has experience tackling a wide range of tasks, this isn't just a project management role and requires a more holistic approach to what it means to be a producer on a small team. This involves dealing directly with external partners and communication on commercial opportunities, in addition to the day by day support of the team and studio.
 
