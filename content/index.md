@@ -4,7 +4,7 @@ layout: Homepage
 hero: /assets/what-we-do.mp4
 ---
 
-<div class="content-box inline-images floating-images">
+<div class="content-box squashed inline-images floating-images">
 
 ![cat](http://placekitten.com/200/287)
 
@@ -14,4 +14,4 @@ I'll book a meeting so we can solution this before the sprint is over. Root-and-
 
 </div>
 
-<p class="homepage-banner">Interactive entertainment<br/>that <span class="squiggly">challenges<img src="http://cabinetmagazine.org/issues/36/1838_squiggle_FINAL.jpg" /></span> the medium</p>
+<p class="homepage-banner">Interactive entertainment<br/>that challenges the medium</p>

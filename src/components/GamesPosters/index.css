@@ -1,7 +1,7 @@
 @import "../../variables.global.css";
 
 .listContainer {
-  margin: 2em auto 5em;
+  margin: 0em auto 1em;
   padding: 0 1rem;
   max-width: 100%;
   display: flex;
@@ -20,6 +20,7 @@
   flex-basis: 100%;
   position: relative;
   overflow: hidden;
+  background: #FAFAFC;
 
   & a {
     position: absolute;
@@ -71,7 +72,7 @@
 
 @media (max-width: 1024px) {
   .listItem:not(:first-child) {
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
 }
 
@@ -85,7 +86,7 @@
   }
 
   .mainTitles:nth-child(2) {
-    transform: translateY(0rem);
+    /*transform: translateY(1rem);*/
   }
 }
 
@@ -104,5 +105,5 @@
 }
 
 .oldTitles .gameLogo {
-  top: 20%;
+  top: 22%;
 }

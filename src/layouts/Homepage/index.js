@@ -3,8 +3,8 @@ import enhanceCollection from "phenomic/lib/enhance-collection"
 
 import Page from "../Page"
 import GamesPosters from "../../components/GamesPosters"
-
-import styles from "./index.css"
+ 
+// import styles from "./index.css"
 
 const Homepage = (props, { collection }) => {
   const featuredGames = enhanceCollection(collection, {
@@ -20,9 +20,7 @@ const Homepage = (props, { collection }) => {
 
   return (
     <Page { ...props }>
-      <h5 className={ styles.centredTitle }>Our recent games</h5>
       <GamesPosters games={ featuredGames } mainTitles />
-      <h5 className={ styles.centredTitle }>Our other titles</h5>
       <GamesPosters games={ restOfGames } />
     </Page>
   )
