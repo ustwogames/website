@@ -1,6 +1,6 @@
 ---
-metaTitle: Jobs
-bodyTitle: Work at ustwo games
+metaTitle: ustwogames / jobs
+<!-- bodyTitle: Work at ustwo games -->
 layout: JobsIndex
 hero: /assets/jobs.mp4
 ---

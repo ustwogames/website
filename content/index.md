@@ -1,5 +1,5 @@
 ---
-metaTitle: ustwo games
+metaTitle: ustwogames
 layout: Homepage
 hero: /assets/what-we-do.mp4
 ---

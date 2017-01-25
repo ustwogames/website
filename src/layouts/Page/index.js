@@ -67,15 +67,9 @@ const Page = (
             <div className={ styles.wrapper }>
               <h1 className={ styles.heading }>
                 {
-<<<<<<< HEAD
-                  head.logo
-                  ? <img src={ head.logo } alt={ head.title }/>
-                  : head.title
-=======
                   head.logolight
                   ? <img src={ head.logolight } alt={ heroTitle }/>
                   : heroTitle
->>>>>>> feature/profiles
                 }
               </h1>
               {

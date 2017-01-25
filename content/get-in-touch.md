@@ -1,5 +1,5 @@
 ---
-metaTitle: Contact
+metaTitle: ustwogames / get in touch
 title:
 layout: Contact
 hero: /assets/contact.jpg

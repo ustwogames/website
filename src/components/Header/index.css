@@ -21,6 +21,10 @@
   max-height: 55vh;
 }
 
+.menuOpen .nav {
+  min-height: 55vh;
+}
+
 .logo {
   @apply --button-bare;
   position: absolute;
@@ -48,9 +52,7 @@
   transition: max-height 0.2s ease-out;
 }
 
-.menuOpen .nav {
-  min-height: 55vh;
-}
+
 
 .nav ul {
   width: 100%;
@@ -126,4 +128,3 @@
     display: none;
   }
 }
-  

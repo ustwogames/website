@@ -1,6 +1,4 @@
 import React, { PropTypes } from "react"
-
-
 import styles from "./index.css"
 
 const ProfilesList = ({ profiles }) => {

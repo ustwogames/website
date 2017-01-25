@@ -20,7 +20,7 @@ const About = (props, { collection }) => {
       <h5 className={ styles.centredTitle }>Think you might be interested in joining the team?</h5>
       <Link to="/jobs">
         <Button>See our current vacancies</Button>
-      </Link>
+      </Link><br/>
       <ProfilesList profiles={ profiles } />
     </Page>
   )
