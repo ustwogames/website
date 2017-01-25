@@ -1,5 +1,5 @@
 ---
-metaTitle: Job - Financial Controller
+metaTitle: jobs / Financial Controller
 title: Financial Controller
 date: 2016-12-03
 layout: Job

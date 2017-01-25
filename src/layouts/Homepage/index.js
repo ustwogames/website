@@ -3,7 +3,7 @@ import enhanceCollection from "phenomic/lib/enhance-collection"
 
 import Page from "../Page"
 import GamesPosters from "../../components/GamesPosters"
- 
+
 // import styles from "./index.css"
 
 const Homepage = (props, { collection }) => {

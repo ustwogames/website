@@ -18,6 +18,8 @@ module.exports = (config) => [
             colorNeutral: "#8C8D91",
             colorNeutralLight: "#FAFAFC",
             colorHover: "#FF0000",
+            colorHoverDark: "#00FFB3",
+            colorLinkDark: "#88FFC1",
             colorText: "#556275",
             colorBackground: "#FFF",
           },

@@ -1,5 +1,5 @@
 ---
-metaTitle: Job - Senior Programmer
+metaTitle: jobs / Senior Programmer
 title: Senior Programmer
 date: 2016-10-03
 layout: Job

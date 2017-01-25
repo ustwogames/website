@@ -6,7 +6,7 @@
   position: fixed;
   width: 100vw;
   z-index: 100;
-  max-height: var(--headerHeight);
+  height: 7vh;
   box-shadow: 0 -14px 9px 12px rgba(0,0,0,0.2);
 
   & a {
@@ -28,7 +28,7 @@
 .logo {
   @apply --button-bare;
   position: absolute;
-  top: calc(var(--headerHeight) / 2);
+  top: calc(7vh / 2);
   left: 50%;
   transform: translate(-50%, -50%);
   width: var(--logoWidth);
@@ -127,4 +127,8 @@
   .menuToggle {
     display: none;
   }
+
+.header {
+  max-height: var(--headerHeight);
+}
 }

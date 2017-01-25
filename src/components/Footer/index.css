@@ -9,6 +9,9 @@
   text-align: center;
 }
 
+.footer a {color: var(--colorSecondaryDark);}
+
+
 .footer > * {
   flex-basis: 100%;
   -webkit-padding-start: 0em;

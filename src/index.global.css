@@ -93,9 +93,10 @@ ul {
 
 blockquote {
   position: relative;
-  padding-left: 3rem;
+  padding-left: 2rem;
   padding-right: 2rem;
   max-width: 48rem;
+  font-size: 120%;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
@@ -112,7 +113,8 @@ blockquote:last-child:after {
 }
 
 blockquote:before {
-  content: open-quote;
+  display: none;
+  /*content: open-quote;*/
   position: absolute;
   top: 0;
   left: 1rem;
@@ -121,7 +123,8 @@ blockquote:before {
 }
 
 blockquote:after {
-  content: close-quote;
+  display: none;
+  /*content: close-quote;*/
   position: absolute;
   bottom: -0.75rem;
   right: 1rem;
@@ -130,7 +133,6 @@ blockquote:after {
 }
 
 blockquote cite {
-  opacity: 0.6;
   font-size: 80%;
 }
 
@@ -140,14 +142,15 @@ blockquote cite:before {
 
 /* minimal styling, prefer removing this and use local styles */
 a {
-  color: var(--colorSecondaryDark);
+  color: var(--colorLinkDark);
   text-decoration: none;
   transition: all 0.1s;
   font-weight: 600;
 
   @media (hover: hover) {
     &:hover {
-      color: var(--colorSecondaryDark)
+      color: var(--colorHoverDark);
+      opacity: 1;
     }
   }
 }
@@ -189,6 +192,10 @@ small {
 }
 .content-box.dark {
     @apply --inverted-colours;
+
+    & :--headings {
+      color: var(--colorNeutralLight);
+    }
 }
 
 .squashed-columns {

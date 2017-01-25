@@ -14,7 +14,7 @@ cta:
 
 <div class='content-box'>
 
-Land’s End is an incredible virtual reality adventure in which you explore spectacular landscapes to awaken a lost civilization.
+#### Land’s End is an incredible virtual reality adventure in which you explore spectacular landscapes to awaken a lost civilization.
 
 Built exclusively for the Samsung Gear VR, the game combines our ambition to bring together interactive storytelling with new technology to create a compelling, immersive experience.
 
