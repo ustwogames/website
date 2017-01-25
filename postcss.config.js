@@ -6,7 +6,7 @@ module.exports = (config) => [
       features: {
         customProperties: {
           variables: {
-            headerHeight: "7vh",
+            headerHeight: "80px",
             logoWidth: "76px",
             lineHeightNormal: "1.6",
             lineHeightHeading: "1.2",
