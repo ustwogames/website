@@ -3,10 +3,8 @@ title: Blip Blup
 name: Blip Blup
 date: 2015-07-09
 layout: Game
--icon: /assets/blip_blup-icon-large.png
 hero: /assets/BB-hero.jpg
-logolight: /assets/bb-logotype-light.svg
-logodark: /assets/bb-logotype-light.svg
+logo: /assets/bb-logotype-light.svg
 background: /assets/BB-hero.jpg
 blurb: An addictive conundrum of colouration that will consume your thoughts and occupy your dreams
 stores:

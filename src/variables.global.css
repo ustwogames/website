@@ -48,46 +48,6 @@
     }
   }
 
-  --list-item-light: {
-    @apply --normal-colours;
-
-    & :--headings {
-      color: var(--colorSecondaryDark);
-    }
-
-    & .cta {
-      @apply --button-dark;
-    }
-
-    & .logolight {
-      display: none;
-    }
-
-    & .logodark {
-      display: initial;
-    }
-  }
-
-  --list-item-dark: {
-    @apply --inverted-colours;
-
-    & :--headings {
-      color: var(--colorNeutralLight);
-    }
-
-    & .cta {
-      @apply --button-light;
-    }
-
-    & .logolight {
-      display: initial;
-    }
-
-    & .logodark {
-      display: none;
-    }
-  }
-
   --button-bare: {
     background-color: transparent;
     border: none;
