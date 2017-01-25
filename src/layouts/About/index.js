@@ -1,8 +1,11 @@
 import React, { PropTypes } from "react"
 import enhanceCollection from "phenomic/lib/enhance-collection"
+import { Link } from "phenomic"
 
 import Page from "../Page"
 import ProfilesList from "../../components/ProfilesList"
+import Button from "../../components/Button"
+
 import styles from "./index.css"
 
 const About = (props, { collection }) => {
@@ -14,6 +17,10 @@ const About = (props, { collection }) => {
 
   return (
     <Page { ...props } bodyExtraClass={ styles.aboutBody }>
+      <h5 className={ styles.centredTitle }>Think you might be interested in joining the team?</h5>
+      <Link to="/jobs">
+        <Button>See our current vacancies</Button>
+      </Link>
       <ProfilesList profiles={ profiles } />
     </Page>
   )
