@@ -33,10 +33,6 @@ The project began as an investigation into new techniques for interaction and na
 </div>
 
 <div class='content-box'>
-  <img src="/assets/LE_postcard_BACK21.jpg" alt="Game postcard" />
-</div>
-
-<div class='content-box'>
 
 > The most powerful thing about wearing a VR headset is the sense of presence, so with Land’s End we’ve been able to create a world that invites you to enjoy its surroundings and discover its possibilities.  
 > <cite>Peter Pashley, Head of Development at ustwo Games.</cite>
@@ -78,8 +74,8 @@ Land’s End is ustwo Games’ first complete game for VR. With over a year in r
 
 </div>
 
-<div class='content-box dark'>
-  <div class='squashed'>
+<div class='content-box dark bottom-buffer'>
+  <div class='squashed bottom-buffer'>
     <div class='fluid-embed'>
       <iframe src="//www.youtube.com/embed/XwJ9fiH2Ksw" frameborder="0" width="100%"></iframe>
     </div>

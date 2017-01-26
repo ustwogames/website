@@ -115,7 +115,7 @@ To date, Monument Valley has seen a total of over 25 million downloads since lau
 </div>
 
 <div class='content-box dark'>
-  <div class='squashed'>
+  <div class='squashed bottom-buffer'>
     <div class='fluid-embed'>
       <iframe src='http://player.vimeo.com/video/89525141' title="Monument Valley - Behind the Scenes" width="600" height="300" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>

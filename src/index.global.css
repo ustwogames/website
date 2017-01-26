@@ -113,18 +113,18 @@ blockquote:last-child:after {
 }
 
 blockquote:before {
-  display: none;
-  /*content: open-quote;*/
+  /*display: none;*/
+  content: open-quote;
   position: absolute;
   top: 0;
-  left: 1rem;
+  left: 0rem;
   line-height: 1;
   font-size: 400%;
 }
 
 blockquote:after {
-  display: none;
-  /*content: close-quote;*/
+  /*display: none;*/
+  content: close-quote;
   position: absolute;
   bottom: -0.75rem;
   right: 1rem;

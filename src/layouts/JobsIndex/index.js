@@ -24,7 +24,7 @@ const JobsIndex = (props, { collection }) => {
                 </p>
                 <p>
                   <Link to={ job.__url }>
-                    <Button>{ `Maybe it's you!` }</Button>
+                    <Button>{ `Maybe it’s you!` }</Button>
                   </Link>
                 </p>
               </TextContentBox>
