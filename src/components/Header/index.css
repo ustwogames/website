@@ -17,13 +17,8 @@
   }
 }
 
-.menuOpen.header {
-  min-height: 25vh;
-}
-
 .menuOpen .nav {
-  min-height: 25vh;
-  background: var(--colorBackground);
+  max-height: 100vh;
   box-shadow: 0 -14px 9px 12px rgba(0,0,0,0.2);
 }
 
@@ -48,10 +43,11 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  min-height: 25vh;
+  max-height: var(--headerHeight);
   justify-content: flex-end;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  background: var(--colorBackground);
 }
 
 
