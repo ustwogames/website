@@ -5,7 +5,7 @@ date: 2017-01-25
 layout: Job
 hero: /assets/group.jpg
 blurb: This role requires someone who is excited by the prospect of engaging with our diverse fan base.
-url: https://www.google.com/
+url: https://ustwo.workable.com/jobs/417361
 ---
 
 #### We’re looking for a motivated and experienced Community Manager to develop and expand our social media, online and technical support strategies.

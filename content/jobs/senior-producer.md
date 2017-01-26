@@ -5,7 +5,7 @@ date: 2017-01-25
 layout: Job
 hero: /assets/group.jpg
 blurb: This role requires someone with solid experience and initiative who has experience tackling a wide range of tasks.
-url: https://www.google.com/
+url: https://ustwo.workable.com/jobs/417373
 ---
 
 #### We’re looking for a talented Senior Producer to join ustwo Games and help us to build on the success of Monument Valley, making new titles with stand-out production values, heart and broad appeal.
