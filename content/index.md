@@ -6,7 +6,7 @@ hero: /assets/what-we-do.mp4
 
 <div class="content-box squashed inline-images floating-images welcome">
 
-<div class="video"><video src="/assets/CrowIdleLoop1.mp4" width="180" autoplay loop playsinline></video></div>
+<div class="video"><video src="/assets/CrowIdleLoop1.mp4" width="180" autoPlay loop playsInline></video></div>
 
 ##### Independent games studio
 

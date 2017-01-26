@@ -270,12 +270,13 @@ small {
 @media (min-width: 1025px) {
     .video {
         float: left;
-        margin: 0 5rem 0 0;
+        margin: 1rem 0.3rem 0 0;
         padding-bottom: 6rem;
     }
 
     .welcome {
-        width: 60%;
+        width: 55%;
+        padding: 2rem 0 0 0;
     }
 }
 
@@ -294,7 +295,7 @@ small {
 }
 
 @media (min-width: 1025px) {
-  .homepage-banner{font-size: 300%;}
+  .homepage-banner {font-size: 300%;}
 }
 
 .squiggly {

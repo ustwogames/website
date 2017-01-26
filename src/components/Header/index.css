@@ -18,9 +18,11 @@
 }
 
 .menuOpen.header {
+  min-height: 25vh;
 }
 
 .menuOpen .nav {
+  min-height: 25vh;
   background: var(--colorBackground);
   box-shadow: 0 -14px 9px 12px rgba(0,0,0,0.2);
 }

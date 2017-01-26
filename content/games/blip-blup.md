@@ -29,6 +29,7 @@ After over a year of pouring our hearts and souls into Whale Trail, we wanted to
 *   It’s not a game about timing
 *   It’s not a game about quick reflexes
 
+<p></p>
 </div>
 
 <div class='content-box dark'>

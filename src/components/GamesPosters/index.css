@@ -70,7 +70,7 @@
   padding-bottom: 70%;
 }
 
-/*.oldTitles {margin: 2rem 0;}*/
+.oldTitles {margin: 7rem 0 0 0;}
 
 @media (max-width: 1024px) {
   .listItem:not(:first-child) {
