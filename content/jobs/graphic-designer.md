@@ -5,7 +5,7 @@ date: 2017-01-25
 layout: Job
 hero: /assets/man-graph.jpg
 blurb: This role requires a motivated and experienced Graphic Designer to help create promotional assets and artwork for our game titles.
-url: https://www.ustwogames.co.uk/jobs/graphic-designer/
+url: https://ustwo.workable.com/jobs/417368
 ---
 
 <div class="content-box squashed">
