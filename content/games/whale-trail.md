@@ -1,5 +1,5 @@
 ---
-title: Whale Trail
+title: ustwo games / Whale Trail
 name: Whale Trail
 date: 2015-06-03
 layout: Game

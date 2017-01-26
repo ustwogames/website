@@ -1,5 +1,5 @@
 ---
-title: Blip Blup
+title: ustwo games / Blip Blup
 name: Blip Blup
 date: 2015-07-09
 layout: Game

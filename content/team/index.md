@@ -1,5 +1,5 @@
 ---
-metaTitle: ustwogames / team
+metaTitle: ustwo games / team
 bodyTitle: The team
 layout: About
 hero: /assets/team.mp4
