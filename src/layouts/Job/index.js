@@ -6,7 +6,7 @@ import Button from "../../components/Button"
 
 const Job = (props) => {
   return (
-    <Page { ...props }>
+    <Page { ...props } hideMailingList>
       <Link to={ props.head.url }>
         <Button>For more information and to apply > clicky tappy</Button>
       </Link>

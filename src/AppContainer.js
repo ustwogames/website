@@ -8,7 +8,6 @@ import DefaultHeadMeta from "./components/DefaultHeadMeta"
 import Header from "./components/Header"
 import Content from "./components/Content"
 import Footer from "./components/Footer"
-import MailingList from "./components/MailingList"
 
 // GOOGLE Analytics, part 1/2
 const GOOGLE_ANALYTICS_UA = "UA-87774084-1"
@@ -55,7 +54,6 @@ const AppContainer = (props) => (
     <Content>
       { props.children }
     </Content>
-    <MailingList />
     <Footer />
   </Container>
 )

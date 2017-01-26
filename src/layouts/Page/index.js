@@ -5,6 +5,7 @@ import { BodyContainer, joinUri, Link } from "phenomic"
 
 import Button from "../../components/Button"
 import Loading from "../../components/Loading"
+import MailingList from "../../components/MailingList"
 
 import styles from "./index.css"
 
@@ -15,9 +16,8 @@ const Page = (
     __url,
     head,
     body,
-    header,
+    hideMailingList,
     mailinglist,
-    footer,
     children,
     displayChildrenFirst,
     bodyExtraClass,
@@ -89,7 +89,6 @@ const Page = (
         </div>
       }
       <div className={ styles.wrapper + " " + styles.pageContent }>
-        { header }
         <h1 className={ styles.heading }>{ head.bodyTitle }</h1>
         {
           displayChildrenFirst &&
@@ -104,8 +103,10 @@ const Page = (
           !displayChildrenFirst &&
           children
         }
-        { mailinglist }
-        { footer }
+        {
+          !hideMailingList &&
+          <MailingList />
+        }
       </div>
     </div>
   )
@@ -114,14 +115,13 @@ const Page = (
 Page.propTypes = {
   children: PropTypes.node,
   displayChildrenFirst: PropTypes.bool,
+  hideMailingList: PropTypes.bool,
   isLoading: PropTypes.bool,
   __filename: PropTypes.string,
   __url: PropTypes.string,
   head: PropTypes.object.isRequired,
   body: PropTypes.string,
   bodyExtraClass: PropTypes.string,
-  header: PropTypes.element,
-  footer: PropTypes.element,
   mailinglist: PropTypes.element,
 }
 
