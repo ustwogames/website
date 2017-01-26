@@ -18,11 +18,9 @@
 }
 
 .menuOpen.header {
-  max-height: 45vh;
 }
 
 .menuOpen .nav {
-  min-height: 45vh;
   background: var(--colorBackground);
   box-shadow: 0 -14px 9px 12px rgba(0,0,0,0.2);
 }
@@ -48,7 +46,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-height: var(--headerHeight);
+  min-height: 25vh;
   justify-content: flex-end;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
