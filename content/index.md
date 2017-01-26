@@ -6,11 +6,11 @@ hero: /assets/what-we-do.mp4
 
 <div class="content-box squashed inline-images floating-images">
 
-![cat](http://placekitten.com/200/287)
+<div class="video video-center"><video src="/assets/CrowIdleLoop1.mp4" width="180" autoplay loop playsinline></video></div>
 
-##### Independent game development studio
+##### Independent games studio
 
-I'll book a meeting so we can solution this before the sprint is over. Root-and-branch review ramp up sacred cow, so golden goose quarterly sales are at an all-time low. Low-hanging fruit imagineer work. Game plan what's the status on the deliverables for eow? but three-martini lunch beef up. Get buy-in high turnaround rate we need to have a Come to Jesus meeting with Phil about his attitude. Action item screw the pooch, yet when does this sunset?
+We’re a mobile games studio that loves to make interactive entertainment which challenges the medium, with a strong focus on user experience and elegance in presentation. From our BAFTA award-winning hit Monument Valley, to innovative virtual reality experience Land’s End, we hope our dedication to craft and platform specific design shows in every product we create.
 
 </div>
 

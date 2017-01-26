@@ -251,8 +251,25 @@ small {
   display: block;
 }
 
+
+
 @media (min-width: 1025px) {
   .floating-images img {
+    float: left;
+    margin: 0 5rem 0 0;
+  }
+}
+
+
+.video {
+  padding: 2rem ;
+  display: block;
+  /*background: red;*/
+  text-align: center;
+}
+
+@media (min-width: 1025px) {
+ .video {
     float: left;
     margin: 0 5rem 0 0;
   }
