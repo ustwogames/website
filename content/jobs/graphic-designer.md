@@ -3,7 +3,7 @@ metaTitle: jobs / Graphic Designer
 title: Graphic Designer
 date: 2017-01-25
 layout: Job
-hero: /assets/group.jpg
+hero: /assets/man-graph.jpg
 blurb: This role requires a motivated and experienced Graphic Designer to help create promotional assets and artwork for our game titles.
 url: https://www.google.com/
 ---
