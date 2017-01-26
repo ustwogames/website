@@ -89,7 +89,12 @@ const Page = (
         </div>
       }
       <div className={ styles.wrapper + " " + styles.pageContent }>
-        <h1 className={ styles.heading }>{ head.bodyTitle }</h1>
+        {
+          head.bodyTitle &&
+          <div className="content-box squashed">
+            <h1 className={ styles.heading }>{ head.bodyTitle }</h1>
+          </div>
+        }
         {
           displayChildrenFirst &&
           children
