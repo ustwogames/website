@@ -18,11 +18,13 @@
 }
 
 .menuOpen.header {
-  max-height: 55vh;
+  max-height: 45vh;
 }
 
 .menuOpen .nav {
-  min-height: 55vh;
+  min-height: 45vh;
+  background: var(--colorBackground);
+  box-shadow: 0 -14px 9px 12px rgba(0,0,0,0.2);
 }
 
 .logo {
