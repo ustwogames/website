@@ -14,7 +14,7 @@ const JobsIndex = (props, { collection }) => {
   })
 
   return (
-    <Page { ...props }>
+    <Page { ...props } hideMailingList>
       <div className="jobs-columns">
           {
             jobs.map((job) => (

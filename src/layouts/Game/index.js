@@ -23,7 +23,7 @@ const Game = (props) => {
   return (
     <Page
       { ...props }
-      displayChildrenFirst
+      displayChildrenFirst hideMailingList
     >
       <ul className={ styles.listContainer }>
         {

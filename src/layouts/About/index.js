@@ -16,7 +16,7 @@ const About = (props, { collection }) => {
   })
 
   return (
-    <Page { ...props } bodyExtraClass={ styles.aboutBody }>
+    <Page { ...props } hideMailingList bodyExtraClass={ styles.aboutBody }>
       <h5 className={ styles.centredTitle }>Think you might be interested in joining the team?</h5>
       <Link to="/jobs">
         <Button>See our current vacancies</Button>

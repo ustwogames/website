@@ -1,39 +1,60 @@
 @import "../../variables.global.css";
 
 .wrapper {
-  margin: 6rem 3rem 3rem;
-  text-align: center;
+    margin: 6rem 3rem 0;
+    text-align: center;
 
-  & label {
-    font-size: 70%;
-  }
+    & label {
+        font-size: 70%;
+    }
 
-  & input {
-    background: #fff;
-    color: var(--colorPrimary);
-    border: 3px solid var(--colorPrimary);
-    font-size: 70%;
-    padding: 0.6em 1em 0.5em;
-    border-radius: 0;
-    font-family: inherit;
-    min-width: 13rem;
-    transition: .2s all;
-    appearance: none;
-  }
+    & input {
+        background: #fff;
+        color: var(--colorPrimary);
+        border: 3px solid var(--colorSecondaryDark);
+        font-size: 70%;
+        padding: 1em;
+        border-radius: 0;
+        font-family: inherit;
+        min-width: 13rem;
+        transition: 0.2s all;
+        appearance: none;
+    }
 
-  & input[type=email] {
-    margin: 0 -2px -3px -2px;
-  }
+    & input[type=email] {
+        margin: 0 -2px -3px;
+        width: 100%;
+    }
 
-  & input[type=submit] {
-    @apply --button-dark;
-    cursor: pointer;
-    font-weight: 600;
-    margin: -2px -2px 0 -2px;
-  }
+    & input[type=submit] {
+        @apply --button-dark;
+        cursor: pointer;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin: -2px -2px 0;
+        width: 100%;
+    }
 
-  & input::placeholder {
-    color: color(var(--colorPrimary) a(0.5));
-  }
+    @media (min-width: 1025px) {
+
+        & input[type=email] {
+            margin: 0 -2px -3px;
+            width: 50%;
+        }
+
+        & input[type=submit] {
+            @apply --button-dark;
+            cursor: pointer;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: -2px -2px 0;
+            width: 50%;
+        }
+
+        & input::placeholder {
+            color: color(var(--colorPrimary) a(0.5));
+        }
+
+    }
 
 }

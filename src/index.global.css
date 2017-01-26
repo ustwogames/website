@@ -455,3 +455,7 @@ hr {
 .bottom-buffer {
   margin-bottom: 8vh;
 }
+
+.shim {
+  margin-bottom: 3em;
+}

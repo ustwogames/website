@@ -5,7 +5,7 @@ import styles from "./index.css"
 const MailingList = () => (
   <div id="mc_embed_signup" className={ styles.wrapper }>
     <h5>Mailing list</h5>
-    <small>
+    <small className="shim">
       Want to know all the things? Announcements, behind the scenes? Merchandise deals?<br/>
       <strong>Subscribe to our list.</strong> No spam, no passing your email address around.
     </small>
