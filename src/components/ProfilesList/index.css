@@ -15,13 +15,16 @@
   & a {
     @apply --absolute-full;
     cursor: default;
-    transition: 0.5s all;
+
   }
 
   & img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    transition: 0.5s all;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
   }
 
   @media (hover: hover) {
@@ -32,6 +35,11 @@
 
       & a:before {
         opacity: 0;
+      }
+
+      & img {
+        -webkit-filter: saturate(1.3);
+        filter: saturate(1.3);
       }
     }
   }
@@ -47,7 +55,7 @@
 .listItem a:before {
   content: "";
   background: purple;
-  opacity: 0.5;
+  opacity: 0.2;
   transition: 0.5s all;
 
   @apply --absolute-full;

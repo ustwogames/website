@@ -13,4 +13,7 @@ We thrive on thinking about interactive experiences in non-traditional ways, con
 Our team are an eclectic bunch of individuals stemming from both within and outside of the gaming industry. It’s this blend of industry know-how and outside-the-box influences that helps us to create games that defy (and hopefully define) expectations.
 
 We aim for an environment where everyone is supported and challenged to do their best work, and where we value the creative input that everyone has to share. We have a very strong emphasis on personal development, helping people to round out their skillsets in their main discipline and any others that they’re interested in.
+
+![CHAPS HAVING FUN](/assets/chaps.jpg "Chaps having fun")
+
 </div>
