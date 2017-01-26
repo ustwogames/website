@@ -61,6 +61,7 @@
 .heading img {
   width: 70vw;
   max-height: 25vh;
+  margin: 0 0 2rem 0;
 }
 
 .blurb {

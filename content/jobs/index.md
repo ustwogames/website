@@ -7,10 +7,11 @@ hero: /assets/jobs.mp4
 
 <div class="content-box squashed inline-images floating-images">
 
-#### ustwo games is still a small company, but we’re constantly seeking to challenge ourselves with the games we make, and in turn build an even better team.
+#### We're still a relatively small team, but our aspirations are pretty huge. We're always looking to challenge ourselves in the types of games we make, and in the audiences we try to reach, and in order to succeed in meeting those challenges, we want the best possible team mates to join us!
 
-We’re not your average games company and sit within a much larger group of creative studios focussing on digital product design. It’s this uncommon heritage of ours that we believe contributes to our innovative thinking and we embrace applications from outside the traditional games industry. How do we make games that don’t feel like games? We take inspiration from outside of games.
+Our team already contains a diverse mixture of individuals from across the games industry, and other creative fields such as animation, illustration and digital product design. It's this diverse mix of voices and experiences that encourages us to think about games in non-traditional ways, and also makes sure our social calendar is pretty eclectic!
 
-We seek team members to add to our already diverse group and hope to attract people with a wide variety of interests and backgrounds. Extracurricular activities we already pursue include books, board games and a wide range of other socialising events.
+If you're interested in working with us, then you can see our current vacancies below. We welcome applications from both within and outside the games industry, and offer a range of employee benefits.
 
+Specific information regarding international applications can be seen on individual job listings.
 </div>

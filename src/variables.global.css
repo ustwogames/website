@@ -23,8 +23,9 @@
 
     @media (hover: hover) {
       &:hover {
-        border: 3px solid color(var(--colorNeutralLight) a(0.5));
-        color: color(var(--colorNeutralLight) a(0.5));
+        border: 3px solid color(var(--colorNeutralLight));
+        color: color(var(--colorSecondaryDark));
+        background: var(--colorNeutralLight);
       }
     }
 
