@@ -7,7 +7,7 @@ import styles from "./index.css"
 const PageError = ({ error, errorText }) => (
   <Page
     head={{
-      hero: "/assets/404.jpg",
+      hero: "/assets/404.gif",
       title: error,
       blurb: errorText
     }}
