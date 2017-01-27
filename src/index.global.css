@@ -175,6 +175,7 @@ small {
   margin-top: 0;
   line-height: 0;
   width: 100%;
+  max-width: 900px;
 
   & :--blocks {
     line-height: var(--lineHeightNormal);
