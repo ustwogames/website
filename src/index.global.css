@@ -25,7 +25,7 @@ p:first-child {
 }
 
 p:last-child {
-  margin-bottom: 2.2em;
+  margin-bottom: 1em;
 }
 
 
@@ -277,7 +277,8 @@ small {
 
     .welcome {
         width: 55%;
-        padding: 2rem 0 0 0;
+        padding: 2rem 0 0rem 0;
+        display: block;
     }
 }
 
