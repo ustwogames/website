@@ -34,6 +34,7 @@ body, br, li, dt, dd, th, td, option, span, a, nav, ul {
   margin-top: 0;
 }
 
+br {margin: 0; padding:0;}
 /*
  * page styles
  */
@@ -175,7 +176,7 @@ small {
   margin-top: 0;
   line-height: 0;
   width: 100%;
-  max-width: 900px;
+  /*max-width: 900px;*/
 
   & :--blocks {
     line-height: var(--lineHeightNormal);

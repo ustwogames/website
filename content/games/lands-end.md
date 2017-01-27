@@ -8,7 +8,7 @@ hero: /assets/landsend.mp4
 logo: /assets/le-logotype-light.svg
 promoted: true
 cta:
-  label: Visit landsendgame.com
+  label: Visit game site
   link: "http://landsendgame.com/"
 ---
 

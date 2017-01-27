@@ -8,7 +8,7 @@ hero: /assets/MonumentValleyTeaser.mp4
 logo: /assets/mv-logotype-light.svg
 promoted: true
 cta:
-  label: Visit monumentvalleygame.com
+  label: Visit game site
   link: "http://monumentvalleygame.com/"
 stores:
   - {type: "apple", url: "https://itunes.apple.com/us/app/monument-valley/id728293409?mt=8"}
