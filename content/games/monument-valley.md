@@ -91,7 +91,7 @@ It was released for iOS on April 3, 2014 and shot to the top of the charts based
 > The most sublime hour my iPad has ever given me… And the value of such a thing is incalculable.  
 > <cite>Kotaku</cite>
 
-> Brilliant design… Stayed with me like a dream I didn't want to gorget… 9/10  
+> Brilliant design… Stayed with me like a dream I didn't want to forget… 9/10  
 > <cite>Polygon</cite>
 
 > Monument Valley stuns with its serenity… Each screen is a work of art.  
