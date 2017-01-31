@@ -111,7 +111,7 @@
     "history": "^2.0.0",
     "json-loader": "^0.5.2",
     "npm-run-all": "^1.7.0",
-    "phenomic": "^0.19.5",
+    "phenomic": "^0.20.3",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-import": "^8.2.0",

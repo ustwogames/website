@@ -7,7 +7,9 @@ hero: /assets/jobs.mp4
 
 <div class="content-box squashed inline-images floating-images">
 
-#### We’re still a relatively small team, but our aspirations are pretty huge. We’re always looking to challenge ourselves in the types of games we make, and in the audiences we try to reach, and in order to succeed in meeting those challenges, we want the best possible team mates to join us!
+<p class="big-text">
+We’re still a relatively small team, but our aspirations are pretty huge. We’re always looking to challenge ourselves in the types of games we make, and in the audiences we try to reach, and in order to succeed in meeting those challenges, we want the best possible team mates to join us!
+</p>
 
 Our team already contains a diverse mixture of individuals from across the games industry, and other creative fields such as animation, illustration and digital product design. It’s this diverse mix of voices and experiences that encourages us to think about games in non-traditional ways, and also makes sure our social calendar is pretty eclectic!
 
