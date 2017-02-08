@@ -289,6 +289,7 @@ small {
 
 .homepage-banner {
   margin: 0 auto 5rem;
+  clear: both;
   text-align: center;
   font-size: 240%;
   line-height: 1.4;
