@@ -256,6 +256,18 @@ small {
   display: block;
 }
 
+.homepage-additional {
+  text-align: center;
+  margin-top: 50px;
+}
+.homepage-additional h2 a {
+  color: var(--colorSecondaryDark);
+}
+
+.homepage-ustwo-logo {
+  width: 200px;
+}
+
 @media (min-width: 1025px) {
   .floating-images img {
     float: left;
