@@ -151,7 +151,7 @@ a {
   color: var(--colorLinkDark);
   text-decoration: none;
   transition: all 0.1s;
-  font-weight: 600;
+  font-weight: 900;
 
   @media (hover: hover) {
     &:hover {
