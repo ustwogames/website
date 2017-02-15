@@ -33,3 +33,5 @@ npm run build
 
 * [Daniel Demmel](mailto:dain@ustwo.com)
 * [Michael Anderson](mailto:magic@ustwo.com)
+* [Dev Morgan](mailto:dev@ustwo.com)
+* [Phil Linnell](mailto:phil@ustwo.com)
