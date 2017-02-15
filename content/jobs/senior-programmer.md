@@ -4,7 +4,7 @@ title: Senior Programmer
 date: 2016-10-03
 layout: Job
 hero: /assets/programmer.jpg
-blurb: This role requires someone with solid experience and initiative who gets stuck in on all fronts, from designing core engine features to tweaking gameplay mechanics.
+blurb: This role requires someone with solid experience and initiative who feels confident to work on all aspects of game making, from designing core engine features to tweaking gameplay mechanics.
 url: https://ustwo.workable.com/jobs/193808
 ---
 
