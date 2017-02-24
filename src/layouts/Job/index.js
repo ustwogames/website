@@ -8,7 +8,7 @@ const Job = (props) => {
   return (
     <Page { ...props } hideMailingList>
       <Link to={ props.head.url }>
-        <Button>For more information and to apply > clicky tappy</Button>
+        <Button>For more information or to apply, please click here</Button>
       </Link>
     </Page>
   )
