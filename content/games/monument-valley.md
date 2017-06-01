@@ -4,9 +4,8 @@ name: Monument Valley
 date: 2016-02-16
 layout: Game
 background: /assets/mv-module-bg.jpg
-hero: /assets/MonumentValleyTeaser.mp4
+hero: https://player.vimeo.com/external/219877008.hd.mp4?s=a299a3ba7c7ba85081bc96ede61c53461c5fbdda&profile_id=174
 logo: /assets/mv-logotype-light.svg
-promoted: true
 cta:
   label: Visit game site
   link: "http://monumentvalleygame.com/"

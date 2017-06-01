@@ -1,12 +1,12 @@
 ---
 metaTitle: ustwo games
 layout: Homepage
-hero: /assets/what-we-do.mp4
+hero: https://player.vimeo.com/external/219875538.hd.mp4?s=69ca3440a6ba9074bbd8b3e864e217f1728c1171&profile_id=174
 ---
 
 <div class="content-box squashed inline-images floating-images welcome">
 
-<div class="video"><video src="/assets/CrowIdleLoop1.mp4" width="180" autoPlay loop playsInline></video></div>
+<div class="video"><video src="https://player.vimeo.com/external/219877210.sd.mp4?s=f0522aaa8008f6659b06752e5e6ba06a7660aa1e&profile_id=164" width="180" autoPlay loop playsInline></video></div>
 
 ##### Independent games studio
 

@@ -4,7 +4,7 @@ name: Land’s End
 date: 2016-11-10
 layout: Game
 background: /assets/le-module-bg.jpg
-hero: /assets/landsend.mp4
+hero: https://player.vimeo.com/external/219877058.hd.mp4?s=42da08f2deda36ed305b8ef2c2719a8d00d2fc7e&profile_id=174
 logo: /assets/le-logotype-light.svg
 promoted: true
 cta:
