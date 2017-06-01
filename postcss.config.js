@@ -8,6 +8,7 @@ module.exports = (config) => [
           variables: {
             headerHeight: "80px",
             logoWidth: "76px",
+            squashedWidth: "900px",
             lineHeightNormal: "1.6",
             lineHeightHeading: "1.2",
             colorPrimaryDark: "#107491",

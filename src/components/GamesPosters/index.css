@@ -3,7 +3,7 @@
 .listContainer {
   margin: -1rem auto 5rem;
   padding: 0 1rem;
-  max-width: 100%;
+  max-width: var(--squashedWidth);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -40,19 +40,23 @@
 }
 
 .listItem:hover img:hover {
-    transform: scale(1.03);
-    opacity: 1;
-    filter: saturate(1.3);
+  transform: scale(1.03);
+  opacity: 1;
+  filter: saturate(1.3);
 }
 
 .gameLogo img:hover {
-    transform: none;
+  transform: none;
 }
 
 .listItem:before {
   display: block;
   content: "";
   width: 100%;
+}
+
+.mainTitles {
+  flex-grow: 1;
 }
 
 .mainTitles:before {
