@@ -5,7 +5,7 @@ import styles from "./index.css"
 
 const GamesPosters = ({ games, mainTitles }) => {
   return (
-    <ul className={ styles.listContainer }>
+    <ul className={ styles.listContainer + (games.length % 3 === 0 ? ` ${styles.threeColumns}` : ` ${styles.twoColumns}`) }>
         {
           games.map((game) => (
             <li key={ game.__url } className={ styles.listItem + (mainTitles ? ` ${styles.mainTitles}` : ` ${styles.oldTitles}`) }>
