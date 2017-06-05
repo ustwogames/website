@@ -4,7 +4,7 @@ name: Monument Valley
 date: 2017-06-05
 layout: Game
 background: /assets/mv2/mv2_module_bg.jpg
-hero: /assets/mv2/mv2_teaser.mp4
+hero: https://player.vimeo.com/external/220292280.hd.mp4?s=3ca33168a4e4024f1a19bc1e0683345855e4afc1&profile_id=174
 logo: /assets/mv2/mv2_logo.svg
 promoted: true
 cta:
