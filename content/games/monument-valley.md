@@ -6,7 +6,7 @@ layout: Game
 background: /assets/mv-module-bg.jpg
 hero: /assets/MonumentValleyTeaser.mp4
 logo: /assets/mv-logotype-light.svg
-promoted: true
+promoted: false
 cta:
   label: Visit game site
   link: "http://monumentvalleygame.com/"
