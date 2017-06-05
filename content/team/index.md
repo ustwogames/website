@@ -2,7 +2,7 @@
 metaTitle: ustwo games / team
 bodyTitle: The team
 layout: About
-hero: /assets/team.mp4
+hero: https://player.vimeo.com/external/219876963.hd.mp4?s=9842f73f7bb2aa43156f692cc065a60da05d2c1f&profile_id=174
 ---
 <div class="content-box squashed inline-images floating-images">
 

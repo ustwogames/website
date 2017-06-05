@@ -2,7 +2,7 @@
 metaTitle: ustwo games / jobs
 bodyTitle: Work at ustwo games
 layout: JobsIndex
-hero: /assets/jobs.mp4
+hero: https://player.vimeo.com/external/219877135.hd.mp4?s=930c9655f5d48c842dcee5e0f92ee567a051cf5b&profile_id=174
 ---
 
 <div class="content-box squashed inline-images floating-images">
