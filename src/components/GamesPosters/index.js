@@ -12,7 +12,7 @@ const GamesPosters = ({ games, mainTitles }) => {
               <Link to={ game.__url }>
                 {
                   game.background &&
-                  <img src={ game.background } />
+                  <img src={ game.background } className={ styles.background } />
                 }
                 {
                   game.logo
