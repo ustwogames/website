@@ -10,7 +10,7 @@ url: https://ustwo.workable.com/jobs/193808
 
 <div class="content-box squashed">
 
-#### We’re looking for a talented senior programmer to join ustwo Games and help us to build on the success of Monument Valley, making new titles with stand-out production values, heart and broad appeal.
+#### We’re looking for a talented Senior Programmer to join ustwo games and help us to build on the success of our released titles, making new games with stand-out production values, heart and broad appeal.
 
 This role requires someone with solid experience and initiative who gets stuck in on all fronts, from designing core engine features to tweaking gameplay mechanics. As part of a small, organic group, you’ll help lead the technical team on a project, collaborating closely with other disciplines and helping maintain a high level of code quality and technical innovation.
 
