@@ -13,7 +13,7 @@ cta:
 stores:
   - {type: "apple", url: "https://itunes.apple.com/us/app/monument-valley-2/id1187265767?mt=8"}
   - {type: "google", url: "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2"}
-  - {type: "amazon", url: "http://smile.amazon.com/gp/product/B076DJSTDQ"}
+  - {type: "amazon", url: "https://smile.amazon.com/gp/product/B076DJSTDQ"}
 ---
 
 <div class='content-box'>
