@@ -3,7 +3,7 @@ metaTitle: jobs / Junior Programmer
 title: Junior Programmer
 date: 2017-08-18
 layout: Job
-hero: /assets/programmer.jpg
+hero: /assets/jobs/programmer.jpg
 blurb: This role requires someone smart, passionate and creative, looking to gain professional experience in a supportive environment whilst immediately contributing to the development of new titles.
 url: https://ustwo.workable.com/jobs/550456
 ---

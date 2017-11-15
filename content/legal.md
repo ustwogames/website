@@ -1,6 +1,7 @@
 ---
 title: Legal notices
 layout: Page
+hero: 
 ---
 
 ustwo games limited.  
