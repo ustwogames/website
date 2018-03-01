@@ -13,7 +13,7 @@ stores:
   - {type: "apple", url: "https://itunes.apple.com/us/app/monument-valley/id728293409?mt=8"}
   - {type: "google", url: "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley"}
   - {type: "microsoft", url: "https://www.windowsphone.com/s?appid=1e31603e-5d33-42bb-bffe-0f0fcb12d32b"}
-  - {type: "amazon", url: "https://smile.amazon.com/gp/product/B00KA7JIII"}
+  - {type: "amazon", url: "https://smile.amazon.com/gp/product/B00KA7JIII"}
 ---
 
 <div class='content-box'>
