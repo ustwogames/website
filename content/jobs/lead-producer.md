@@ -3,7 +3,7 @@ metaTitle: jobs / Lead Producer
 title: Lead Producer
 date: 2017-01-25
 layout: Job
-hero: /assets/jobs/senior-producer.jpg
+hero: /assets/jobs/lead-producer.jpg
 blurb: This role requires someone with solid experience and initiative who has experience tackling a wide range of tasks.
 url: https://ustwo.workable.com/jobs/417373
 ---
