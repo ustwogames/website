@@ -4,7 +4,7 @@ title: Senior Artist
 date: 2018-07-03
 layout: Job
 hero: /assets/jobs/senior-artist.jpg
-blurb: This role requires someone with a solid grounding in illustration and graphic design and a keen eye for detail.
+blurb: This role requires a strong 2D and 3D artist, with a wide range of art styles and a keen eye for detail.
 url: https://ustwo.workable.com/jobs/760858
 ---
 
