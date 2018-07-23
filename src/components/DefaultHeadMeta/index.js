@@ -20,6 +20,39 @@ const DefaultHeadMeta = (props, { metadata: { pkg, settings } }) => (
         { src: "https://cdn.polyfill.io/v2/polyfill.min.js" },
         { src: "//cdn.iubenda.com/iubenda.js" },
         ...props.scripts ? props.scripts : [],
+        {
+          innerHTML: `
+            var _iub = _iub || [];
+            _iub.csConfiguration = {
+              "lang": "en",
+              "siteId": 374894,
+
+              "banner": {
+                "textColor": "#f8f8f8",
+                "backgroundColor": "#111111",
+                "slideDown":false,
+                "applyStyles":false
+              },
+              "cookiePolicyId": 322454
+            };
+          `
+        },
+        {
+          src: "//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",
+          charSet: "UTF-8",
+          async: true
+        },
+        {
+          src: "https://cdn.iubenda.com/consent_solution/iubenda_cons.js",
+          async: true
+        },
+        {
+          innerHTML: `
+            _iub.cons.init({
+              api_key: "bOp5htwRdMQ7LjqzPwsW02Uzkle9qsdQ"
+            });
+          `
+        }
       ] }
     />
 
