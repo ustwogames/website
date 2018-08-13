@@ -91,7 +91,7 @@ A horizontal rule follows.
 
 Images can be specified like so:
 
-![The Stormtroopocat](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+![The Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
