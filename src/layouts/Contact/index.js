@@ -38,24 +38,19 @@ class Support extends Component {
           ] }
         />
         <div className='squashed-columns'>
-          <TextContentBox title="FAQs">
+          <TextContentBox title="Help centre">
             <p>
-              We’ve collected up Q&As about our games and how to get the most out of them
+              Mystified by Monument Valley? Lost in Land's End? Not to fear, we've got the answers to the most common questions in our help centre!
             </p>
             <p>
-              <Link to="http://blog.monumentvalleygame.com/faq/">
-                <Button>Monument Valley FAQ</Button>
-              </Link>
-              <br/>
-              <Link to="http://www.landsendgame.com/customer-support/">
-                <Button>Land’s End FAQ</Button>
+              <Link to="https://ustwogames.zendesk.com/hc/">
+                <Button>Help centre</Button>
               </Link>
             </p>
           </TextContentBox>
           <TextContentBox title="Support">
-            <h4>Lost in Land’s End?<br/>Mystified by Monument Valley?</h4>
             <p>
-              Don’t worry, we’ve got you! If you need some help, please create a support ticket and we’ll get back to you as soon as we can!
+              If you couldn't find the answer you were looking for in our help centre, click the button below to get in touch with our player support team!
             </p>
             <p>
               <Button onClick={ () => { window.zE.activate({hideOnClose: true}); } }>Create support ticket</Button>
