@@ -10,7 +10,7 @@ url: https://ustwo.workable.com/j/E2DA060AB3
 
 <div class="content-box squashed">
 
-#### We’re looking for a talented programmer to join ustwo Games in London, creators of Monument Valley and Land’s End.
+#### We’re looking for a talented programmer to join ustwo games in London, creators of Monument Valley and Land’s End.
 
 We are a group of people drawing from a diverse range of experience and creative influences to create interactive entertainment with stand-out production values, heart and broad appeal.
 

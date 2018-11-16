@@ -10,7 +10,7 @@ url: https://ustwo.workable.com/jobs/417373
 
 <div class="content-box squashed">
 
-#### We’re looking for a talented Lead Producer to join ustwo Games and help us to create innovative new gaming titles with stand-out production values, heart and broad appeal.
+#### We’re looking for a talented Lead Producer to join ustwo games and help us to create innovative new gaming titles with stand-out production values, heart and broad appeal.
 
 This role requires someone with solid experience in leading production for high end game projects, who has proven initiative and experience tackling a a wide variety of production tasks, inclusive of defining ways of working and leading a team of producers.This isn't just a project management role and requires a more holistic approach to what it means to be a Lead Producer for small teams.
 
