@@ -1,6 +1,6 @@
 ---
-metaTitle: jobs / QA Tester (functionality)
-title: QA Tester
+metaTitle: jobs / QA Tester
+title: QA Tester (functionality)
 date: 2018-11-14
 layout: Job
 hero: /assets/jobs/qa-tester.jpg
