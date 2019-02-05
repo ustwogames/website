@@ -8,15 +8,15 @@ hero: /assets/contact.jpg
 <div class='squashed-columns'>
 <div class='content-box inline-images big-links'>
 
-##### Talk to us
-[hello@ustwogames.co.uk](mailto:hello@ustwogames.co.uk)  
-
-
 ##### Social media
 
 [![ustwogames on Twitter](/assets/twitter.svg) @ustwogames](https://www.twitter.com/ustwogames)  
+[![ustwogames on Instagram](/assets/instagram.svg) @ustwogames](https://www.instagram.com/ustwogames)  
 [![monumentvalleygame on Facebook](/assets/facebook.svg) monumentvalleygame](https://www.facebook.com/monumentvalleygame/)  
 [![ustwogames on Medium](/assets/medium.svg) Development blog](https://medium.com/@ustwogames)
+
+##### Talk to us
+hello[at]ustwogames.co.uk
 
 </div>
 
