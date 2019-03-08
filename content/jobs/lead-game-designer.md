@@ -1,16 +1,16 @@
 ---
-metaTitle: jobs / Lead Designer
-title: Lead Designer
+metaTitle: jobs / Lead Game Designer
+title: Lead Game Designer
 date: 2019-02-26
 layout: Job
-hero: /assets/jobs/lead-designer.jpg
+hero: /assets/jobs/lead-game-designer.jpg
 blurb: This role requires someone who can make extraordinary products through innovative, player-centred design work and great collaboration between disciplines.
 url: https://ustwo.workable.com/jobs/951243
 ---
 
 <div class="content-box squashed">
 
-#### We’re looking for a talented Lead Designer to join ustwo games and help us to create innovative new gaming titles with stand-out production values, heart and broad appeal.
+#### We’re looking for a talented Lead Game Designer to join ustwo games and help us to create innovative new gaming titles with stand-out production values, heart and broad appeal.
 
 ustwo Games is a 25-person studio in London best known as the creators of Monument Valley and Land’s End. We are a multi-discipline team drawing from a diverse range of experience and creative influences; our aim is to craft interactive entertainment with stand-out production values, heart and broad appeal.
 
